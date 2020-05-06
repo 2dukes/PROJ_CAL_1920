@@ -17,18 +17,23 @@ class Picket {
     static int current_id;
     int id;
     string name;
-    string role;
+    vector<string> roles;
     vector<Task*> tasks;
+    static int numTasksDone_static;
+    int numTasksDone;
 
 public:
-    Picket(string name, string role);
+    Picket(string name, vector<string> roles);
     int getId();
     string getName();
-    string getRole();
-    void setName(string &name);
-    void setRole(string &role);
-    void addTask(Task *task);
+    vector<string> getRoles();
+    void setName(const string &name);
+    void setRoles(const vector<string> &roles);
+    void addRole(const string &role);
+    bool removeRole(const string &role); // true se removeu, false se não existia
+    bool addTask(Task *task);
     vector<Task*> getTasks();
+    int getNumTasksDone();
 };
 
 

@@ -26,11 +26,12 @@ public:
     string getLocalCoords();
     string getBeginTime();
     string getEndTime();
-    void setLocalCoords(string &localCoords);
-    void setBeginTime(string &beginTime);
-    void setEndTime(string &endTime);
-    void setResponsiblePicket(Picket *picket);
+    void setLocalCoords(const string &localCoords);
+    void setBeginTime(const string &beginTime);
+    void setEndTime(const string &endTime);
+    bool setResponsiblePicket(Picket *picket);
     Picket* getResponsiblePicket();
+    bool isDone();
 };
 
 
