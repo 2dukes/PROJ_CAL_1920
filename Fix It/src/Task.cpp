@@ -9,7 +9,7 @@
 
 int Task::current_id = 0;
 
-Task::Task(string function, string localCoords, string beginTime, string endTime) {
+Task::Task(string function, string localCoords, Time beginTime, Time endTime) {
     this->function = function;
     this->localCoords = localCoords;
     this->beginTime = beginTime;
@@ -18,15 +18,15 @@ Task::Task(string function, string localCoords, string beginTime, string endTime
     id = current_id++;
 }
 
-string Task::getLocalCoords() {
+string Task::getLocalCoords() const {
     return localCoords;
 }
 
-string Task::getBeginTime() {
+Time Task::getBeginTime() const {
     return beginTime;
 }
 
-string Task::getEndTime() {
+Time Task::getEndTime() const {
     return endTime;
 }
 
@@ -34,11 +34,11 @@ void Task::setLocalCoords(const string &localCoords) {
     this->localCoords = localCoords;
 }
 
-void Task::setBeginTime(const string &beginTime) {
+void Task::setBeginTime(Time &beginTime) {
     this->beginTime = beginTime;
 }
 
-void Task::setEndTime(const string &endTime) {
+void Task::setEndTime(Time &endTime) {
     this->endTime = endTime;
 }
 
@@ -59,10 +59,10 @@ bool Task::setResponsiblePicket(Picket *picket) {
 
 }
 
-Picket *Task::getResponsiblePicket() {
+Picket *Task::getResponsiblePicket() const {
     return responsiblePicket;
 }
 
-bool Task::isDone() {
+bool Task::isDone() const {
     return responsiblePicket != nullptr;
 }

@@ -24,9 +24,9 @@ class Picket {
 
 public:
     Picket(string name, vector<string> roles);
-    int getId();
-    string getName();
-    vector<string> getRoles();
+    int getId() const;
+    string getName() const;
+    vector<string> getRoles() const;
     void setName(const string &name);
     void setRoles(const vector<string> &roles);
     void addRole(const string &role);

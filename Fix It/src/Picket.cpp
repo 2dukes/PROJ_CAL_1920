@@ -15,15 +15,15 @@ Picket::Picket(string name, vector<string> roles) {
     id = current_id++;
 }
 
-int Picket::getId() {
+int Picket::getId() const {
     return id;
 }
 
-string Picket::getName() {
+string Picket::getName() const {
     return name;
 }
 
-vector<string> Picket::getRoles() {
+vector<string> Picket::getRoles() const {
     return roles;
 }
 

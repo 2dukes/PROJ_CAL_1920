@@ -7,10 +7,14 @@
 
 #include <string>
 #include "Picket.h"
+#include "Utils/Time.h"
 
 using namespace std;
 
+class Time;
+
 class Picket;
+
 
 class Task {
     static int current_id;
@@ -18,20 +22,20 @@ class Task {
     string function;
     Picket* responsiblePicket;
     string localCoords; // mudar para classe Coord ?...
-    string beginTime;
-    string endTime; // mudar para classe Time
+    Time beginTime;
+    Time endTime;
 
 public:
-    Task(string function, string localCoords, string beginTime, string endTime);
-    string getLocalCoords();
-    string getBeginTime();
-    string getEndTime();
+    Task(string function, string localCoords, Time beginTime, Time endTime);
+    string getLocalCoords() const;
+    Time getBeginTime() const;
+    Time getEndTime() const;
     void setLocalCoords(const string &localCoords);
-    void setBeginTime(const string &beginTime);
-    void setEndTime(const string &endTime);
+    void setBeginTime(Time &beginTime);
+    void setEndTime(Time &endTime);
     bool setResponsiblePicket(Picket *picket);
-    Picket* getResponsiblePicket();
-    bool isDone();
+    Picket* getResponsiblePicket() const;
+    bool isDone() const;
 };
 
 
