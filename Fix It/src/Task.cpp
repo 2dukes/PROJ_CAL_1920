@@ -2,11 +2,13 @@
 // Created by Tiago on 06/05/2020.
 //
 
+#include <iostream>
 #include "Task.h"
 
 int Task::current_id = 0;
 
-Task::Task(string localCoords, string beginTime, string endTime) {
+Task::Task(string function, string localCoords, string beginTime, string endTime) {
+    this->function = function;
     this->localCoords = localCoords;
     this->beginTime = beginTime;
     this->endTime = endTime;
@@ -39,7 +41,10 @@ void Task::setEndTime(string &endTime) {
 }
 
 void Task::setResponsiblePicket(Picket *picket) {
-    this->responsiblePicket = picket;
+    if (function == picket->getRole())
+        this->responsiblePicket = picket;
+    else
+        cerr << "The picket with id " << picket->getId() << " does not have the role " + function;
 }
 
 Picket *Task::getResponsiblePicket() {

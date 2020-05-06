@@ -6,14 +6,19 @@
 #define FIX_IT_PICKET_H
 
 #include <string>
+#include <vector>
+#include "Task.h"
 
 using namespace std;
+
+class Task;
 
 class Picket {
     static int current_id;
     int id;
     string name;
     string role;
+    vector<Task*> tasks;
 
 public:
     Picket(string name, string role);
@@ -22,6 +27,8 @@ public:
     string getRole();
     void setName(string &name);
     void setRole(string &role);
+    void addTask(Task *task);
+    vector<Task*> getTasks();
 };
 
 

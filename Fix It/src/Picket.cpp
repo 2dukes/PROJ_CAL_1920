@@ -32,3 +32,12 @@ void Picket::setRole(string &role) {
     this->role = role;
 }
 
+void Picket::addTask(Task *task) {
+    task->setResponsiblePicket(this);
+    tasks.push_back(task);
+}
+
+vector<Task*> Picket::getTasks() {
+    return tasks;
+}
+

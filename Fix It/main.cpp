@@ -14,14 +14,18 @@ int main() {
 
     Picket* picket = new Picket("Ze", "Eletricista");
 
-    Task task("12.214, 13.214", "12:30", "15:30");
-    task.setResponsiblePicket(picket);
+    Task* task = new Task("Eletricista", "12.214, 13.214", "12:30", "15:30");
 
-    cout << "The picket for the task with coords " + task.getLocalCoords() + " and with begin time at "
-        + task.getBeginTime() + " and end time at " + task.getEndTime() + " is picket with id = "
-        + to_string(task.getResponsiblePicket()->getId()) + ", his name is " + task.getResponsiblePicket()->getName()
-        + " and his role is " + task.getResponsiblePicket()->getRole() << endl;
+    picket->addTask(task);
 
+
+
+    //task.setResponsiblePicket(picket);
+
+    cout << "The picket for the task with coords " + task->getLocalCoords() + " and with begin time at "
+        + task->getBeginTime() + " and end time at " + task->getEndTime() + " is picket with id = "
+        + to_string(task->getResponsiblePicket()->getId()) + ", his name is " + task->getResponsiblePicket()->getName()
+        + " and his role is " + task->getResponsiblePicket()->getRole() << endl;
 
     return 0;
 }

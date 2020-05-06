@@ -6,21 +6,23 @@
 #define FIX_IT_TASK_H
 
 #include <string>
-
 #include "Picket.h"
 
 using namespace std;
 
+class Picket;
+
 class Task {
     static int current_id;
     int id;
+    string function;
     Picket* responsiblePicket;
     string localCoords; // mudar para classe Coord ?...
     string beginTime;
     string endTime; // mudar para classe Time
 
 public:
-    Task(string localCoords, string beginTime, string endTime);
+    Task(string function, string localCoords, string beginTime, string endTime);
     string getLocalCoords();
     string getBeginTime();
     string getEndTime();
