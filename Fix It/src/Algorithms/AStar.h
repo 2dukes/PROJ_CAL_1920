@@ -9,7 +9,7 @@
 #include <math.h>
 
 template <class T>
-class AStar { // TODO TEST A* ALGORITHM USING CLASSES TESTS! -> SHOULD GIVE AND APROXIMATE/SAME RESULT!
+class AStar { // TODO TEST A* ALGORITHM USING CLASSES TESTS! -> SHOULD GIVE AND APROXIMATE/SAME RESULT! Probably Vertex<T> will be substituted by AVertex! Or make a cast...
 protected:
     Graph<T>* graph;
 
@@ -54,7 +54,7 @@ template<class T>
 inline bool AStar<T>::relax(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t) {
     if (v->dist + weight < w->dist) {
         w->dist = v->dist + weight;
-        w->gScore = w->dist +  heuristicDistance(v, t);
+        w->gScore = w->dist + heuristicDistance(v, t);
         w->path = v;
         return true;
     }
@@ -68,7 +68,7 @@ void AStar<T>::AStarShortestPath(const T &origin, const T &dest) {
     auto s = graph->initPathAlg(origin);
     s->gScore = heuristicDistance(s, t);
 
-    MutablePriorityQueue<Vertex<T>> q;
+    MutablePriorityQueue<Vertex<T>> q; // Ordered by gScore
     q.insert(s);
     while(!q.empty()) {
         auto v = q.extractMin();

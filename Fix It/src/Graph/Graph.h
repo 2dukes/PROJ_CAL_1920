@@ -36,7 +36,6 @@ class Vertex {
     bool visited;               // for path finding
     Edge<T> *path;              // for path finding
     int queueIndex = 0; 		// required by MutablePriorityQueue
-    int gScore;                 // required by A* Algorithm
     double latitude;            // required by A* Algorithm
     double longitude;           // required by A* Algorithm
 
