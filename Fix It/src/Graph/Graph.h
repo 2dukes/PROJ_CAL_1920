@@ -8,6 +8,8 @@
 #include <vector>
 #include <queue>
 #include <new>
+#include <algorithm>
+
 #include "MutablePriorityQueue.h"
 
 using namespace std;
@@ -16,6 +18,7 @@ template <class T> class Edge;
 template <class T> class Graph;
 template <class T> class Vertex;
 
+#define INF std::numeric_limits<double>::max()
 
 /*
  * ================================================================================================
@@ -29,6 +32,7 @@ class Vertex {
     vector<Edge<T> *> outgoing; // Outgoing Edges
     vector<Edge<T> *> incoming; // Incoming
 
+    double dist = 0;
     bool visited;               // for path finding
     Edge<T> *path;              // for path finding
     int queueIndex = 0; 		// required by MutablePriorityQueue
@@ -41,6 +45,9 @@ public:
     T getInfo() const;
     vector<Edge<T> *> getOutgoingEdges() const;
     vector<Edge<T> *> getIncomingEdges() const;
+    bool operator<(Vertex<T> & vertex) const; // required by MutablePriorityQueue
+
+
     friend class Graph<T>;
     friend class MutablePriorityQueue<Vertex<T>>;
 };
@@ -52,6 +59,11 @@ Vertex<T>::Vertex(T in): info(in) {}
 template <class T>
 T Vertex<T>::getInfo() const {
     return this->info;
+}
+
+template <class T>
+bool Vertex<T>::operator<(Vertex<T> & vertex) const {
+    return this->dist < vertex.dist;
 }
 
 template<class T>
@@ -133,8 +145,8 @@ public:
     bool removeVertex(const T &in);
     bool addEdge(const T &sourc, const T &dest, double w);
     bool removeEdge(const T &sourc, const T &dest);
-//    vector<T> dfs() const;
-//    vector<T> bfs(const T &source) const;
+    vector<T> getPath(const T &origin, const T &dest) const;
+
 };
 
 template <class T>
@@ -199,6 +211,18 @@ bool Graph<T>::removeVertex(const T &in) {
             iTr2 = --vertexSet.erase(iTr2);
     }
     return true;
+}
+
+template<class T>
+vector<T> Graph<T>::getPath(const T &origin, const T &dest) const{
+    vector<T> res;
+    auto v = findVertex(dest);
+    if (v == nullptr || v->dist == INF) // missing or disconnected
+        return res;
+    for ( ; v != nullptr; v = v->path)
+        res.push_back(v->info);
+    reverse(res.begin(), res.end());
+    return res;
 }
 
 #endif /* GRAPH_H_ */
