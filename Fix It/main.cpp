@@ -3,6 +3,7 @@
 #include <fstream>
 #include <iostream>
 #include <string>
+#include <Utils/Time.h>
 
 using namespace std;
 
@@ -24,6 +25,10 @@ int main() {
     picket->addTask(task2);
 
     cout << "Num tasks done: " << to_string(picket->getNumTasksDone()) << endl;
+
+    Time time("04:01");
+
+    cout << "Hours: " + to_string(time.getHours()) << endl << "Minute: " + to_string(time.getMinutes()) << endl;
 
 
 
