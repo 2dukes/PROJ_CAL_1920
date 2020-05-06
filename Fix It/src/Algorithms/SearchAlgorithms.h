@@ -1,5 +1,5 @@
-#ifndef FIX_IT_DFS_H
-#define FIX_IT_DFS_H
+#ifndef FIX_IT_SEARCHALGORITHMS_H
+#define FIX_IT_SEARCHALGORITHMS_H
 
 #include "../Graph/Graph.h"
 
@@ -71,4 +71,4 @@ vector<T> SearchAlgorithm<T>::bfs(const T & source) const {
     return res;
 }
 
-#endif //FIX_IT_DFS_H
+#endif //FIX_IT_SEARCHALGORITHMS_H
