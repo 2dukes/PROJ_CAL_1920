@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/main.cpp
+cstdio
+-
+src/GraphViewer/graphviewer.h
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/src/GraphViewer/graphviewer.h
+fstream
+-
+iostream
+-
+string
+-
+src/Picket.h
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/src/Picket.h
+
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/src/GraphViewer/connection.h
+cstdio
+-
+cstdlib
+-
+cstring
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+netdb.h
+-
+winsock2.h
+-
+string
+-
+iostream
+-
+
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/src/GraphViewer/edgetype.h
+
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/src/GraphViewer/graphviewer.h
+unistd.h
+-
+winsock2.h
+-
+Windows.h
+-
+stdlib.h
+-
+signal.h
+-
+string
+-
+edgetype.h
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/src/GraphViewer/edgetype.h
+connection.h
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/src/GraphViewer/connection.h
+
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/src/Picket.h
+string
+-
+

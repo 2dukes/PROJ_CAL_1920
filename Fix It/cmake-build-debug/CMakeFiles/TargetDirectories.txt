@@ -1,0 +1,3 @@
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/cmake-build-debug/CMakeFiles/Fix_It.dir
+C:/Users/Tiago/Desktop/CAL/PROJ_CAL_1920/Fix It/cmake-build-debug/CMakeFiles/rebuild_cache.dir
