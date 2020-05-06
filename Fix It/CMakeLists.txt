@@ -3,4 +3,4 @@ project(Fix_It)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Fix_It main.cpp src/Picket.h src/Picket.cpp)
+add_executable(Fix_It main.cpp src/Picket.h src/Picket.cpp src/Task.h src/Task.cpp)

@@ -7,29 +7,20 @@
 using namespace std;
 
 #include "src/Picket.h"
+#include "src/Task.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    Picket picket1("Ze Antone", "Qanalizadore");
-    Picket picket2("Toine", "Iletrissista");
-    Picket picket3("Bezaina", "Cassador de milfs");
+    Picket* picket = new Picket("Ze", "Eletricista");
 
-    cout << "The name of the picket " + to_string(picket1.getId()) + " is " + picket1.getName() + " and his role is " + picket1.getRole() << endl;
-    cout << "The name of the picket " + to_string(picket2.getId()) + " is " + picket2.getName() + " and his role is " + picket2.getRole() << endl;
-    cout << "The name of the picket " + to_string(picket3.getId()) + " is " + picket3.getName() + " and his role is " + picket3.getRole() << endl;
+    Task task("12.214, 13.214", "12:30", "15:30");
+    task.setResponsiblePicket(picket);
 
-    string newRole1 = "Mr steal your girl";
-    picket1.setRole(newRole1);
-
-    string newName2 = "Kulatra";
-    picket2.setName(newName2);
-
-    cout << endl;
-
-    cout << "The name of the picket " + to_string(picket1.getId()) + " is " + picket1.getName() + " and his role is " + picket1.getRole() << endl;
-    cout << "The name of the picket " + to_string(picket2.getId()) + " is " + picket2.getName() + " and his role is " + picket2.getRole() << endl;
-
+    cout << "The picket for the task with coords " + task.getLocalCoords() + " and with begin time at "
+        + task.getBeginTime() + " and end time at " + task.getEndTime() + " is picket with id = "
+        + to_string(task.getResponsiblePicket()->getId()) + ", his name is " + task.getResponsiblePicket()->getName()
+        + " and his role is " + task.getResponsiblePicket()->getRole() << endl;
 
 
     return 0;
