@@ -22,6 +22,7 @@ public:
     bool operator<(const Time &time) const;
     bool operator==(const Time &time) const;
     Time getTimeInterval(const Time &time1) const; // Time inverval between 2 times on the same day
+    bool checkTimeOverlap(const Time &time1, const Time &time2) const; // check if *this is between time1 and time2
 };
 
 

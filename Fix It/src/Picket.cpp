@@ -5,6 +5,7 @@
 #include "Picket.h"
 
 #include <algorithm>
+#include <iostream>
 
 int Picket::current_id = 0;
 int Picket::numTasksDone_static = 0;
@@ -31,7 +32,7 @@ void Picket::setName(const string &name) {
     this->name = name;
 }
 
-void Picket::setRoles(const vector<string> &role) {
+void Picket::setRoles(const vector<string> &roles) {
     this->roles = roles;
 }
 
@@ -44,6 +45,10 @@ bool Picket::removeRole(const string &role) {
 }
 
 bool Picket::addTask(Task *task) {
+    if (!timeIsCompatible(task->getBeginTime(), task->getEndTime())) {
+        cerr << "The task time is not compatible with the tasks of the picket" << endl;
+        return false;
+    }
     if (task->setResponsiblePicket(this)) {
         tasks.push_back(task);
         numTasksDone = ++numTasksDone_static;
@@ -52,12 +57,22 @@ bool Picket::addTask(Task *task) {
     return false;
 }
 
-vector<Task*> Picket::getTasks() {
+vector<Task*> Picket::getTasks() const {
     return tasks;
 }
 
-int Picket::getNumTasksDone() {
+int Picket::getNumTasksDone() const {
     return numTasksDone;
+}
+
+bool Picket::timeIsCompatible(const Time &time1, const Time &time2) const {
+    for (auto task : tasks) {
+        if (time1.checkTimeOverlap(task->getBeginTime(), task->getEndTime()))
+            return false;
+        if (time2.checkTimeOverlap(task->getBeginTime(), task->getEndTime()))
+            return false;
+    }
+    return true;
 }
 
 

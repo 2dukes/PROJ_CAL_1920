@@ -61,4 +61,8 @@ Time Time::getTimeInterval(const Time &time1) const {
     return {0, 0};
 }
 
+bool Time::checkTimeOverlap(const Time &time1, const Time &time2) const {
+    return (time1 < *this && *this < time2) || *this == time1 || *this == time2;
+}
+
 

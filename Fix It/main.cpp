@@ -12,8 +12,11 @@ using namespace std;
 
 int main() {
 
-    Time beginTime("23:56");
-    Time endTime("0:10");
+    Time beginTime1("12:30");
+    Time endTime1("15:10");
+
+    Time beginTime2("15:11");
+    Time endTime2("16:20");
 
     vector<string> roles;
     roles.push_back("Eletricista");
@@ -21,23 +24,13 @@ int main() {
 
     Picket* picket = new Picket("Ze", roles);
 
-    Task* task1 = new Task("Eletricista", "12.214, 13.214", beginTime, endTime);
-    Task* task2 = new Task("Canalisador", "13.214, 14.214", beginTime, endTime);
+    Task* task1 = new Task("Eletricista", "12.214, 13.214", beginTime1, endTime1);
+    Task* task2 = new Task("Canalisador", "13.214, 14.214", beginTime2, endTime2);
 
     picket->addTask(task1);
     picket->addTask(task2);
 
     cout << "Num tasks done: " << to_string(picket->getNumTasksDone()) << endl;
-
-
-    Time time = beginTime.getTimeInterval(endTime);
-
-    cout << "Hours: " + to_string(time.getHours()) << endl;
-    cout << "Minutes: " + to_string(time.getMinutes()) << endl;
-
-
-
-
 
 
     return 0;

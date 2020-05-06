@@ -8,6 +8,7 @@
 #include <string>
 #include <vector>
 #include "Task.h"
+#include "Utils/Time.h"
 
 using namespace std;
 
@@ -20,7 +21,8 @@ class Picket {
     vector<string> roles;
     vector<Task*> tasks;
     static int numTasksDone_static;
-    int numTasksDone;
+    int numTasksDone = 0;
+    bool timeIsCompatible(const Time &time1, const Time &time2) const;
 
 public:
     Picket(string name, vector<string> roles);
@@ -32,8 +34,8 @@ public:
     void addRole(const string &role);
     bool removeRole(const string &role); // true se removeu, false se não existia
     bool addTask(Task *task);
-    vector<Task*> getTasks();
-    int getNumTasksDone();
+    vector<Task*> getTasks() const;
+    int getNumTasksDone() const;
 };
 
 
