@@ -13,6 +13,7 @@ public:
     TaskEdge(Vertex<T> *o, Vertex<T> *d, double c, double w = 0, double f = 0); // Careful with constructor's order
     double getFlow() const;
     double getCapacity() const;
+    friend class Vertex<T>;
 };
 
 template <class T>

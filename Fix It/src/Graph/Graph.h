@@ -8,6 +8,8 @@
 #include <vector>
 #include <queue>
 #include <new>
+#include "MutablePriorityQueue.h"
+
 using namespace std;
 
 template <class T> class Edge;
@@ -90,6 +92,7 @@ bool Vertex<T>::removeEdgeTo(Vertex<T> *d) {
 
 template <class T>
 class Edge {
+protected:
     Vertex<T> * orig;      // origin vertex
     Vertex<T> * dest;      // destination vertex
     double weight;         // edge weight

@@ -3,4 +3,7 @@ project(Fix_It)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Fix_It main.cpp src/Graph/Graph.h src/Graph/TaskEdge.h src/Graph/MutablePriorityQueue.h)
+add_executable(Fix_It main.cpp src/Graph/Graph.h
+                src/Graph/TaskEdge.h
+                src/Graph/MutablePriorityQueue.h
+                src/Algorithms/DFS.h)
