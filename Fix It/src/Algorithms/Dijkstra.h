@@ -11,8 +11,7 @@ protected:
 public:
     Dijkstra(const Graph<T>* graph);
 
-    Vertex<T>* initPathAlg(const T &origin);
-    void dijkstraShortestPath(const T &origin);
+    void dijkstraShortestPath(const T &origin, const T &dest);
     bool relax(Vertex<T> *v, Vertex<T> *w, double weight);
 
     friend class Graph<T>;
@@ -21,17 +20,6 @@ public:
 template<class T>
 Dijkstra<T>::Dijkstra(const Graph<T> *graph) {
     this->graph = graph;
-}
-
-template<class T>
-Vertex<T> * Dijkstra<T>::initPathAlg(const T &origin) {
-    for(auto v : graph->vertexSet) {
-        v->dist = INF;
-        v->path = nullptr;
-    }
-    auto s = graph->findVertex(origin);
-    s->dist = 0;
-    return s;
 }
 
 template<class T>
@@ -46,12 +34,17 @@ inline bool Dijkstra<T>::relax(Vertex<T> *v, Vertex<T> *w, double weight) {
 }
 
 template<class T>
-void Dijkstra<T>::dijkstraShortestPath(const T &origin) {
-    auto s = initPathAlg(origin);
+void Dijkstra<T>::dijkstraShortestPath(const T &origin, const T &dest) {
+    auto t = findVertex(dest); // Destination Vertex
+    auto s = graph->initPathAlg(origin);
     MutablePriorityQueue<Vertex<T>> q;
     q.insert(s);
     while(!q.empty()) {
         auto v = q.extractMin();
+
+        if(v->getInfo() == t)
+            break;
+
         for(auto e : v->adj) {
             auto oldDist = e.dest->dist;
             if (relax(v, e.dest, e.weight)) {

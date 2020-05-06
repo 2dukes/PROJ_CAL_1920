@@ -36,7 +36,9 @@ class Vertex {
     bool visited;               // for path finding
     Edge<T> *path;              // for path finding
     int queueIndex = 0; 		// required by MutablePriorityQueue
-
+    int gScore;                 // required by A* Algorithm
+    double latitude;            // required by A* Algorithm
+    double longitude;           // required by A* Algorithm
 
     Edge<T> * addEdge(Vertex<T> *dest, double c, double f);
     bool removeEdgeTo(Vertex<T> *d);
@@ -145,6 +147,7 @@ public:
     bool removeVertex(const T &in);
     bool addEdge(const T &sourc, const T &dest, double w);
     bool removeEdge(const T &sourc, const T &dest);
+    Vertex<T>* initPathAlg(const T &origin);
     vector<T> getPath(const T &origin, const T &dest) const;
 
 };
@@ -211,6 +214,18 @@ bool Graph<T>::removeVertex(const T &in) {
             iTr2 = --vertexSet.erase(iTr2);
     }
     return true;
+}
+
+template<class T>
+Vertex<T> * Graph<T>::initPathAlg(const T &origin) {
+    for(auto v : vertexSet) {
+        v->dist = INF;
+        v->path = nullptr;
+        v->gScore = INF;
+    }
+    auto s = findVertex(origin);
+    s->dist = 0;
+    return s;
 }
 
 template<class T>
