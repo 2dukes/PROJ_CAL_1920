@@ -78,4 +78,4 @@ fabric.properties
 .floo
 .flooignore
 
-/cmake-build-debug/
+/cmake-build-debug/*
