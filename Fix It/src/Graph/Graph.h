@@ -32,12 +32,13 @@ class Vertex {
     vector<Edge<T> *> outgoing; // Outgoing Edges
     vector<Edge<T> *> incoming; // Incoming
 
+    double weight;
     double dist = 0;
     bool visited;               // for path finding
     Edge<T> *path;              // for path finding
     int queueIndex = 0; 		// required by MutablePriorityQueue
-    double latitude;            // required by A* Algorithm
-    double longitude;           // required by A* Algorithm
+    double x;
+    double y;
 
     Edge<T> * addEdge(Vertex<T> *dest, double c, double f);
     bool removeEdgeTo(Vertex<T> *d);
@@ -47,7 +48,7 @@ public:
     vector<Edge<T> *> getOutgoingEdges() const;
     vector<Edge<T> *> getIncomingEdges() const;
     bool operator<(Vertex<T> & vertex) const; // required by MutablePriorityQueue
-
+    bool operator==(Vertex<T> v) const; // required by MutablePriorityQueue
 
     friend class Graph<T>;
     friend class MutablePriorityQueue<Vertex<T>>;
@@ -63,8 +64,13 @@ T Vertex<T>::getInfo() const {
 }
 
 template <class T>
+bool Vertex<T>::operator==(Vertex<T> v) const {
+    return this->getInfo() == v.getInfo();
+}
+
+template <class T>
 bool Vertex<T>::operator<(Vertex<T> & vertex) const {
-    return this->dist < vertex.dist;
+    return this->weight < vertex.weight;
 }
 
 template<class T>
@@ -220,7 +226,7 @@ Vertex<T> * Graph<T>::initPathAlg(const T &origin) {
     for(auto v : vertexSet) {
         v->dist = INF;
         v->path = nullptr;
-        v->gScore = INF;
+        v->weight = 0;
     }
     auto s = findVertex(origin);
     s->dist = 0;

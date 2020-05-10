@@ -19,7 +19,6 @@ public:
     void AStarShortestPath(const T &origin, const T &dest);
     bool relax(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t);
     double heuristicDistance(Vertex<T>* origin, Vertex<T>* dest);
-    double degreesToRadians(double degrees);
 
     friend class Graph<T>;
 };
@@ -30,31 +29,16 @@ AStar<T>::AStar(const Graph<T> *graph) {
 }
 
 template<class T>
-double AStar<T>::degreesToRadians(double degrees) {
-    return degrees * M_PI / 180.0;
-}
-
-template<class T>
 double AStar<T>::heuristicDistance(Vertex<T> *origin, Vertex<T> *dest) {
-    double earthRadiusKm = 6371.0;
+    return sqrt(pow(origin->x - dest->x, 2) + pow(origin->y - dest->y, 2));
 
-    double dLat = degreesToRadians(dest->latitude - origin->latitude);
-    double dLon = degreesToRadians(dest->longitude - origin->longitude);
-
-    double tempLat1 = degreesToRadians(origin->latitude);
-    double tempLat2 = degreesToRadians(dest->latitude);
-
-    double a = sin(dLat/2) * sin(dLat/2) +
-            sin(dLon/2) * sin(dLon/2) * cos(tempLat1) * cos(tempLat2);
-    double c = 2 * atan2(sqrt(a), sqrt(1-a));
-    return earthRadiusKm * c;
 }
 
 template<class T>
 inline bool AStar<T>::relax(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t) {
-    if (v->dist + weight < w->dist) {
-        w->dist = v->dist + weight;
-        w->gScore = w->dist + heuristicDistance(v, t);
+    if (v->weight + weight + heuristicDistance(w, t) < w->weight) {
+        w->dist = v->weight + weight;
+        w->weight = v->weight + weight + heuristicDistance(w, t);
         w->path = v;
         return true;
     }
@@ -66,20 +50,25 @@ template<class T>
 void AStar<T>::AStarShortestPath(const T &origin, const T &dest) {
     auto t = findVertex(dest); // Destination Vertex
     auto s = graph->initPathAlg(origin);
-    s->gScore = heuristicDistance(s, t);
 
     MutablePriorityQueue<Vertex<T>> q; // Ordered by gScore
     q.insert(s);
     while(!q.empty()) {
         auto v = q.extractMin();
+        v->visited = true;
 
         if(v->getInfo() == t)
             break;
 
+//        if (isInverted) {
+//            origin = findVertex(origin->getInfo()); // do this only if its inverted graph
+//        }
+//
+//        this->visited[origin->info.getId()] = true;
+
         for(auto e : v->adj) {
-            auto oldDist = e.dest->dist;
             if (relax(v, e.dest, e.weight, t)) {
-                if (oldDist == INF)
+                if (!q.find(v))
                     q.insert(e.dest);
                 else
                     q.decreaseKey(e.dest);

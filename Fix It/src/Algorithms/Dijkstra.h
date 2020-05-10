@@ -24,9 +24,10 @@ Dijkstra<T>::Dijkstra(const Graph<T> *graph) {
 
 template<class T>
 inline bool Dijkstra<T>::relax(Vertex<T> *v, Vertex<T> *w, double weight) {
-    if (v->dist + weight < w->dist) {
-        w->dist = v->dist + weight;
+    if (v->weight + weight < w->weight) {
+        w->weight = v->weight + weight;
         w->path = v;
+        w->visited = true;
         return true;
     }
     else
@@ -44,6 +45,12 @@ void Dijkstra<T>::dijkstraShortestPath(const T &origin, const T &dest) {
 
         if(v->getInfo() == t)
             break;
+//
+//        if (isInverted) {
+//            v = findVertex(v->getInfo()); // do this only if its inverted graph
+//        }
+//
+//        this->visited[v->info.getId()] = true;
 
         for(auto e : v->adj) {
             auto oldDist = e.dest->dist;

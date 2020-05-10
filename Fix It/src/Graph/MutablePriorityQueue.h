@@ -30,11 +30,21 @@ public:
     T * extractMin();
     void decreaseKey(T * x);
     bool empty();
+    bool find(T* x);
 };
 
 // Index calculations
 #define parent(i) ((i) / 2)
 #define leftChild(i) ((i) * 2)
+
+template<class T>
+bool MutablePriorityQueue<T>::find(T *x) {
+    for(auto v: H) {
+        if(v->getInfo() == x->getInfo())
+            return true;
+    }
+    return false;
+}
 
 template <class T>
 MutablePriorityQueue<T>::MutablePriorityQueue() {
