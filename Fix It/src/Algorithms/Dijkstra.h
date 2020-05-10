@@ -1,6 +1,7 @@
 #ifndef FIX_IT_DIJKSTRA_H
 #define FIX_IT_DIJKSTRA_H
 
+#include <chrono>
 #include "../Graph/Graph.h"
 
 template <class T>
@@ -11,8 +12,8 @@ protected:
 public:
     Dijkstra(const Graph<T>* graph);
 
-    void dijkstraShortestPath(const T &origin, const T &dest);
-    bool relax(Vertex<T> *v, Vertex<T> *w, double weight);
+    void dijkstraShortestPath(const T &origin, const T &dest, bool isInverted);
+    bool relax(Vertex<T> *v, Vertex<T> *w, double weight, bool isInverted);
 
     friend class Graph<T>;
 };
@@ -23,7 +24,7 @@ Dijkstra<T>::Dijkstra(const Graph<T> *graph) {
 }
 
 template<class T>
-inline bool Dijkstra<T>::relax(Vertex<T> *v, Vertex<T> *w, double weight) {
+inline bool Dijkstra<T>::relax(Vertex<T> *v, Vertex<T> *w, double weight, bool isInverted) {
     if (v->weight + weight < w->weight) {
         w->weight = v->weight + weight;
         w->path = v;
@@ -35,7 +36,7 @@ inline bool Dijkstra<T>::relax(Vertex<T> *v, Vertex<T> *w, double weight) {
 }
 
 template<class T>
-void Dijkstra<T>::dijkstraShortestPath(const T &origin, const T &dest) {
+void Dijkstra<T>::dijkstraShortestPath(const T &origin, const T &dest, bool isInverted) {
     auto t = findVertex(dest); // Destination Vertex
     auto s = graph->initPathAlg(origin);
     MutablePriorityQueue<Vertex<T>> q;

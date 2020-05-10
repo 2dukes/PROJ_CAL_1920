@@ -35,6 +35,7 @@ class Vertex {
     double weight;
     double dist = 0;
     bool visited;               // for path finding
+    bool invVisited;            // for intersections in BiDirs
     Edge<T> *path;              // for path finding
     int queueIndex = 0; 		// required by MutablePriorityQueue
     double x;
@@ -143,8 +144,7 @@ Vertex<T>* Edge<T>::getDest() {
 
 template <class T>
 class Graph {
-    vector<Vertex<T> *> vertexSet;    // vertex set
-//    void dfsVisit(Vertex<T> *v,  vector<T> & res) const;
+    vector<Vertex<T> *> vertexSet;    // Vertex Set
     Vertex<T> *findVertex(const T &in) const;
 public:
     int getNumVertex() const;
@@ -153,6 +153,7 @@ public:
     bool addEdge(const T &sourc, const T &dest, double w);
     bool removeEdge(const T &sourc, const T &dest);
     Vertex<T>* initPathAlg(const T &origin);
+    Vertex<T>* initDestinationPathAlg(const T &destination);
     vector<T> getPath(const T &origin, const T &dest) const;
 
 };
@@ -226,11 +227,22 @@ Vertex<T> * Graph<T>::initPathAlg(const T &origin) {
     for(auto v : vertexSet) {
         v->dist = INF;
         v->path = nullptr;
-        v->weight = 0;
+        v->weight = INF;
+        v->visited = false;
+        v->invVisited = false;
     }
     auto s = findVertex(origin);
-    s->dist = 0;
+    s->weight = 0;
+    s->visited = true;
     return s;
+}
+
+template<class T>
+Vertex<T> * Graph<T>::initDestinationPathAlg(const T &destination) {
+    auto t = findVertex(destination);
+    t->weight = 0;
+    t->invVisited = true;
+    return t;
 }
 
 template<class T>
