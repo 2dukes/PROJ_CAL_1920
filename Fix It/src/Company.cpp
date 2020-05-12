@@ -11,6 +11,7 @@
 Company::Company(string name) {
     this->name = name;
     readPicketsFile("../files/pickets.txt");
+    readTasksFile("../files/tasks.txt");
 }
 
 string Company::getName() {
@@ -57,7 +58,25 @@ bool Company::readTasksFile(const string& filename) {
 }
 
 bool Company::writePicketsFile(const string& filename) {
-    return false;
+    ofstream f;
+    f.open(filename, ios::out);
+    if (f.is_open()) {
+        for (auto it = pickets.begin(); it != pickets.end(); it++) {
+            f << "Name: " << (*it)->getName() << endl;
+            f << "Roles: ";
+            f << generalFunctions::coutVectorString((*it)->getRoles());
+            f << endl << "Tasks Done: " << (*it)->getNumTasksDone();
+
+            if (it != pickets.end() - 1)
+                f << endl << endl << "::::::::::" << endl << endl;
+        }
+        f.close();
+        return true;
+    }
+    else {
+        cerr << "Error opening the file " << filename << endl;
+        return false;
+    }
 }
 
 bool Company::writeTasksFile(const string& filename) {
@@ -78,6 +97,14 @@ vector<Picket *> Company::getPickets() {
 
 vector<Task *> Company::getTasks() {
     return tasks;
+}
+
+Company::~Company() {
+    writePicketsFile("../files/pickets.txt");
+    writeTasksFile("../files/tasks.txt");
+
+    auxiliaryDestructor(pickets);
+    auxiliaryDestructor(tasks);
 }
 
 

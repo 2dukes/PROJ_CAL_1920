@@ -11,6 +11,7 @@ using namespace std;
 #include "src/Task.h"
 #include "Company.h"
 #include "src/Utils/NecessaryFunctions_NameSpaces.h"
+#include "src/UserInterface/Menu.h"
 
 int main() {
     /*
@@ -43,6 +44,15 @@ int main() {
     cout << "Nome: " << p1->getName() << endl;
     cout << "Roles: " << generalFunctions::coutVectorString(p1->getRoles()) << endl;
     cout << "Num tasks: " << p1->getNumTasksDone() << endl;
+
+    vector<string> roles;
+    roles.push_back("Eletricista");
+    roles.push_back("Canalisador");
+    Picket* p2 = new Picket("Tone", roles, 1);
+
+    //company.addPicket(p2);
+
+    mainMenu(company);
 
     return 0;
 }

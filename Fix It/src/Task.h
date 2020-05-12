@@ -22,7 +22,7 @@ class Task {
     int id;
     string function;
     Picket* responsiblePicket;
-    string localCoords; // mudar para classe Coord ?...
+    string localCoords; // mudar para classe Vertex ?...
     Time beginTime;
     Time endTime;
 

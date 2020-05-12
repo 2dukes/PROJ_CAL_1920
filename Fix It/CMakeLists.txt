@@ -4,8 +4,9 @@ project(Fix_It)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(src)
-add_executable(
-                Fix_It main.cpp src/Graph/Graph.h
+add_executable( Fix_It
+                main.cpp
+                src/Graph/Graph.h
                 src/Graph/TaskEdge.h
                 src/Graph/MutablePriorityQueue.h
                 src/Algorithms/SearchAlgorithms.h
@@ -22,4 +23,5 @@ add_executable(
                 src/Company.cpp
                 src/Utils/NecessaryFunctions_NameSpaces.h
                 src/Utils/NecessaryFunctions_NameSpaces.cpp
-                )
+                src/UserInterface/Menu.cpp
+                src/UserInterface/Menu.h)

@@ -19,6 +19,7 @@ class Company {
 
 public:
     Company(string name);
+    ~Company();
     string getName();
     bool readPicketsFile(const string& filename);
     bool readTasksFile(const string& filename);
@@ -28,7 +29,17 @@ public:
     void addTask(Task* task);
     vector<Picket*> getPickets();
     vector<Task*> getTasks();
+    template<class Type>
+    void auxiliaryDestructor(std::vector<Type> &elements);
+
+
 };
+
+template<class Type>
+void Company::auxiliaryDestructor(std::vector<Type> &elements) {
+    for(auto &x: elements)
+        delete x;
+}
 
 
 #endif //FIX_IT_COMPANY_H
