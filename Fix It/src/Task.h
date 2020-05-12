@@ -8,6 +8,7 @@
 #include <string>
 #include "Picket.h"
 #include "Utils/Time.h"
+#include "Graph/Graph.h"
 
 using namespace std;
 

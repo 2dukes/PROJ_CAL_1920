@@ -9,9 +9,11 @@ using namespace std;
 
 #include "src/Picket.h"
 #include "src/Task.h"
+#include "Company.h"
+#include "src/Utils/NecessaryFunctions_NameSpaces.h"
 
 int main() {
-
+    /*
     Time beginTime1("12:30");
     Time endTime1("15:10");
 
@@ -22,7 +24,7 @@ int main() {
     roles.push_back("Eletricista");
     roles.push_back("Canalisador");
 
-    Picket* picket = new Picket("Ze", roles);
+    Picket* picket = new Picket("Ze", roles, 0);
 
     Task* task1 = new Task("Eletricista", "12.214, 13.214", beginTime1, endTime1);
     Task* task2 = new Task("Canalisador", "13.214, 14.214", beginTime2, endTime2);
@@ -31,7 +33,16 @@ int main() {
     picket->addTask(task2);
 
     cout << "Num tasks done: " << to_string(picket->getNumTasksDone()) << endl;
+    */
 
+    Company company("Fix It");
+
+    Picket* p1 = company.getPickets().at(0);
+
+    cout << "ID: " << p1->getId() << endl;
+    cout << "Nome: " << p1->getName() << endl;
+    cout << "Roles: " << generalFunctions::coutVectorString(p1->getRoles()) << endl;
+    cout << "Num tasks: " << p1->getNumTasksDone() << endl;
 
     return 0;
 }

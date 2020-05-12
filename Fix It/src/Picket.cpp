@@ -8,11 +8,11 @@
 #include <iostream>
 
 int Picket::current_id = 0;
-int Picket::numTasksDone_static = 0;
 
-Picket::Picket(string name, vector<string> roles) {
+Picket::Picket(string name, vector<string> roles, int numTasksDone) {
     this->name = name;
     this->roles = roles;
+    this->numTasksDone = numTasksDone;
     id = current_id++;
 }
 
@@ -51,7 +51,7 @@ bool Picket::addTask(Task *task) {
     }
     if (task->setResponsiblePicket(this)) {
         tasks.push_back(task);
-        numTasksDone = ++numTasksDone_static;
+        numTasksDone++;
         return true;
     }
     return false;

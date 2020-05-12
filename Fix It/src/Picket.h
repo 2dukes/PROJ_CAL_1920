@@ -21,11 +21,11 @@ class Picket {
     vector<string> roles;
     vector<Task*> tasks;
     static int numTasksDone_static;
-    int numTasksDone = 0;
+    int numTasksDone;
     bool timeIsCompatible(const Time &time1, const Time &time2) const;
 
 public:
-    Picket(string name, vector<string> roles);
+    Picket(string name, vector<string> roles, int numTasksDone);
     int getId() const;
     string getName() const;
     vector<string> getRoles() const;

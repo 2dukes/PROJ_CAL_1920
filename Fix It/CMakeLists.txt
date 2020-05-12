@@ -18,4 +18,8 @@ add_executable(
                 src/Task.cpp
                 src/Utils/Time.h
                 src/Utils/Time.cpp
+                src/Company.h
+                src/Company.cpp
+                src/Utils/NecessaryFunctions_NameSpaces.h
+                src/Utils/NecessaryFunctions_NameSpaces.cpp
                 )
