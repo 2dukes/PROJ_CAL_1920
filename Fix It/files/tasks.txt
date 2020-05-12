@@ -1,0 +1,11 @@
+Funcion: Picheleiro
+Local Coords: (90379359, 41.1552865, -8.6721342)
+Begin Time: 10:00
+End Time: 13:00
+
+::::::::::
+
+Funcion: Eletricista
+Local Coords: (90380816, 41.1493409, -8.6748743)
+Begin Time: 10:00
+End Time: 13:00

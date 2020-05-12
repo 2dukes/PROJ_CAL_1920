@@ -38,20 +38,6 @@ int main() {
 
     Company company("Fix It");
 
-    Picket* p1 = company.getPickets().at(0);
-
-    cout << "ID: " << p1->getId() << endl;
-    cout << "Nome: " << p1->getName() << endl;
-    cout << "Roles: " << generalFunctions::coutVectorString(p1->getRoles()) << endl;
-    cout << "Num tasks: " << p1->getNumTasksDone() << endl;
-
-    vector<string> roles;
-    roles.push_back("Eletricista");
-    roles.push_back("Canalisador");
-    Picket* p2 = new Picket("Tone", roles, 1);
-
-    //company.addPicket(p2);
-
     mainMenu(company);
 
     return 0;
