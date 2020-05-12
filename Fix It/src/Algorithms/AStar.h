@@ -57,7 +57,7 @@ void AStar<T>::AStarShortestPath(const T &origin, const T &dest) {
         auto v = q.extractMin();
         v->visited = true;
 
-        if(v->getInfo() == t)
+        if(v->getInfo() == t->getInfo())
             break;
 
 //        if (isInverted) {
@@ -66,7 +66,7 @@ void AStar<T>::AStarShortestPath(const T &origin, const T &dest) {
 //
 //        this->visited[origin->info.getId()] = true;
 
-        for(auto e : v->adj) {
+        for(auto e : v->outgoing) {
             if (relax(v, e.dest, e.weight, t)) {
                 if (!q.find(v))
                     q.insert(e.dest);

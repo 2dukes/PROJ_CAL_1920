@@ -210,8 +210,10 @@ bool Graph<T>::removeVertex(const T &in) {
         return false;
 
     typename vector<Edge<T>>::iterator iTr1;
-    for(iTr1 = toRemove->adj.begin(); iTr1 != toRemove->adj.end(); iTr1++)
-        iTr1 = --toRemove->adj.erase(iTr1);
+    for(iTr1 = toRemove->outgoing.begin(); iTr1 != toRemove->outgoing.end(); iTr1++)
+        iTr1 = --toRemove->outgoing.erase(iTr1);
+    for(iTr1 = toRemove->incoming.begin(); iTr1 != toRemove->incoming.end(); iTr1++)
+        iTr1 = --toRemove->incoming.erase(iTr1);
 
     typename vector<Vertex<T> *>::iterator iTr2;
     for(iTr2 = vertexSet.begin(); iTr2 != vertexSet.end(); iTr2++) {
