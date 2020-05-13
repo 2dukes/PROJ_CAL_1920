@@ -16,15 +16,15 @@ AStarBiDir<T>::AStarBiDir(const Graph<T>* graph) : AStar<T>(graph) { }
 template <class T>
 void AStarBiDir<T>::AStarBiDirShortestPath(const T &origin, const T &dest) {
     this->graph->initPathAlg(origin);
-    this->graph->initDestinationPathAlg(origin); // Destination weight is also zero!
+    this->graph->initDestinationPathAlg(dest); // Destination weight is also zero!
 
 //    auto start = chrono::steady_clock::now();
 
     auto f1 = thread([this, origin, dest] {
-        this->AStarShortestPathBi(origin, dest, true);
+        this->AStarShortestPathBi(origin, dest, false);
     });
 
-    this->AStarShortestPathBi(dest, origin, false);
+    this->AStarShortestPathBi(dest, origin, true);
     f1.join(); // Wait...
 
 //    auto end = chrono::steady_clock::now();
