@@ -37,7 +37,7 @@ template <class T>
 void SearchAlgorithm<T>::dfsVisit(Vertex<T> *v, vector<T> & res) const {
     v->visited = true;
     res.push_back(v->info);
-    for (auto edge: v->adj) {
+    for (auto edge: v->outgoing) {
         if(!edge.dest->visited)
             dfsVisit(edge.dest, res);
     }
@@ -58,7 +58,7 @@ vector<T> SearchAlgorithm<T>::bfs(const T & source) const {
         Vertex<T>* vertex = vertexQueue.front();
         res.push_back(vertex->info);
 
-        for(auto edge: vertex->adj) {
+        for(auto edge: vertex->outgoing) {
             if(!edge.dest->visited) {
                 vertexQueue.push(edge.dest);
                 edge.dest->visited = true;

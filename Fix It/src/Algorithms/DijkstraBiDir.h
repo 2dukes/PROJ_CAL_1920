@@ -21,10 +21,10 @@ void DijkstraBiDir<T>::dijkstraBiDirShortestPath(const T &origin, const T &dest)
 //    auto start = chrono::steady_clock::now();
 
     auto f1 = thread([this, origin, dest] {
-        this->dijkstraShortestPath(origin, dest, true);
+        this->dijkstraShortestPathBi(origin, dest, true);
     });
 
-    this->dijkstraShortestPath(origin, dest, false);
+    this->dijkstraShortestPathBi(dest, origin, false);
     f1.join(); // Wait...
 
 //    auto end = chrono::steady_clock::now();
