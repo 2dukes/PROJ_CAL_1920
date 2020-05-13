@@ -24,4 +24,5 @@ add_executable( Fix_It
                 src/Utils/NecessaryFunctions_NameSpaces.h
                 src/Utils/NecessaryFunctions_NameSpaces.cpp
                 src/UserInterface/Menu.cpp
-                src/UserInterface/Menu.h)
+                src/UserInterface/Menu.h
+                src/Algorithms/AStarBiDir.h)

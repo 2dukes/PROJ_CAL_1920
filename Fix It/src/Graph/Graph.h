@@ -179,7 +179,6 @@ public:
     Vertex<T>* initPathAlg(const T &origin);
     Vertex<T>* initDestinationPathAlg(const T &destination);
     vector<T> getPath(const T &origin, const T &dest) const;
-
 };
 
 template <class T>
@@ -274,15 +273,16 @@ Vertex<T> * Graph<T>::initDestinationPathAlg(const T &destination) {
 }
 
 template<class T>
-vector<T> Graph<T>::getPath(const T &origin, const T &dest) const{
+vector<T> Graph<T>::getPath(const T &origin, const T &dest) const { // Works for bidirectional as well!
     vector<T> res;
     auto v = findVertex(dest);
-    if (v == nullptr || v->dist == INF) // missing or disconnected
+    if (v == nullptr || v->weight == INF) // missing or disconnected
         return res;
     for ( ; v != nullptr; v = v->path)
         res.push_back(v->info);
     reverse(res.begin(), res.end());
     return res;
 }
+
 
 #endif /* GRAPH_H_ */
