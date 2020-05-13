@@ -9,6 +9,7 @@
 
 #include "Picket.h"
 #include "Task.h"
+#include "Graph/Graph.h"
 
 using namespace std;
 
@@ -16,6 +17,7 @@ class Company {
     string name;
     vector<Picket*> pickets;
     vector<Task*> tasks;
+    Graph<long int> cityGraph;
 
 public:
     Company(string name);
@@ -30,13 +32,17 @@ public:
     vector<Picket*> getPickets();
     vector<Task*> getTasks();
     template<class Type>
-    void auxiliaryDestructor(std::vector<Type> &elements);
+    void auxiliaryDestructor(vector<Type> &elements);
+    bool readNodes(const string &filename);
+    bool readEdges(const string &filename);
+    bool readCityGraph(const string &nodesFile, const string &edgesFile);
+
 
 
 };
 
 template<class Type>
-void Company::auxiliaryDestructor(std::vector<Type> &elements) {
+void Company::auxiliaryDestructor(vector<Type> &elements) {
     for(auto &x: elements)
         delete x;
 }

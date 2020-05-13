@@ -38,8 +38,8 @@ class Vertex {
     bool invVisited;            // for intersections in BiDirs
     Edge<T> *path;              // for path finding
     int queueIndex = 0; 		// required by MutablePriorityQueue
-    double x;
-    double y;
+    long double x;
+    long double y;
 
     Edge<T> * addEdge(Vertex<T> *dest, double c, double f);
     bool removeEdgeTo(Vertex<T> *d);
@@ -50,6 +50,10 @@ public:
     vector<Edge<T> *> getIncomingEdges() const;
     bool operator<(Vertex<T> & vertex) const; // required by MutablePriorityQueue
     bool operator==(Vertex<T> v) const; // required by MutablePriorityQueue
+    void setX(long double x);
+    void setY(long double y);
+    long double getX();
+    long double getY();
 
     friend class Graph<T>;
     friend class MutablePriorityQueue<Vertex<T>>;
@@ -105,6 +109,26 @@ bool Vertex<T>::removeEdgeTo(Vertex<T> *d) {
     return false;
 }
 
+template<class T>
+void Vertex<T>::setX(long double x) {
+    this->x = x;
+}
+
+template<class T>
+void Vertex<T>::setY(long double y) {
+    this->y = y;
+}
+
+template<class T>
+long double Vertex<T>::getX() {
+    return x;
+}
+
+template<class T>
+long double Vertex<T>::getY() {
+    return y;
+}
+
 /* ================================================================================================
  * Class Edge
  * ================================================================================================
@@ -148,7 +172,7 @@ class Graph {
     Vertex<T> *findVertex(const T &in) const;
 public:
     int getNumVertex() const;
-    bool addVertex(const T &in);
+    bool addVertex(const T &in, long double x, long double y);
     bool removeVertex(const T &in);
     bool addEdge(const T &sourc, const T &dest, double w);
     bool removeEdge(const T &sourc, const T &dest);
@@ -172,11 +196,13 @@ Vertex<T> * Graph<T>::findVertex(const T &in) const {
 }
 
 template <class T>
-bool Graph<T>::addVertex(const T &in) {
+bool Graph<T>::addVertex(const T &in, long double x, long double y) {
     if(findVertex(in) != NULL) // Vertex already exists
         return false;
     else {
         Vertex<T>* newVertex = new Vertex<T>(in);
+        newVertex->setX(x);
+        newVertex->setY(y);
         vertexSet.push_back(newVertex);
         return true;
     }

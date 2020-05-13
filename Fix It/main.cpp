@@ -38,7 +38,9 @@ int main() {
 
     Company company("Fix It");
 
-    mainMenu(company);
+    //mainMenu(company);
+
+    company.readEdges("../maps/Porto/edges_porto.txt");
 
     return 0;
 }

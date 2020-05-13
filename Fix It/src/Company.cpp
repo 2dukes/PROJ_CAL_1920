@@ -4,6 +4,7 @@
 
 #include <fstream>
 #include <iostream>
+#include <iomanip>
 
 #include "Company.h"
 #include "Utils/NecessaryFunctions_NameSpaces.h"
@@ -105,6 +106,67 @@ Company::~Company() {
 
     auxiliaryDestructor(pickets);
     auxiliaryDestructor(tasks);
+}
+
+bool Company::readNodes(const string &filename) {
+    ifstream f;
+    f.open(filename);
+    long int id, aux;
+    long double x, y;
+    string line;
+    char delim = ' ';
+    if (f.is_open()) {
+        f >> aux; // ignorar primeira linha
+        f.clear();
+        f.ignore(1000, '\n');
+        while(!f.eof()) {
+            getline(f, line);
+            if (sscanf(line.c_str(), "(%ld, %Lf, %Lf)", &id, &x, &y) != 3) {
+                cerr << "Error reading the file " << filename << endl;
+                return false;
+            }
+            Vertex<long int> vertex(id);
+            this->cityGraph.addVertex(id, x, y);
+        }
+        f.close();
+        return true;
+    }
+    else {
+        cerr << "Error reading the file " << filename << endl;
+        return false;
+    }
+}
+
+bool Company::readEdges(const string &filename) {
+    ifstream f;
+    f.open(filename);
+    long int idNode1, idNode2, aux;
+    string line;
+    char delim = ' ';
+    if (f.is_open()) {
+        f >> aux; // ignorar primeira linha
+        f.clear();
+        f.ignore(1000, '\n');
+        while(!f.eof()) {
+            getline(f, line);
+            if (sscanf(line.c_str(), "(%ld, %ld)", &idNode1, &idNode2) != 2) {
+                cerr << "Error reading the file " << filename << endl;
+                return false;
+            }
+            // falta a função para calcular a distancia
+            //this->cityGraph.addEdge(idNode1, idNode2, distancia);
+        }
+        f.close();
+        return true;
+    }
+    else {
+        cerr << "Error reading the file " << filename << endl;
+        return false;
+    }
+}
+
+bool Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
+    return readNodes(nodesFile) && readEdges(edgesFile);
 }
 
 
