@@ -18,7 +18,13 @@ public:
 
     void AStarShortestPath(const T &origin, const T &dest);
     bool relax(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t);
+    bool relaxInv(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t);
+    bool isIntersecting(Vertex<T>* vertex);
     double heuristicDistance(Vertex<T>* origin, Vertex<T>* dest);
+    void AStarStep(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v, const Vertex<T> *t) const;
+    void AStarStepInv(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v, const Vertex<T> *t) const;
+
+    void AStarShortestPathBi(const T &origin, const T &dest, bool isInverted);
 
     friend class Graph<T>;
 };
@@ -40,10 +46,73 @@ inline bool AStar<T>::relax(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>
         w->dist = v->weight + weight;
         w->weight = v->weight + weight + heuristicDistance(w, t);
         w->path = v;
+        w->visited = true;
         return true;
     }
     else
         return false;
+}
+
+template<class T>
+inline bool AStar<T>::relaxInv(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t) {
+    if (v->weight + weight + heuristicDistance(w, t) < w->weight) {
+        w->dist = v->weight + weight;
+        w->weight = v->weight + weight + heuristicDistance(w, t);
+        v->path = w; // Careful!
+        w->invVisited = true;
+        return true;
+    }
+    else
+        return false;
+}
+
+template<class T>
+void AStar<T>::AStarStep(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v, const Vertex<T>* t) const {
+    for (auto e : v->outgoing) {
+        if (relax(v, e->dest, e.weight, t)) {
+            if (!q.find(e->dest))
+                q.insert(e->dest);
+            else
+                q.decreaseKey(e->dest);
+        }
+    }
+}
+
+template<class T>
+void AStar<T>::AStarStepInv(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v, const Vertex<T>* t) const {
+    for (auto e : v->incoming) {
+        if (relaxInv(v, e->orig, e.weight, t)) {
+            if (!q.find(e->orig))
+                q.insert(e->orig);
+            else
+                q.decreaseKey(e->orig);
+        }
+    }
+}
+
+template <class T>
+bool AStar<T>::isIntersecting(Vertex<T>* vertex) {
+    return (vertex->invVisited && vertex->visited);
+}
+
+template<class T>
+void AStar<T>::AStarShortestPathBi(const T &origin, const T &dest, bool isInverted) {
+    auto t = findVertex(dest); // Destination Vertex
+    auto s = graph->initPathAlg(origin);
+
+    MutablePriorityQueue<Vertex<T>> q; // Ordered by gScore
+    q.insert(s);
+    while(!q.empty()) {
+        auto v = q.extractMin();
+
+        if(isIntersecting(v))
+            return v;
+
+        if(isInverted)
+            AStarStepInv(q, v, t);
+        else
+            AStarStep(q, v, t);
+    }
 }
 
 template<class T>
@@ -60,21 +129,9 @@ void AStar<T>::AStarShortestPath(const T &origin, const T &dest) {
         if(v->getInfo() == t->getInfo())
             break;
 
-//        if (isInverted) {
-//            origin = findVertex(origin->getInfo()); // do this only if its inverted graph
-//        }
-//
-//        this->visited[origin->info.getId()] = true;
-
-        for(auto e : v->outgoing) {
-            if (relax(v, e.dest, e.weight, t)) {
-                if (!q.find(v))
-                    q.insert(e.dest);
-                else
-                    q.decreaseKey(e.dest);
-            }
-        }
+        AStarStep(q, v, t);
     }
 }
+
 
 #endif //FIX_IT_ASTAR_H

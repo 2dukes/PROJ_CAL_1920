@@ -9,4 +9,5 @@ add_executable(Fix_It main.cpp src/Graph/Graph.h
                 src/Algorithms/SearchAlgorithms.h
                 src/Algorithms/Dijkstra.h
                 src/Algorithms/AStar.h
-                src/Algorithms/DijkstraBiDir.h)
+                src/Algorithms/DijkstraBiDir.h
+                src/Algorithms/AStarBiDir.h)

@@ -33,7 +33,7 @@ template<class T>
 inline bool Dijkstra<T>::relaxInv(Vertex<T> *v, Vertex<T> *w, double weight) {
     if (v->weight + weight < w->weight) {
         w->weight = v->weight + weight;
-        v->path = w; // Carefull... Path Goes
+        v->path = w; // Careful... Path Goes
         w->invVisited = true;
         return true;
     }
@@ -92,12 +92,12 @@ Vertex<T>* Dijkstra<T>::dijkstraShortestPathBi(const T &origin, const T &dest, b
 template<class T>
 void Dijkstra<T>::directDijkstraStep(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v) const {
     for(auto e : v->outgoing) {
-        auto oldDist = e.dest->dist;
-        if (relax(v, e.dest, e.weight)) {
+        auto oldDist = e->dest->dist;
+        if (relax(v, e->dest, e.weight)) {
             if (oldDist == INF)
-                q.insert(e.dest);
+                q.insert(e->dest);
             else
-                q.decreaseKey(e.dest);
+                q.decreaseKey(e->dest);
         }
     }
 }
@@ -105,12 +105,12 @@ void Dijkstra<T>::directDijkstraStep(MutablePriorityQueue<Vertex<T>> &q, const V
 template<class T>
 void Dijkstra<T>::invDijkstraStep(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v) const {
     for(auto e : v->incoming) {
-        auto oldDist = e.orig->dist;
-        if (relaxInv(v, e.orig, e.weight)) {
+        auto oldDist = e->orig->dist;
+        if (relaxInv(v, e->orig, e.weight)) {
             if (oldDist == INF)
-                q.insert(e.orig);
+                q.insert(e->orig);
             else
-                q.decreaseKey(e.orig);
+                q.decreaseKey(e->orig);
         }
     }
 }
