@@ -6,6 +6,7 @@
 #include <iostream>
 #include <limits>
 #include <vector>
+#include "../Graph/Graph.h"
 
 namespace verifyInputs {
     bool verifyString(std::string auxStr);
@@ -42,6 +43,11 @@ namespace generalFunctions {
                 return true;
         }
         return false;
+    }
+
+    template <class T>
+    double heuristicDistance(Vertex<T> *origin, Vertex<T> *dest) {
+        return sqrt(pow(origin->x - dest->x, 2) + pow(origin->y - dest->y, 2));
     }
 }
 

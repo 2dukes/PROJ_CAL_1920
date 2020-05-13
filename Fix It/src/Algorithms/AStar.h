@@ -5,8 +5,8 @@
 #ifndef FIX_IT_ASTAR_H
 #define FIX_IT_ASTAR_H
 
-#include "../Graph/Graph.h"
 #include <math.h>
+#include "../Utils/NecessaryFunctions_NameSpaces.h"
 
 template <class T>
 class AStar { // TODO TEST A* ALGORITHM USING CLASSES TESTS! -> SHOULD GIVE AND APROXIMATE/SAME RESULT! Probably Vertex<T> will be substituted by AVertex! Or make a cast...
@@ -20,7 +20,7 @@ public:
     bool relax(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t);
     bool relaxInv(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t);
     bool isIntersecting(Vertex<T>* vertex, bool isInverted, Vertex<T>* previousVertex);
-    double heuristicDistance(Vertex<T>* origin, Vertex<T>* dest);
+
     void AStarStep(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v, const Vertex<T> *t) const;
     void AStarStepInv(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v, const Vertex<T> *t) const;
 
@@ -35,16 +35,10 @@ AStar<T>::AStar(const Graph<T> *graph) {
 }
 
 template<class T>
-double AStar<T>::heuristicDistance(Vertex<T> *origin, Vertex<T> *dest) {
-    return sqrt(pow(origin->x - dest->x, 2) + pow(origin->y - dest->y, 2));
-
-}
-
-template<class T>
 inline bool AStar<T>::relax(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t) {
-    if (v->weight + weight + heuristicDistance(w, t) < w->weight) {
+    if (v->weight + weight + generalFunctions::heuristicDistance(w, t) < w->weight) {
         w->dist = v->weight + weight;
-        w->weight = v->weight + weight + heuristicDistance(w, t);
+        w->weight = v->weight + weight + generalFunctions::heuristicDistance(w, t);
         w->path = v;
         w->visited = true;
         return true;
@@ -55,9 +49,9 @@ inline bool AStar<T>::relax(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>
 
 template<class T>
 inline bool AStar<T>::relaxInv(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t) {
-    if (v->weight + weight + heuristicDistance(w, t) < w->weight) {
+    if (v->weight + weight + generalFunctions::heuristicDistance(w, t) < w->weight) {
         w->dist = v->weight + weight;
-        w->weight = v->weight + weight + heuristicDistance(w, t);
+        w->weight = v->weight + weight + generalFunctions::heuristicDistance(w, t);
         v->path = w; // Careful!
         w->invVisited = true;
         return true;

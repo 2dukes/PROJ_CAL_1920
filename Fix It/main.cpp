@@ -42,5 +42,6 @@ int main() {
 
     company.readEdges("../maps/Porto/edges_porto.txt");
 
+    cout << "Hello World!" << endl;
     return 0;
 }
