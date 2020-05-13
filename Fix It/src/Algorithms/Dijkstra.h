@@ -17,7 +17,7 @@ public:
     bool relax(Vertex<T> *v, Vertex<T> *w, double weight);
     bool relaxInv(Vertex<T> *v, Vertex<T> *w, double weight);
 
-    bool isIntersecting(Vertex<T>* vertex);
+    bool isIntersecting(Vertex<T>* vertex, bool isInverted, Vertex<T>* previousVertex);
     void invDijkstraStep(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v) const;
     void directDijkstraStep(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v) const;
 
@@ -67,8 +67,15 @@ void Dijkstra<T>::dijkstraShortestPath(const T &origin, const T &dest) {
 }
 
 template <class T>
-bool Dijkstra<T>::isIntersecting(Vertex<T>* vertex) {
-    return (vertex->invVisited && vertex->visited);
+bool Dijkstra<T>::isIntersecting(Vertex<T>* vertex, bool isInverted, Vertex<T>* previousVertex) {
+    if(vertex->invVisited && vertex->visited) {
+        if(!isInverted)
+            vertex->path = previousVertex;
+        else
+            previousVertex->path = vertex;
+        return true;
+    }
+    return false;
 }
 
 template <class T> // Returns Intersecting Vertex
@@ -76,16 +83,19 @@ Vertex<T>* Dijkstra<T>::dijkstraShortestPathBi(const T &origin, const T &dest, b
     auto s = findVertex(origin);
     MutablePriorityQueue<Vertex<T>> q;
     q.insert(s);
+
+    Vertex<T>* prevVertex = nullptr;
     while(!q.empty()) {
         auto v = q.extractMin();
 
-        if(isIntersecting(v))
+        if(isIntersecting(v, isInverted, prevVertex))
             return v;
 
         if (isInverted)
             invDijkstraStep(q, v);
         else
             directDijkstraStep(q, v);
+        prevVertex = v;
     }
 }
 

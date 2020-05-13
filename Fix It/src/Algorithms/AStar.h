@@ -19,7 +19,7 @@ public:
     void AStarShortestPath(const T &origin, const T &dest);
     bool relax(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t);
     bool relaxInv(Vertex<T> *v, Vertex<T> *w, double weight, Vertex<T>* t);
-    bool isIntersecting(Vertex<T>* vertex);
+    bool isIntersecting(Vertex<T>* vertex, bool isInverted, Vertex<T>* previousVertex);
     double heuristicDistance(Vertex<T>* origin, Vertex<T>* dest);
     void AStarStep(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v, const Vertex<T> *t) const;
     void AStarStepInv(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v, const Vertex<T> *t) const;
@@ -91,8 +91,15 @@ void AStar<T>::AStarStepInv(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> 
 }
 
 template <class T>
-bool AStar<T>::isIntersecting(Vertex<T>* vertex) {
-    return (vertex->invVisited && vertex->visited);
+bool AStar<T>::isIntersecting(Vertex<T>* vertex, bool isInverted, Vertex<T>* previousVertex) {
+    if(vertex->invVisited && vertex->visited) {
+        if(!isInverted)
+            vertex->path = previousVertex;
+        else
+            previousVertex->path = vertex;
+        return true;
+    }
+    return false;
 }
 
 template<class T>
@@ -102,16 +109,19 @@ void AStar<T>::AStarShortestPathBi(const T &origin, const T &dest, bool isInvert
 
     MutablePriorityQueue<Vertex<T>> q; // Ordered by gScore
     q.insert(s);
+    
+    Vertex<T>* prevVertex = nullptr;
     while(!q.empty()) {
         auto v = q.extractMin();
 
-        if(isIntersecting(v))
+        if(isIntersecting(v, isInverted, prevVertex))
             return v;
 
         if(isInverted)
             AStarStepInv(q, v, t);
         else
             AStarStep(q, v, t);
+        prevVertex = v;
     }
 }
 
