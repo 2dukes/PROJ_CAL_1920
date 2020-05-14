@@ -51,10 +51,10 @@ public:
     vector<Edge<T> *> getIncomingEdges() const;
     bool operator<(Vertex<T> & vertex) const; // required by MutablePriorityQueue
     bool operator==(Vertex<T> v) const; // required by MutablePriorityQueue
-    void setX(long double x);
-    void setY(long double y);
-    long double getX();
-    long double getY();
+    void setX(double x);
+    void setY(double y);
+    double getX();
+    double getY();
 
     friend class Graph<T>;
     friend class MutablePriorityQueue<Vertex<T>>;
@@ -111,22 +111,22 @@ bool Vertex<T>::removeEdgeTo(Vertex<T> *d) {
 }
 
 template<class T>
-void Vertex<T>::setX(long double x) {
+void Vertex<T>::setX(double x) {
     this->x = x;
 }
 
 template<class T>
-void Vertex<T>::setY(long double y) {
+void Vertex<T>::setY(double y) {
     this->y = y;
 }
 
 template<class T>
-long double Vertex<T>::getX() {
+double Vertex<T>::getX() {
     return x;
 }
 
 template<class T>
-long double Vertex<T>::getY() {
+double Vertex<T>::getY() {
     return y;
 }
 
@@ -203,8 +203,6 @@ bool Graph<T>::addVertex(const T &in, double x, double y) {
         Vertex<T>* newVertex = new Vertex<T>(in);
         newVertex->setX(x);
         newVertex->setY(y);
-        std::cout << newVertex->getX() ;
-        std::cout << newVertex->getY() << endl;
         vertexSet.push_back(newVertex);
         return true;
     }
