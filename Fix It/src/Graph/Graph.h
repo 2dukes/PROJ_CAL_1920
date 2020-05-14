@@ -9,6 +9,7 @@
 #include <queue>
 #include <new>
 #include <algorithm>
+#include <iostream>
 
 #include "MutablePriorityQueue.h"
 
@@ -41,7 +42,7 @@ class Vertex {
     long double x;
     long double y;
 
-    Edge<T> * addEdge(Vertex<T> *dest, double c, double f);
+    Edge<T> * addEdge(Vertex<T> *dest, double w);
     bool removeEdgeTo(Vertex<T> *d);
 public:
     Vertex(T in);
@@ -89,8 +90,8 @@ vector<Edge<T> *> Vertex<T>::getIncomingEdges() const {
 }
 
 template <class T>
-Edge<T> *Vertex<T>::addEdge(Vertex<T> *dest, double c, double f) {
-    Edge<T> * e = new Edge<T>(this, dest, c, f); // IT'S THE SAME EDGE FOR BOTH VERTICES. DOESN'T SWITCH DIRECTION!
+Edge<T> *Vertex<T>::addEdge(Vertex<T> *dest, double w) {
+    Edge<T> * e = new Edge<T>(this, dest, w); // IT'S THE SAME EDGE FOR BOTH VERTICES. DOESN'T SWITCH DIRECTION!
     this->outgoing.push_back(e);
     dest->incoming.push_back(e);
     return e;
@@ -169,10 +170,10 @@ Vertex<T>* Edge<T>::getDest() {
 template <class T>
 class Graph {
     vector<Vertex<T> *> vertexSet;    // Vertex Set
-    Vertex<T> *findVertex(const T &in) const;
 public:
+    Vertex<T> *findVertex(const T &in) const;
     int getNumVertex() const;
-    bool addVertex(const T &in, long double x, long double y);
+    bool addVertex(const T &in, double x, double y);
     bool removeVertex(const T &in);
     bool addEdge(const T &sourc, const T &dest, double w);
     bool removeEdge(const T &sourc, const T &dest);
@@ -195,13 +196,15 @@ Vertex<T> * Graph<T>::findVertex(const T &in) const {
 }
 
 template <class T>
-bool Graph<T>::addVertex(const T &in, long double x, long double y) {
+bool Graph<T>::addVertex(const T &in, double x, double y) {
     if(findVertex(in) != NULL) // Vertex already exists
         return false;
     else {
         Vertex<T>* newVertex = new Vertex<T>(in);
         newVertex->setX(x);
         newVertex->setY(y);
+        std::cout << newVertex->getX() ;
+        std::cout << newVertex->getY() << endl;
         vertexSet.push_back(newVertex);
         return true;
     }

@@ -112,21 +112,23 @@ bool Company::readNodes(const string &filename) {
     ifstream f;
     f.open(filename);
     long int id, aux;
-    long double x, y;
+    double x, y;
     string line;
-    char delim = ' ';
+
     if (f.is_open()) {
         f >> aux; // ignorar primeira linha
         f.clear();
         f.ignore(1000, '\n');
         while(!f.eof()) {
             getline(f, line);
-            if (sscanf(line.c_str(), "(%ld, %Lf, %Lf)", &id, &x, &y) != 3) {
+            if (sscanf(line.c_str(), "(%ld, %lf, %lf)", &id, &x, &y) != 3) {
                 cerr << "Error reading the file " << filename << endl;
                 return false;
             }
+            // printf("X: %lf | Y: %lf\n", x, y);
             Vertex<long int> vertex(id);
             this->cityGraph.addVertex(id, x, y);
+            printf("X: %lf | T: %lf\n", this->cityGraph.findVertex(id)->getX(), x);
         }
         f.close();
         return true;
@@ -142,7 +144,6 @@ bool Company::readEdges(const string &filename) {
     f.open(filename);
     long int idNode1, idNode2, aux;
     string line;
-    char delim = ' ';
     if (f.is_open()) {
         f >> aux; // ignorar primeira linha
         f.clear();
@@ -153,8 +154,12 @@ bool Company::readEdges(const string &filename) {
                 cerr << "Error reading the file " << filename << endl;
                 return false;
             }
-            // falta a função para calcular a distancia
-            //this->cityGraph.addEdge(idNode1, idNode2, distancia);
+            this->cityGraph.addEdge(idNode1, idNode2,
+                    generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
+                                                             this->cityGraph.findVertex(idNode2)));
+
+//            printf("X: %lf | Y: %lf | Distance: %lf \n", this->cityGraph.findVertex(idNode1)->getX(), this->cityGraph.findVertex(idNode2)->getY(),  generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
+//                                                                                                                             this->cityGraph.findVertex(idNode2)));
         }
         f.close();
         return true;

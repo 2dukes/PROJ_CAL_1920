@@ -36,10 +36,10 @@ int main() {
     cout << "Num tasks done: " << to_string(picket->getNumTasksDone()) << endl;
     */
 
-    Company company("Fix It");
+    Company company("Fix It"); // TODO UNCOMMENT Company CONSTRUCTOR & DESTRUCTOR!
 
     //mainMenu(company);
-
+    company.readNodes("../maps/Porto/nodes_x_y_porto.txt");
     company.readEdges("../maps/Porto/edges_porto.txt");
 
     cout << "Hello World!" << endl;
