@@ -17,6 +17,7 @@ template <class T>
 void AStarBiDir<T>::AStarBiDirShortestPath(const T &origin, const T &dest) {
     this->graph->initPathAlg(origin);
     this->graph->initDestinationPathAlg(dest); // Destination weight is also zero!
+    this->hasIntersected = false;
 
 //    auto start = chrono::steady_clock::now();
 
