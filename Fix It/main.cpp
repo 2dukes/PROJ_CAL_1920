@@ -37,16 +37,17 @@ int main() {
     cout << "Num tasks done: " << to_string(picket->getNumTasksDone()) << endl;
     */
 
-    Company company("Fix It"); // TODO UNCOMMENT Company CONSTRUCTOR & DESTRUCTOR!
+    Company company("Fix It");
 
     //mainMenu(company);
-    company.readNodes("../maps/Porto/nodes_x_y_porto.txt");
-    company.readEdges("../maps/Porto/edges_porto.txt");
+    //company.readNodes("../maps/Porto/nodes_x_y_porto.txt");
+    //company.readEdges("../maps/Porto/edges_porto.txt");
 
     /* Display Nodes */
 //    GraphInterface graphI(1920, 1080);
 //    graphI.displayPath(company.getCityGraph().getVertexSet());
 
+    /*
     GraphInterface graphI(1920, 1080);
     vector<Edge<long>*> edgesTotal;
 
@@ -55,8 +56,11 @@ int main() {
             edgesTotal.push_back(e);
     }
     graphI.displayOporto(edgesTotal);
+    */
 
 
-    cout << "Hello World!" << endl;
+
+
+
     return 0;
 }

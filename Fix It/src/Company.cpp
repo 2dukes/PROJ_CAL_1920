@@ -13,6 +13,8 @@ Company::Company(string name) {
     this->name = name;
     readPicketsFile("../files/pickets.txt");
     readTasksFile("../files/tasks.txt");
+    readNodes("../maps/Porto/nodes_x_y_porto.txt");
+    readEdges("../maps/Porto/edges_porto.txt");
 }
 
 string Company::getName() {
@@ -55,7 +57,36 @@ bool Company::readPicketsFile(const string& filename) {
 }
 
 bool Company::readTasksFile(const string& filename) {
-    return false;
+    ifstream f;
+    f.open(filename);
+    int duration;
+    long int nodeId;
+    string function, aux;
+    char delim = ' ';
+    if (f.is_open()) {
+        while(!f.eof()) {
+            getline(f, aux, delim);
+            getline(f, function);
+            getline(f, aux, delim);
+            f >> nodeId;
+            f.clear();
+            f.ignore(1000, '\n');
+            getline(f, aux, delim);
+            f >> duration;
+            f.clear();
+            f.ignore(1000, '\n');
+            getline(f, aux);
+
+            Task* task = new Task(function, nodeId, duration);
+            addTask(task);
+        }
+        f.close();
+        return true;
+    }
+    else {
+        cerr << "Error reading the file " << filename << endl;
+        return false;
+    }
 }
 
 bool Company::writePicketsFile(const string& filename) {
@@ -125,10 +156,8 @@ bool Company::readNodes(const string &filename) {
                 cerr << "Error reading the file " << filename << endl;
                 return false;
             }
-            // printf("X: %lf | Y: %lf\n", x, y);
             Vertex<long int> vertex(id);
             this->cityGraph.addVertex(id, x, y);
-//            printf("X: %lf | T: %lf\n", this->cityGraph.findVertex(id)->getX(),xhis->city);
         }
         f.close();
         return true;
@@ -157,9 +186,6 @@ bool Company::readEdges(const string &filename) {
             this->cityGraph.addEdge(idNode1, idNode2,
                     generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
                                                              this->cityGraph.findVertex(idNode2)));
-
-//            printf("X: %lf | Y: %lf | Distance: %lf \n", this->cityGraph.findVertex(idNode1)->getX(), this->cityGraph.findVertex(idNode2)->getY(),  generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
-//                                                                                                                             this->cityGraph.findVertex(idNode2)));
         }
         f.close();
         return true;
@@ -176,6 +202,18 @@ bool Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
 
 const Graph<long> &Company::getCityGraph() const {
     return cityGraph;
+}
+
+void Company::showPicketsInfo() const {
+    for (Picket *picket: pickets) {
+        cout << *picket << endl;
+    }
+}
+
+void Company::showTasksInfo() const {
+    for (Task *task: tasks) {
+        cout << *task << endl;
+    }
 }
 
 

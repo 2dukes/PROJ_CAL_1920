@@ -1,11 +1,93 @@
-Funcion: Picheleiro
-Local Coords: (90379359, 41.1552865, -8.6721342)
-Begin Time: 10:00
-End Time: 13:00
+Function: Picheleiro
+NodeId: 560976013
+Duration: 120
 
 ::::::::::
 
-Funcion: Eletricista
-Local Coords: (90380816, 41.1493409, -8.6748743)
-Begin Time: 10:00
-End Time: 13:00
+Function: Eletricista
+NodeId: 114310456
+Duration: 180
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 114315563
+Duration: 180
+
+::::::::::
+
+Function: Trolha
+NodeId: 128655647
+Duration: 300
+
+::::::::::
+
+Function: Eletricista
+NodeId: 413301119
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 789709526
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 478861797
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 137851199
+Duration: 30
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 112634554
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 128591079
+Duration: 180
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 299611755
+Duration: 180
+
+::::::::::
+
+Function: Trolha
+NodeId: 299611401
+Duration: 300
+
+::::::::::
+
+Function: Eletricista
+NodeId: 444023228
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 135824251
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 1294005339
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 497185189
+Duration: 30

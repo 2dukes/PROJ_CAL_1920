@@ -22,21 +22,23 @@ class Task {
     int id;
     string function;
     Picket* responsiblePicket;
-    string localCoords; // mudar para classe Vertex ?...
+    long int nodeId;
+    int durationMinutes;
     Time beginTime;
-    Time endTime;
 
 public:
-    Task(string function, string localCoords, Time beginTime, Time endTime);
-    string getLocalCoords() const;
+    Task(string function, long int nodeId, int durationMinutes);
+    long int getNodeId() const;
+    string getFunction() const;
+    int getDurationMinutes() const;
     Time getBeginTime() const;
     Time getEndTime() const;
-    void setLocalCoords(const string &localCoords);
     void setBeginTime(Time &beginTime);
-    void setEndTime(Time &endTime);
     bool setResponsiblePicket(Picket *picket);
     Picket* getResponsiblePicket() const;
-    bool isDone() const;
+    bool hasPicket() const;
+    bool hasDefinedTime() const;
+    friend ostream& operator<<(ostream& os, const Task &task);
 };
 
 

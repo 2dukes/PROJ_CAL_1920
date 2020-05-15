@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <sstream>
+#include <iomanip>
 #include "Time.h"
 
 Time::Time() {
@@ -65,4 +66,18 @@ bool Time::checkTimeOverlap(const Time &time1, const Time &time2) const {
     return (time1 < *this && *this < time2) || *this == time1 || *this == time2;
 }
 
+Time Time::addMinutes(int minutes) const {
+    int resultHour = this->hours + (this->minutes + minutes) / 60;
+    resultHour %= 24;
+    int resultMinute = (this->minutes + minutes) % 60;
+    Time resultTime(resultHour, resultMinute);
+
+    return resultTime;
+}
+
+ostream &operator<<(ostream &os, const Time &time) {
+    os << std::setw(2) << std::setfill('0') << time.getHours() << ":"
+        << std::setw(2) << std::setfill('0') << time.getMinutes();
+    return os;
+}
 
