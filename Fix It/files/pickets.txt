@@ -43,3 +43,9 @@ Tasks Done: 1
 Name: Tone
 Roles: Eletricista, Canalisador
 Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 0

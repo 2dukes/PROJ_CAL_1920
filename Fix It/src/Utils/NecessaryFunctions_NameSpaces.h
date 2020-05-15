@@ -16,6 +16,8 @@ namespace verifyInputs {
 
 namespace readOperations {
     std::string readString(std::string parameter);
+    std::string readRole(std::string parameter);
+    std::vector<std::string> readVectorString(std::string parameter);
     std::string confirmAnswer();
 
     template <class T> // https://dev-notes.eu/2018/08/c++-namespace-template-functions/

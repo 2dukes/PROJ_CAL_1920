@@ -91,3 +91,9 @@ Duration: 180
 Function: Picheleiro
 NodeId: 497185189
 Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 1294005343
+Duration: 45

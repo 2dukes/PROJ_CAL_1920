@@ -4,7 +4,6 @@
 
 #include <fstream>
 #include <iostream>
-#include <iomanip>
 
 #include "Company.h"
 #include "Utils/NecessaryFunctions_NameSpaces.h"
@@ -94,13 +93,9 @@ bool Company::writePicketsFile(const string& filename) {
     f.open(filename, ios::out);
     if (f.is_open()) {
         for (auto it = pickets.begin(); it != pickets.end(); it++) {
-            f << "Name: " << (*it)->getName() << endl;
-            f << "Roles: ";
-            f << generalFunctions::coutVectorString((*it)->getRoles());
-            f << endl << "Tasks Done: " << (*it)->getNumTasksDone();
-
+            f << **it;
             if (it != pickets.end() - 1)
-                f << endl << endl << "::::::::::" << endl << endl;
+                f << endl << "::::::::::" << endl << endl;
         }
         f.close();
         return true;
@@ -112,7 +107,21 @@ bool Company::writePicketsFile(const string& filename) {
 }
 
 bool Company::writeTasksFile(const string& filename) {
-    return false;
+    ofstream f;
+    f.open(filename, ios::out);
+    if (f.is_open()) {
+        for (auto it = tasks.begin(); it != tasks.end(); it++) {
+            f << **it;
+            if (it != tasks.end() - 1)
+                f << endl << "::::::::::" << endl << endl;
+        }
+        f.close();
+        return true;
+    }
+    else {
+        cerr << "Error opening the file " << filename << endl;
+        return false;
+    }
 }
 
 void Company::addPicket(Picket* picket) {
@@ -214,6 +223,49 @@ void Company::showTasksInfo() const {
     for (Task *task: tasks) {
         cout << *task << endl;
     }
+}
+
+bool Company::createPicket() {
+    string name = readOperations::readString("Name:");
+    cout << "Enter the roles of the picket; write 'exit' to stop" << endl;
+    vector<string> roles = readOperations::readVectorString("Role: ");
+    int tasksDone = readOperations::readNumber<int>("Tasks Done: ");
+
+    cout << endl << "Are you sure you want to insert the following data? (Y|N)" << endl << endl;
+    Picket* picket = new Picket(name, roles, tasksDone);
+    cout << *picket << endl;
+
+    string answer = readOperations::confirmAnswer();
+    if(answer == "Y" || answer == "y") {
+        addPicket(picket);
+        cout << "Data successfully inserted!" << endl;
+        return true;
+    }
+    cout << "Data not inserted." << endl;
+    delete picket;
+    return false;
+}
+
+bool Company::createTask() {
+    string function = readOperations::readRole("Function:");
+
+    int nodeId = readOperations::readNumber<long int>("Node ID: ");
+
+    int duration = readOperations::readNumber<int>("Duration: ");
+
+    cout << endl << "Are you sure you want to insert the following data? (Y|N)" << endl << endl;
+    Task* task = new Task(function, nodeId, duration);
+    cout << *task << endl;
+
+    string answer = readOperations::confirmAnswer();
+    if(answer == "Y" || answer == "y") {
+        addTask(task);
+        cout << "Data successfully inserted!" << endl;
+        return true;
+    }
+    cout << "Data not inserted." << endl;
+    delete task;
+    return false;
 }
 
 

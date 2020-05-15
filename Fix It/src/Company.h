@@ -39,6 +39,8 @@ public:
     void auxiliaryDestructor(vector<Type> &elements);
     void showPicketsInfo() const;
     void showTasksInfo() const;
+    bool createPicket();
+    bool createTask();
 };
 
 template<class Type>
