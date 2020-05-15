@@ -48,7 +48,7 @@ namespace generalFunctions {
 
     template <class T>
     double heuristicDistance(Vertex<T> *origin, Vertex<T> *dest) {
-        return sqrt(pow(origin->getX() - dest->getY(), 2) + pow(origin->getY() - dest->getY(), 2));
+        return sqrt(pow(origin->getX() - dest->getX(), 2) + pow(origin->getY() - dest->getY(), 2));
     }
 }
 

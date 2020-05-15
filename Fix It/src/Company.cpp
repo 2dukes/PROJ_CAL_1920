@@ -128,7 +128,7 @@ bool Company::readNodes(const string &filename) {
             // printf("X: %lf | Y: %lf\n", x, y);
             Vertex<long int> vertex(id);
             this->cityGraph.addVertex(id, x, y);
-            printf("X: %lf | T: %lf\n", this->cityGraph.findVertex(id)->getX(), x);
+//            printf("X: %lf | T: %lf\n", this->cityGraph.findVertex(id)->getX(),xhis->city);
         }
         f.close();
         return true;
@@ -172,6 +172,10 @@ bool Company::readEdges(const string &filename) {
 
 bool Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
     return readNodes(nodesFile) && readEdges(edgesFile);
+}
+
+const Graph<long> &Company::getCityGraph() const {
+    return cityGraph;
 }
 
 

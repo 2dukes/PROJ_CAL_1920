@@ -23,6 +23,7 @@ public:
     Company(string name);
     ~Company();
     string getName();
+    const Graph<long> &getCityGraph() const;
     bool readPicketsFile(const string& filename);
     bool readTasksFile(const string& filename);
     bool writePicketsFile(const string& filename);
@@ -31,13 +32,11 @@ public:
     void addTask(Task* task);
     vector<Picket*> getPickets();
     vector<Task*> getTasks();
-    template<class Type>
-    void auxiliaryDestructor(vector<Type> &elements);
     bool readNodes(const string &filename);
     bool readEdges(const string &filename);
     bool readCityGraph(const string &nodesFile, const string &edgesFile);
-
-
+    template<class Type>
+    void auxiliaryDestructor(vector<Type> &elements);
 
 };
 

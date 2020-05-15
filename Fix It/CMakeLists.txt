@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 project(Fix_It)
 
 set(CMAKE_CXX_STANDARD 14)
+link_libraries(ws2_32 wsock32)
 
 include_directories(src)
 add_executable( Fix_It
@@ -26,4 +27,7 @@ add_executable( Fix_It
                 src/UserInterface/Menu.cpp
                 src/UserInterface/Menu.h
                 src/Algorithms/AStarBiDir.h
-                src/GraphInterface.cpp)
+                src/GraphInterface.cpp
+                lib/graphviewer.cpp
+                lib/edgetype.h
+                lib/connection.cpp)

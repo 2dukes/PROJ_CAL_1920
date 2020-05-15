@@ -169,9 +169,10 @@ Vertex<T>* Edge<T>::getDest() {
 
 template <class T>
 class Graph {
-    vector<Vertex<T> *> vertexSet;    // Vertex Set
+    vector<Vertex<T> *> vertexSet; // Vertex Set
 public:
     Vertex<T> *findVertex(const T &in) const;
+    const vector<Vertex<T>* >& getVertexSet() const;
     int getNumVertex() const;
     bool addVertex(const T &in, double x, double y);
     bool removeVertex(const T &in);
@@ -283,6 +284,11 @@ vector<T> Graph<T>::getPath(const T &origin, const T &dest) const { // Works for
         res.push_back(v->info);
     reverse(res.begin(), res.end());
     return res;
+}
+
+template<class T>
+const vector<Vertex<T>* >& Graph<T>::getVertexSet() const{
+    return vertexSet;
 }
 
 
