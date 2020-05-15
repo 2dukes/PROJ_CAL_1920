@@ -30,7 +30,7 @@ int main() {
     }
     graphI.displayOporto(edgesTotal);
     */
-    
+
 
     return 0;
 }
