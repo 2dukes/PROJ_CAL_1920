@@ -50,6 +50,9 @@ namespace generalFunctions {
     double heuristicDistance(Vertex<T> *origin, Vertex<T> *dest) {
         return sqrt(pow(origin->getX() - dest->getX(), 2) + pow(origin->getY() - dest->getY(), 2));
     }
+
+    void processCoordinates(double x, double y, double &minX, double &minY, double &maxX, double &maxY);
+
 }
 
 

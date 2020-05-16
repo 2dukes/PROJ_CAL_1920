@@ -11,6 +11,9 @@
 #include "Task.h"
 #include "Graph/Graph.h"
 
+#define INF_NEG std::numeric_limits<double>::min()
+
+
 using namespace std;
 
 class Company {

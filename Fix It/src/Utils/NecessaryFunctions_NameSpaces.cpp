@@ -103,4 +103,16 @@ namespace generalFunctions {
         return vec;
     }
 
+    void processCoordinates(double x, double y, double &minX, double &minY, double &maxX, double &maxY) {
+        if(x > maxX)
+            maxX = x;
+        else if(x < minX)
+            minX = x;
+
+        if(y > maxY)
+            maxY = y;
+        else if(y < minY)
+            minY = y;
+
+    }
 }

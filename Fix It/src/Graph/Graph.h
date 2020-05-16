@@ -21,6 +21,8 @@ template <class T> class Vertex;
 
 #define INF std::numeric_limits<double>::max()
 
+enum MAP_ZONE {ZONE1, ZONE2, ZONE3, ZONE4};
+
 /*
  * ================================================================================================
  * Class Vertex
@@ -33,6 +35,13 @@ class Vertex {
     vector<Edge<T> *> outgoing; // Outgoing Edges
     vector<Edge<T> *> incoming; // Incoming
 
+    MAP_ZONE vZone;
+public:
+    MAP_ZONE getVZone() const;
+
+    void setVZone(MAP_ZONE vZone);
+
+private:
     double weight;
     double dist = 0;
     bool visited;               // for path finding
@@ -182,6 +191,16 @@ public:
     Vertex<T>* initDestinationPathAlg(const T &destination);
     vector<T> getPath(const T &origin, const T &dest) const;
 };
+
+template<class T>
+MAP_ZONE Vertex<T>::getVZone() const {
+    return vZone;
+}
+
+template<class T>
+void Vertex<T>::setVZone(MAP_ZONE vZone) {
+    Vertex::vZone = vZone;
+}
 
 template <class T>
 int Graph<T>::getNumVertex() const {
