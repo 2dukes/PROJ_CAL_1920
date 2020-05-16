@@ -4,7 +4,6 @@
 
 #include <fstream>
 #include <iostream>
-#include <iomanip>
 
 #include "Company.h"
 #include "Utils/NecessaryFunctions_NameSpaces.h"
@@ -13,6 +12,8 @@ Company::Company(string name) {
     this->name = name;
     readPicketsFile("../files/pickets.txt");
     readTasksFile("../files/tasks.txt");
+    readNodes("../maps/Porto/nodes_x_y_porto.txt");
+    readEdges("../maps/Porto/edges_porto.txt");
 }
 
 string Company::getName() {
@@ -55,7 +56,36 @@ bool Company::readPicketsFile(const string& filename) {
 }
 
 bool Company::readTasksFile(const string& filename) {
-    return false;
+    ifstream f;
+    f.open(filename);
+    int duration;
+    long int nodeId;
+    string function, aux;
+    char delim = ' ';
+    if (f.is_open()) {
+        while(!f.eof()) {
+            getline(f, aux, delim);
+            getline(f, function);
+            getline(f, aux, delim);
+            f >> nodeId;
+            f.clear();
+            f.ignore(1000, '\n');
+            getline(f, aux, delim);
+            f >> duration;
+            f.clear();
+            f.ignore(1000, '\n');
+            getline(f, aux);
+
+            Task* task = new Task(function, nodeId, duration);
+            addTask(task);
+        }
+        f.close();
+        return true;
+    }
+    else {
+        cerr << "Error reading the file " << filename << endl;
+        return false;
+    }
 }
 
 bool Company::writePicketsFile(const string& filename) {
@@ -63,13 +93,9 @@ bool Company::writePicketsFile(const string& filename) {
     f.open(filename, ios::out);
     if (f.is_open()) {
         for (auto it = pickets.begin(); it != pickets.end(); it++) {
-            f << "Name: " << (*it)->getName() << endl;
-            f << "Roles: ";
-            f << generalFunctions::coutVectorString((*it)->getRoles());
-            f << endl << "Tasks Done: " << (*it)->getNumTasksDone();
-
+            f << **it;
             if (it != pickets.end() - 1)
-                f << endl << endl << "::::::::::" << endl << endl;
+                f << endl << "::::::::::" << endl << endl;
         }
         f.close();
         return true;
@@ -81,7 +107,21 @@ bool Company::writePicketsFile(const string& filename) {
 }
 
 bool Company::writeTasksFile(const string& filename) {
-    return false;
+    ofstream f;
+    f.open(filename, ios::out);
+    if (f.is_open()) {
+        for (auto it = tasks.begin(); it != tasks.end(); it++) {
+            f << **it;
+            if (it != tasks.end() - 1)
+                f << endl << "::::::::::" << endl << endl;
+        }
+        f.close();
+        return true;
+    }
+    else {
+        cerr << "Error opening the file " << filename << endl;
+        return false;
+    }
 }
 
 void Company::addPicket(Picket* picket) {
@@ -126,7 +166,6 @@ bool Company::readNodes(const string &filename) {
                 cerr << "Error reading the file " << filename << endl;
                 return false;
             }
-            // printf("X: %lf | Y: %lf\n", x, y);
             Vertex<long int> vertex(id);
             this->cityGraph.addVertex(id, x, y);
             generalFunctions::processCoordinates(x, y, minX, minY, maxX, maxY);
@@ -179,9 +218,6 @@ bool Company::readEdges(const string &filename) {
             this->cityGraph.addEdge(idNode1, idNode2,
                     generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
                                                              this->cityGraph.findVertex(idNode2)));
-
-//            printf("X: %lf | Y: %lf | Distance: %lf \n", this->cityGraph.findVertex(idNode1)->getX(), this->cityGraph.findVertex(idNode2)->getY(),  generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
-//                                                                                                                             this->cityGraph.findVertex(idNode2)));
         }
         f.close();
         return true;
@@ -198,6 +234,61 @@ bool Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
 
 const Graph<long> &Company::getCityGraph() const {
     return cityGraph;
+}
+
+void Company::showPicketsInfo() const {
+    for (Picket *picket: pickets) {
+        cout << *picket << endl;
+    }
+}
+
+void Company::showTasksInfo() const {
+    for (Task *task: tasks) {
+        cout << *task << endl;
+    }
+}
+
+bool Company::createPicket() {
+    string name = readOperations::readString("Name:");
+    cout << "Enter the roles of the picket; write 'exit' to stop" << endl;
+    vector<string> roles = readOperations::readVectorString("Role: ");
+    int tasksDone = readOperations::readNumber<int>("Tasks Done: ");
+
+    cout << endl << "Are you sure you want to insert the following data? (Y|N)" << endl << endl;
+    Picket* picket = new Picket(name, roles, tasksDone);
+    cout << *picket << endl;
+
+    string answer = readOperations::confirmAnswer();
+    if(answer == "Y" || answer == "y") {
+        addPicket(picket);
+        cout << "Data successfully inserted!" << endl;
+        return true;
+    }
+    cout << "Data not inserted." << endl;
+    delete picket;
+    return false;
+}
+
+bool Company::createTask() {
+    string function = readOperations::readRole("Function:");
+
+    int nodeId = readOperations::readNumber<long int>("Node ID: ");
+
+    int duration = readOperations::readNumber<int>("Duration: ");
+
+    cout << endl << "Are you sure you want to insert the following data? (Y|N)" << endl << endl;
+    Task* task = new Task(function, nodeId, duration);
+    cout << *task << endl;
+
+    string answer = readOperations::confirmAnswer();
+    if(answer == "Y" || answer == "y") {
+        addTask(task);
+        cout << "Data successfully inserted!" << endl;
+        return true;
+    }
+    cout << "Data not inserted." << endl;
+    delete task;
+    return false;
 }
 
 

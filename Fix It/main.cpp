@@ -15,38 +15,12 @@ using namespace std;
 #include "GraphInterface.h"
 
 int main() {
+
+    Company company("Fix It");
+
+    mainMenu(company);
+
     /*
-    Time beginTime1("12:30");
-    Time endTime1("15:10");
-
-    Time beginTime2("15:11");
-    Time endTime2("16:20");
-
-    vector<string> roles;
-    roles.push_back("Eletricista");
-    roles.push_back("Canalisador");
-
-    Picket* picket = new Picket("Ze", roles, 0);
-
-    Task* task1 = new Task("Eletricista", "12.214, 13.214", beginTime1, endTime1);
-    Task* task2 = new Task("Canalisador", "13.214, 14.214", beginTime2, endTime2);
-
-    picket->addTask(task1);
-    picket->addTask(task2);
-
-    cout << "Num tasks done: " << to_string(picket->getNumTasksDone()) << endl;
-    */
-
-    Company company("Fix It"); // TODO UNCOMMENT Company CONSTRUCTOR & DESTRUCTOR!
-
-    //mainMenu(company);
-    company.readNodes("../maps/Porto/nodes_x_y_porto.txt");
-    company.readEdges("../maps/Porto/edges_porto.txt");
-
-    /* Display Nodes */
-//    GraphInterface graphI(1920, 1080);
-//    graphI.displayPath(company.getCityGraph().getVertexSet());
-
     GraphInterface graphI(1920, 1080);
     vector<Edge<long>*> edgesTotal;
 
@@ -55,8 +29,8 @@ int main() {
             edgesTotal.push_back(e);
     }
     graphI.displayOporto(edgesTotal);
+    */
 
 
-    cout << "Hello World!" << endl;
     return 0;
 }

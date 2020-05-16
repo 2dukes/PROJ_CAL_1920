@@ -3,6 +3,7 @@
 //
 
 #include "Picket.h"
+#include "Utils/NecessaryFunctions_NameSpaces.h"
 
 #include <algorithm>
 #include <iostream>
@@ -73,6 +74,13 @@ bool Picket::timeIsCompatible(const Time &time1, const Time &time2) const {
             return false;
     }
     return true;
+}
+
+ostream &operator<<(ostream &os, const Picket &picket) {
+    os << "Name: " << picket.getName() << endl;
+    os << "Roles: " << generalFunctions::coutVectorString(picket.getRoles()) << endl;
+    os << "Tasks Done: " << picket.getNumTasksDone() << endl;
+    return os;
 }
 
 

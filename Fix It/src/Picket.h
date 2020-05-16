@@ -36,6 +36,7 @@ public:
     bool addTask(Task *task);
     vector<Task*> getTasks() const;
     int getNumTasksDone() const;
+    friend ostream& operator<<(ostream& os, const Picket &picket);
 };
 
 

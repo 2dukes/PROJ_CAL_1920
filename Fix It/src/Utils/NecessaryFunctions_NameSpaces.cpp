@@ -16,6 +16,17 @@ namespace verifyInputs
         return false;
     }
 
+    bool verifyStringRole(std::string role) {
+        if (role.empty() || std::cin.eof() ||
+            (role != "Eletricista" && role != "Canalizador" && role != "Tecnico Informatico"
+                && role != "Trolha" && role != "Picheleiro"))
+        {
+            std::cout << "Invalid Role! Please enter a valid role." << std::endl;
+            return true;
+        }
+        return false;
+    }
+
     bool verifyNumber()
     {
         if (std::cin.fail() || std::cin.eof())
@@ -38,6 +49,34 @@ namespace readOperations {
             getline(std::cin, auxStr);
         } while(verifyInputs::verifyString(auxStr));
         return auxStr;
+    }
+
+    std::string readRole(std::string parameter) {
+        std::string auxStr;
+        do
+        {
+            std::cout << parameter;
+            getline(std::cin, auxStr);
+        } while(verifyInputs::verifyStringRole(auxStr));
+        return auxStr;
+    }
+
+    std::vector<std::string> readVectorString(std::string parameter) {
+        std::string auxStr;
+        std::vector<std::string> resultVector;
+        int itr = 0;
+        do {
+            while (true) {
+                std::cout << ++itr << ". " << parameter;
+                getline(std::cin, auxStr);
+                if (auxStr == "exit" || verifyInputs::verifyStringRole(auxStr))
+                    break;
+                resultVector.push_back(auxStr);
+            }
+
+        } while(auxStr != "exit");
+
+        return resultVector;
     }
 
     std::string confirmAnswer()

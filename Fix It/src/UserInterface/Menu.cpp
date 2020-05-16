@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <limits> // Used in numeric_limits<streamsize>::max()
+#include <GraphInterface.h>
 
 using namespace std;
 
@@ -32,9 +33,10 @@ void mainMenu(Company &company) {
     string companyName = company.getName();
 
     cout << string(100, '\n');
-    vector<string> mainChoices = { "1. Display", "2. Manage", "0. Exit" };
-    vector<string> manageChoices = { "1. Create", "2. Alter", "3. Remove", "0. Main Menu" };
-    vector<string> manageSecundaryChoices = { "1. Other Worker", "0. Previous Menu" };
+    vector<string> mainChoices = { "1. Display and Manage Pickets and Tasks", "2. View city graph", "3. Assign Tasks to the Pickets", "0. Exit" };
+    vector<string> firstChoices = { "1. Display Pickets", "2. Display Tasks", "3. Create Picket", "4. Create Task", "0. Main Menu" };
+    vector<string> secondChoices = { "1. Display Graph", "0. Main Menu" };
+    vector<string> thirdChoices = { "1. Assign Tasks to the Pickets", "0. Main Menu" };
     vector<string> viewAvailablePackChoices = { "1. Other Workers", "0. Main Menu" };
 
     do
@@ -62,22 +64,33 @@ void mainMenu(Company &company) {
         {
             case 1:
                 // Option 1.
-                option = displays(viewAvailablePackChoices, mainChoices.at(mainMenu - 1), companyName);
+                option = displays(firstChoices, mainChoices.at(mainMenu - 1), companyName);
                 switch (option)
                 {
                     case 1:
                     {
-                        // Display | Other Workers
-                        //company.displayOtherWorkers();
+                        company.showPicketsInfo();
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();
                         break;
                     }
                     case 2:
                     {
-                        /// Display | Technical Team
-
-                        //company.displayTechnicalTeamMembers();
+                        company.showTasksInfo();
+                        cout << endl << endl << "Press any key to continue...";
+                        cin.get();
+                        break;
+                    }
+                    case 3:
+                    {
+                        company.createPicket();
+                        cout << endl << endl << "Press any key to continue...";
+                        cin.get();
+                        break;
+                    }
+                    case 4:
+                    {
+                        company.createTask();
                         cout << endl << endl << "Press any key to continue...";
                         cin.get();
                         break;
@@ -87,23 +100,30 @@ void mainMenu(Company &company) {
                 }
                 break;
             case 2:
-                option = displays(viewAvailablePackChoices, mainChoices.at(mainMenu - 1), companyName);
+                option = displays(secondChoices, mainChoices.at(mainMenu - 1), companyName);
                 switch (option)
                 {
                     case 1:
                     {
-                        // Display | Other Workers
-                        //company.displayOtherWorkers();
+                        /* Display Nodes */
+                        GraphInterface graphI(1920, 1080);
+                        graphI.displayPath(company.getCityGraph().getVertexSet());
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();
                         break;
                     }
-                    case 2:
+                    default:
+                        break;
+                }
+                break;
+            case 3:
+                option = displays(thirdChoices, mainChoices.at(mainMenu - 1), companyName);
+                switch (option)
+                {
+                    case 1:
                     {
-                        /// Display | Technical Team
 
-                        //company.displayTechnicalTeamMembers();
-                        cout << endl << endl << "Press any key to continue...";
+                        cout << endl << endl << "Press any Enter to continue...";
                         cin.get();
                         break;
                     }

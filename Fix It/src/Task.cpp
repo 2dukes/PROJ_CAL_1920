@@ -9,17 +9,25 @@
 
 int Task::current_id = 0;
 
-Task::Task(string function, string localCoords, Time beginTime, Time endTime) {
+Task::Task(string function, long int nodeId, int durationMinutes) {
     this->function = function;
-    this->localCoords = localCoords;
-    this->beginTime = beginTime;
-    this->endTime = endTime;
+    this->nodeId = nodeId;
+    this->durationMinutes = durationMinutes;
+    this->beginTime = Time(0, 0);
     responsiblePicket = nullptr;
     id = current_id++;
 }
 
-string Task::getLocalCoords() const {
-    return localCoords;
+long int Task::getNodeId() const {
+    return nodeId;
+}
+
+string Task::getFunction() const {
+    return function;
+}
+
+int Task::getDurationMinutes() const {
+    return durationMinutes;
 }
 
 Time Task::getBeginTime() const {
@@ -27,23 +35,15 @@ Time Task::getBeginTime() const {
 }
 
 Time Task::getEndTime() const {
-    return endTime;
-}
-
-void Task::setLocalCoords(const string &localCoords) {
-    this->localCoords = localCoords;
+    return beginTime.addMinutes(durationMinutes);
 }
 
 void Task::setBeginTime(Time &beginTime) {
     this->beginTime = beginTime;
 }
 
-void Task::setEndTime(Time &endTime) {
-    this->endTime = endTime;
-}
-
 bool Task::setResponsiblePicket(Picket *picket) {
-    if (isDone()) {
+    if (hasPicket()) {
         cerr << "This task is already attributed to the picket with id " + to_string(this->responsiblePicket->getId()) << endl;
         return false;
     }
@@ -56,13 +56,24 @@ bool Task::setResponsiblePicket(Picket *picket) {
         cerr << "The picket with id " << picket->getId() << " does not have the role " + function << endl;
         return false;
     }
-
 }
 
 Picket *Task::getResponsiblePicket() const {
     return responsiblePicket;
 }
 
-bool Task::isDone() const {
+bool Task::hasPicket() const {
     return responsiblePicket != nullptr;
 }
+
+bool Task::hasDefinedTime() const {
+    return !(beginTime == Time(0, 0));
+}
+
+ostream &operator<<(ostream &os, const Task &task) {
+    os << "Function: " << task.getFunction() << endl;
+    os << "NodeId: " << task.getNodeId() << endl;
+    os << "Duration: " << task.getDurationMinutes() << endl;
+    return os;
+}
+

@@ -40,7 +40,10 @@ public:
     bool readCityGraph(const string &nodesFile, const string &edgesFile);
     template<class Type>
     void auxiliaryDestructor(vector<Type> &elements);
-
+    void showPicketsInfo() const;
+    void showTasksInfo() const;
+    bool createPicket();
+    bool createTask();
 };
 
 template<class Type>
