@@ -6,12 +6,12 @@
 template <class T>
 class DijkstraBiDir: public Dijkstra<T> { // TODO TEST Bidirectional Dijkstra!
 public:
-    DijkstraBiDir(const Graph<T>* graph);
+    DijkstraBiDir(Graph<T>* graph);
     void dijkstraBiDirShortestPath(const T &origin, const T &dest);
 };
 
 template <class T>
-DijkstraBiDir<T>::DijkstraBiDir(const Graph<T>* graph) : Dijkstra<T>(graph) { }
+DijkstraBiDir<T>::DijkstraBiDir(Graph<T>* graph) : Dijkstra<T>(graph) { }
 
 template <class T>
 void DijkstraBiDir<T>::dijkstraBiDirShortestPath(const T &origin, const T &dest) {

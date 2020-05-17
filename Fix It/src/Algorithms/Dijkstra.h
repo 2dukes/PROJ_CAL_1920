@@ -10,7 +10,7 @@ protected:
     Graph<T>* graph;
 
 public:
-    Dijkstra(const Graph<T>* graph);
+    Dijkstra(Graph<T>* graph);
 
     // ----------------------------- MULTI THREAD ----------------------------- //
 
@@ -25,14 +25,14 @@ public:
 
     void dijkstraShortestPath(const T &origin, const T &dest);
     bool relaxSingle(Vertex<T> *v, Vertex<T> *w, double weight);
-    void directDijkstraStepSingle(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v) const;
+    void directDijkstraStepSingle(MutablePriorityQueue<Vertex<T>> &q, Vertex<T> *v);
 
     bool hasIntersected;
     friend class Graph<T>;
 };
 
 template<class T>
-Dijkstra<T>::Dijkstra(const Graph<T> *graph) {
+Dijkstra<T>::Dijkstra(Graph<T> *graph) {
     this->graph = graph;
 }
 
@@ -108,7 +108,7 @@ bool Dijkstra<T>::dijkstraShortestPathBi(const T &origin, const T &dest, bool is
 template<class T>
 void Dijkstra<T>::directDijkstraStep(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v, Vertex<T>* previousVertex) const {
     for(auto e : v->outgoing) {
-        auto oldDist = e->dest->dist;
+        auto oldDist = e->dest->weight;
         if (relax(v, e->dest, e.weight, previousVertex)) {
             if (oldDist == INF)
                 q.insert(e->dest);
@@ -121,7 +121,7 @@ void Dijkstra<T>::directDijkstraStep(MutablePriorityQueue<Vertex<T>> &q, const V
 template<class T>
 void Dijkstra<T>::invDijkstraStep(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v, Vertex<T>* previousVertex) const {
     for(auto e : v->incoming) {
-        auto oldDist = e->orig->dist;
+        auto oldDist = e->orig->weight;
         if (relaxInv(v, e->orig, e.weight, previousVertex)) {
             if (oldDist == INF)
                 q.insert(e->orig);
@@ -134,10 +134,10 @@ void Dijkstra<T>::invDijkstraStep(MutablePriorityQueue<Vertex<T>> &q, const Vert
 // ----------------------------- SINGLE THREAD ----------------------------- //
 
 template<class T>
-void Dijkstra<T>::directDijkstraStepSingle(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v) const {
+void Dijkstra<T>::directDijkstraStepSingle(MutablePriorityQueue<Vertex<T>> &q, Vertex<T> *v) {
     for(auto e : v->outgoing) {
-        auto oldDist = e->dest->dist;
-        if (relaxSingle(v, e->dest, e.weight)) {
+        auto oldDist = e->dest->weight;
+        if (relaxSingle(v, e->dest, e->weight)) {
             if (oldDist == INF)
                 q.insert(e->dest);
             else
@@ -157,19 +157,37 @@ inline bool Dijkstra<T>::relaxSingle(Vertex<T> *v, Vertex<T> *w, double weight) 
     return false;
 }
 
-template <class T>
+template<class T>
 void Dijkstra<T>::dijkstraShortestPath(const T &origin, const T &dest) {
-    auto t = findVertex(dest); // Destination Vertex
-    auto s = graph->initPathAlg(origin);
-    MutablePriorityQueue<Vertex<T>> q;
-    q.insert(s);
-    while(!q.empty()) {
-        auto v = q.extractMin();
+    for(Vertex<T> * vertex: graph->getVertexSet()) {
+        vertex->dist = INT32_MAX;
+        vertex->path = NULL;
+    }
 
-        if(v->getInfo() == t->getInfo())
-            break;
+    Vertex<T>* orig = graph->findVertex(origin);
+    orig->dist = 0;
 
-        directDijkstraStepSingle(q, v);
+    MutablePriorityQueue<Vertex<T>> vertexQueue;
+    vertexQueue.insert(orig);
+    bool belongsToQueue = false;
+
+    while(!vertexQueue.empty()) {
+        Vertex<T>* vertex = vertexQueue.extractMin();
+        for(Edge<T>* edge: vertex->outgoing) {
+            if(edge->dest->dist > vertex->dist + edge->weight) { // Means that edge.dest can be updated to a smaller value.
+                if(edge->dest->dist == INT32_MAX)
+                    belongsToQueue = false;
+
+                edge->dest->dist = vertex->dist + edge->weight;
+                edge->dest->path = vertex;
+                if(!belongsToQueue) { // If element not in queue
+                    vertexQueue.insert(edge->dest);
+                    belongsToQueue = true;
+                }
+                else // If element in queue -> Push element to the top...
+                    vertexQueue.decreaseKey(edge->dest);
+            }
+        }
     }
 }
 

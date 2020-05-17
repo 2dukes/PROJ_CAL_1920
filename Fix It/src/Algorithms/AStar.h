@@ -14,7 +14,7 @@ protected:
     Graph<T>* graph;
 
 public:
-    AStar(const Graph<T>* graph);
+    AStar(Graph<T>* graph);
 
     // ----------------------------- MULTI THREAD ----------------------------- //
 
@@ -37,7 +37,7 @@ public:
 };
 
 template<class T>
-AStar<T>::AStar(const Graph<T> *graph) {
+AStar<T>::AStar(Graph<T> *graph) {
     this->graph = graph;
 }
 
@@ -147,7 +147,7 @@ bool AStar<T>::isIntersecting(Vertex<T>* vertex, bool isInverted, Vertex<T>* pre
 template<class T>
 void AStar<T>::AStarStepSingle(MutablePriorityQueue<Vertex<T>> &q, const Vertex<T> *v, const Vertex<T>* t) const {
     for (auto e : v->outgoing) {
-        if (relaxSingle(v, e->dest, e.weight, t)) {
+        if (relaxSingle(v, e->dest, e->weight, t)) {
             if (!q.find(e->dest))
                 q.insert(e->dest);
             else
@@ -171,7 +171,7 @@ inline bool AStar<T>::relaxSingle(Vertex<T> *v, Vertex<T> *w, double weight, Ver
 
 template<class T>
 void AStar<T>::AStarShortestPath(const T &origin, const T &dest) {
-    auto t = findVertex(dest); // Destination Vertex
+    auto t = graph->findVertex(dest); // Destination Vertex
     auto s = graph->initPathAlg(origin);
 
     MutablePriorityQueue<Vertex<T>> q; // Ordered by gScore

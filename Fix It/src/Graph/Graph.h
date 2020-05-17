@@ -31,6 +31,7 @@ enum MAP_ZONE {ZONE1, ZONE2, ZONE3, ZONE4};
 
 template <class T>
 class Vertex {
+public:
     T info;                     // Content
     vector<Edge<T> *> outgoing; // Outgoing Edges
     vector<Edge<T> *> incoming; // Incoming
@@ -40,13 +41,14 @@ public:
     MAP_ZONE getVZone() const;
 
     void setVZone(MAP_ZONE vZone);
+    bool visited;               // for path finding
 
-private:
+public:
     double weight;
     double dist = 0;
-    bool visited;               // for path finding
+
     bool invVisited;            // for intersections in BiDirs
-    Edge<T> *path;              // for path finding
+    Vertex<T> *path;              // for path finding
     int queueIndex = 0; 		// required by MutablePriorityQueue
     double x;
     double y;
@@ -146,7 +148,7 @@ double Vertex<T>::getY() {
 
 template <class T>
 class Edge {
-protected:
+public:
     Vertex<T> * orig;      // origin vertex
     Vertex<T> * dest;      // destination vertex
     double weight;         // edge weight
@@ -208,14 +210,11 @@ int Graph<T>::getNumVertex() const {
 }
 
 template <class T>
-Vertex<T> * Graph<T>::findVertex(const T &in) const { // encrava aqui (linha 176 Company.cpp)
-    // !!! chega aqui !!!
+Vertex<T> * Graph<T>::findVertex(const T &in) const {
     for (auto v : vertexSet) {
-        // !!! não chega aqui !!!
         if (v->info == in)
             return v;
     }
-    cout << "here0" << endl; // !!! não chega aqui !!!
     return NULL;
 }
 

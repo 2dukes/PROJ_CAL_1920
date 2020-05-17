@@ -13,7 +13,6 @@
 
 #define INF_NEG std::numeric_limits<double>::min()
 
-
 using namespace std;
 
 class Company {

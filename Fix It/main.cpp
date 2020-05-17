@@ -32,7 +32,21 @@ int main() {
     graphI.displayOporto(edgesTotal);
     */
 
-    //TSP<long> stp(company.getCityGraph());
+//    TSP<long> tsp(company.getCityGraph());
+//
+//    tsp.calculatePath({435240968, 435477344, 444004655}, 444004649, 444004644);
+
+    Graph<long int> *g = company.getCityGraph();
+
+    Dijkstra<long int> dijkstra(g);
+
+    dijkstra.dijkstraShortestPath(1223751626, 1223751630);
+    vector<long int> vec = g->getPath(1223751626, 1223751630);
+
+    for (auto x: vec) {
+        cout << x << endl;
+    }
+    
 
 
     return 0;

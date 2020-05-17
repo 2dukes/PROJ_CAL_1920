@@ -9,7 +9,7 @@ protected:
     Graph<T>* graph;
 
 public:
-    SearchAlgorithm(const Graph<T>* graph);
+    SearchAlgorithm(Graph<T>* graph);
     vector<T> dfs() const;
     vector<T> bfs(const T &source) const;
     void dfsVisit(Vertex<T> *v, vector<T> &res) const;
@@ -17,7 +17,7 @@ public:
 };
 
 template<class T>
-SearchAlgorithm<T>::SearchAlgorithm(const Graph<T> *graph) {
+SearchAlgorithm<T>::SearchAlgorithm(Graph<T> *graph) {
     this->graph = graph;
 }
 
@@ -46,7 +46,7 @@ void SearchAlgorithm<T>::dfsVisit(Vertex<T> *v, vector<T> & res) const {
 template <class T>
 vector<T> SearchAlgorithm<T>::bfs(const T & source) const {
     vector<T> res;
-    for(auto vertex: graph->vertexSet)
+    for(auto vertex: graph->getVertexSet())
         vertex->visited = false;
 
     queue<Vertex<T> *> vertexQueue;
