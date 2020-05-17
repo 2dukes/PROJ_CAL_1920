@@ -107,7 +107,7 @@ void mainMenu(Company &company) {
                     {
                         /* Display Nodes */
                         GraphInterface graphI(1920, 1080);
-                        graphI.displayPath(company.getCityGraph().getVertexSet());
+                        graphI.displayPath(company.getCityGraph()->getVertexSet());
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();
                         break;

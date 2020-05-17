@@ -20,13 +20,13 @@ class Company {
     string name;
     vector<Picket*> pickets;
     vector<Task*> tasks;
-    Graph<long int> cityGraph;
+    Graph<long int> *cityGraph;
 
 public:
     Company(string name);
     ~Company();
     string getName();
-    const Graph<long> &getCityGraph() const;
+    Graph<long> *getCityGraph() const;
     bool readPicketsFile(const string& filename);
     bool readTasksFile(const string& filename);
     bool writePicketsFile(const string& filename);

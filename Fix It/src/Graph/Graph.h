@@ -48,8 +48,8 @@ private:
     bool invVisited;            // for intersections in BiDirs
     Edge<T> *path;              // for path finding
     int queueIndex = 0; 		// required by MutablePriorityQueue
-    long double x;
-    long double y;
+    double x;
+    double y;
 
     Edge<T> * addEdge(Vertex<T> *dest, double w);
     bool removeEdgeTo(Vertex<T> *d);
@@ -208,17 +208,22 @@ int Graph<T>::getNumVertex() const {
 }
 
 template <class T>
-Vertex<T> * Graph<T>::findVertex(const T &in) const {
-    for (auto v : vertexSet)
+Vertex<T> * Graph<T>::findVertex(const T &in) const { // encrava aqui (linha 176 Company.cpp)
+    // !!! chega aqui !!!
+    for (auto v : vertexSet) {
+        // !!! não chega aqui !!!
         if (v->info == in)
             return v;
+    }
+    cout << "here0" << endl; // !!! não chega aqui !!!
     return NULL;
 }
 
 template <class T>
 bool Graph<T>::addVertex(const T &in, double x, double y) {
-    if(findVertex(in) != NULL) // Vertex already exists
+    if(findVertex(in) != NULL) { // Vertex already exists
         return false;
+    }
     else {
         Vertex<T>* newVertex = new Vertex<T>(in);
         newVertex->setX(x);

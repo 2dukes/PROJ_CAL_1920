@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <Utils/Time.h>
+#include <Algorithms/TSP.h>
 
 using namespace std;
 
@@ -18,7 +19,7 @@ int main() {
 
     Company company("Fix It");
 
-    mainMenu(company);
+    //mainMenu(company);
 
     /*
     GraphInterface graphI(1920, 1080);
@@ -30,6 +31,8 @@ int main() {
     }
     graphI.displayOporto(edgesTotal);
     */
+
+    //TSP<long> stp(company.getCityGraph());
 
 
     return 0;
