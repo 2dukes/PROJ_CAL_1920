@@ -4,6 +4,7 @@
 #include <iostream>
 #include <limits> // Used in numeric_limits<streamsize>::max()
 #include <GraphInterface.h>
+#include "../Algorithms/Clustering.h"
 
 using namespace std;
 
@@ -107,7 +108,15 @@ void mainMenu(Company &company) {
                     {
                         /* Display Nodes */
                         GraphInterface graphI(1920, 1080);
-                        graphI.displayPath(company.getCityGraph().getVertexSet());
+                        vector<Edge<long>*> edgesTotal;
+
+                        for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
+                            for(Edge<long>* e: v->getOutgoingEdges())
+                                edgesTotal.push_back(e);
+                        }
+                        graphI.displayOporto(edgesTotal);
+//                        GraphInterface graphI(1920, 1080);
+//                        graphI.displayOporto(company.getCityGraph().getVertexSet());
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();
                         break;
@@ -122,6 +131,21 @@ void mainMenu(Company &company) {
                 {
                     case 1:
                     {
+                        vector<long> task_NodesIDs;
+                        for(Task* task: company.getTasks())
+                            task_NodesIDs.push_back(task->getNodeId());
+
+                        Clustering<long> clusterAlg(&company.getCityGraph());
+                        clusterAlg.calculateClustering(task_NodesIDs);
+
+                        GraphInterface graphI(1920, 1080);
+                        vector<Edge<long>*> edgesTotal;
+
+                        for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
+                            for(Edge<long>* e: v->getOutgoingEdges())
+                                edgesTotal.push_back(e);
+                        }
+                        graphI.displayOporto(edgesTotal);
 
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();

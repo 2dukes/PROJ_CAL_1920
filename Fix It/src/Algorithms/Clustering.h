@@ -10,30 +10,30 @@
 #define MIN_DIST 500
 
 template <class T>
-typedef struct destStruct {
+struct destStruct{
     Vertex<T>* dest;
     double dist;
 };
 
 template <class T>
 class Clustering {
-    Graph<T>* cityGraph;
+    const Graph<T>* cityGraph;
 public:
-    Clustering(Graph<T>* cityGraph);
+    Clustering(const Graph<T>* cityGraph);
     void calculateClustering(vector<T> auxPOIs);
     typename vector<Vertex<T>*>::iterator getClosestVertex(Vertex<T>* source, vector<Vertex<T>*> POIs);
     double getFurthestVertex(Vertex<T>* source, vector<Vertex<T>*> POIs);
 };
 
 template<class T>
-Clustering<T>::Clustering(Graph<T> *cityGraph) {
+Clustering<T>::Clustering(const Graph<T> *cityGraph) {
         this->cityGraph = cityGraph;
 }
 
 template<class T>
 void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spanning Tree algorithm for clustering, but using an heuristic approach!
     if(auxPOIs.size() == 1) {
-        cityGraph->findVertex(auxPOIs.at(0))->setvZone(ZONE1);
+        cityGraph->findVertex(auxPOIs.at(0))->setVZone(ZONE1);
         return;
     }
 
@@ -41,7 +41,7 @@ void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spann
     map<T, destStruct<T>> nodeMinDistance;
 
     // Construct POIs vector...
-    for(Vertex<T> idNode: auxPOIs)
+    for(T idNode: auxPOIs)
         POIs.push_back(cityGraph->findVertex(idNode));
 
     typedef typename vector<Vertex<T>*>::iterator iterator;
@@ -57,7 +57,7 @@ void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spann
 
     while(POIs.size() > 1) {
         POIs.erase(iTr);
-        iTr = getClosestVertex(currVertex);
+        iTr = getClosestVertex(currVertex, POIs);
 
         destStruct<T> auxStruct;
         auxStruct.dest = *iTr;
@@ -71,17 +71,17 @@ void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spann
 
     int borderDist = auxDistances.at(auxDistances.size() - num_clusters);
 
-    typedef typename map<T, double>::iterator mapIT;
+    typedef typename map<T, destStruct<T>>::iterator mapIT;
     int zoneI = 0;
     auto zone = static_cast<MAP_ZONE>(zoneI);
     for(mapIT iterator = nodeMinDistance.begin(); iterator != nodeMinDistance.end(); iterator++) {
         if(iterator->second.dist < borderDist) {
-            cityGraph->findVertex(iterator->first)->setvZone(zone);
-            cityGraph->findVertex(iterator->second.dest)->setvZone(zone);
+            cityGraph->findVertex(iterator->first)->setVZone(zone);
+            (iterator->second.dest)->setVZone(zone);
         }
         else {
             zone = static_cast<MAP_ZONE>(++zoneI);
-            cityGraph->findVertex(iterator->second.dest)->setvZone(zone);
+            (iterator->second.dest)->setVZone(zone);
         }
     }
 }

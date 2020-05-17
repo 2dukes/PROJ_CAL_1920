@@ -67,6 +67,8 @@ void GraphInterface::displayOporto(vector<Edge<T> *> edgesPath) {
             graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "blue");
         else if(auxEdge->getOrig()->getVZone() == ZONE3)
             graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "red");
+        else if(auxEdge->getOrig()->getVZone() == ZONE3)
+            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "black");
 
         if(auxEdge->getDest()->getVZone() == ZONE1)
             graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "green");
@@ -74,7 +76,8 @@ void GraphInterface::displayOporto(vector<Edge<T> *> edgesPath) {
             graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "blue");
         else if(auxEdge->getDest()->getVZone() == ZONE3)
             graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "red");
-
+        else if(auxEdge->getDest()->getVZone() == ZONE3)
+            graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "black");
         graphViewer->addEdge(edgeID++, auxEdge->getOrig()->getInfo(), auxEdge->getDest()->getInfo(), EdgeType::DIRECTED);
     }
     graphViewer->rearrange();

@@ -21,7 +21,7 @@ template <class T> class Vertex;
 
 #define INF std::numeric_limits<double>::max()
 
-enum MAP_ZONE {ZONE1 = 0, ZONE2, ZONE3};
+enum MAP_ZONE {ZONE1 = 0, ZONE2, ZONE3, ZONE4};
 
 /*
  * ================================================================================================
