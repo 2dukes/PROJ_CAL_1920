@@ -168,7 +168,7 @@ bool Company::readNodes(const string &filename) {
             }
             Vertex<long int> vertex(id);
             this->cityGraph.addVertex(id, x, y);
-            generalFunctions::processCoordinates(x, y, minX, minY, maxX, maxY);
+//            generalFunctions::processCoordinates(x, y, minX, minY, maxX, maxY);
 //            printf("X: %lf | T: %lf\n", this->cityGraph.findVertex(id)->getX(),x);
         }
         f.close();
@@ -177,25 +177,25 @@ bool Company::readNodes(const string &filename) {
         cerr << "Error reading the file " << filename << endl;
         return false;
     }
-    printf("MaxX: %lf | MaxY: %lf | MinX: %lf | MinY: %lf\n", maxX, maxY, minX, minY);
-    double halfX = (maxX + minX) / 2;
-    double halfY = (maxY + minY) / 2;
-    printf("HALFX: %lf | HALFY: %lf \n", halfX, halfY);
-
-    for(auto vertex: this->cityGraph.getVertexSet()) {
-        if(vertex->getX() >= halfX) {
-            if(vertex->getY() >= halfY) // ZONE TOP_RIGHT
-                vertex->setVZone(ZONE1);
-            else                       // ZONE BOTTOM_RIGHT
-                vertex->setVZone(ZONE3);
-        }
-        else {
-            if(vertex->getY() >= halfY)  // ZONE TOP_LEFT
-                vertex->setVZone(ZONE2);
-            else                        // ZONE BOTTOM_LEFT
-                vertex->setVZone(ZONE4);
-        }
-    }
+//    printf("MaxX: %lf | MaxY: %lf | MinX: %lf | MinY: %lf\n", maxX, maxY, minX, minY);
+//    double halfX = (maxX + minX) / 2;
+//    double halfY = (maxY + minY) / 2;
+//    printf("HALFX: %lf | HALFY: %lf \n", halfX, halfY);
+//
+//    for(auto vertex: this->cityGraph.getVertexSet()) {
+//        if(vertex->getX() >= halfX) {
+//            if(vertex->getY() >= halfY) // ZONE TOP_RIGHT
+//                vertex->setVZone(ZONE1);
+//            else                       // ZONE BOTTOM_RIGHT
+//                vertex->setVZone(ZONE3);
+//        }
+//        else {
+//            if(vertex->getY() >= halfY)  // ZONE TOP_LEFT
+//                vertex->setVZone(ZONE2);
+//            else                        // ZONE BOTTOM_LEFT
+//                vertex->setVZone(ZONE4);
+//        }
+//    }
 
     return true;
 }

@@ -21,7 +21,7 @@ template <class T> class Vertex;
 
 #define INF std::numeric_limits<double>::max()
 
-enum MAP_ZONE {ZONE1, ZONE2, ZONE3, ZONE4};
+enum MAP_ZONE {ZONE1 = 0, ZONE2, ZONE3};
 
 /*
  * ================================================================================================
@@ -150,6 +150,7 @@ protected:
     Vertex<T> * orig;      // origin vertex
     Vertex<T> * dest;      // destination vertex
     double weight;         // edge weight
+    double realDistance;   // heuristinc distance
 public:
     Edge(Vertex<T> *o, Vertex<T> *d, double w);
     Vertex<T>* getOrig();
@@ -159,7 +160,7 @@ public:
 };
 
 template <class T>
-Edge<T>::Edge(Vertex<T> *o, Vertex<T> *d, double w): orig(o), dest(d), weight(w) {}
+Edge<T>::Edge(Vertex<T> *o, Vertex<T> *d, double w): orig(o), dest(d), realDistance(w) {}
 
 template <class T>
 Vertex<T>* Edge<T>::getOrig() {
@@ -170,6 +171,7 @@ template <class T>
 Vertex<T>* Edge<T>::getDest() {
     return dest;
 }
+
 
 /* ================================================================================================
  * Class Graph

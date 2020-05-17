@@ -32,5 +32,5 @@ add_executable( Fix_It
                 lib/edgetype.h
                 lib/connection.cpp
                 src/Algorithms/TSP.h
-                src/Algorithms/Prim.h
+        src/Algorithms/Clustering.h
                 )
