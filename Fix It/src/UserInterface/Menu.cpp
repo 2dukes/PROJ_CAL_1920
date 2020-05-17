@@ -142,8 +142,12 @@ void mainMenu(Company &company) {
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
-                            for(Edge<long>* e: v->getOutgoingEdges())
+                            for(Edge<long>* e: v->getOutgoingEdges()) {
                                 edgesTotal.push_back(e);
+//                                if(e->getOrig()->getVZone() >= 1 && e->getOrig()->getVZone() <= 6)
+//                                    cout << e->getOrig()->getInfo()<< endl;
+                            }
+
                         }
                         graphI.displayOporto(edgesTotal);
 

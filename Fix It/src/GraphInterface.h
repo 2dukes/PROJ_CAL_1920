@@ -61,27 +61,54 @@ void GraphInterface::displayOporto(vector<Edge<T> *> edgesPath) {
         graphViewer->addNode(auxEdge->getOrig()->getInfo(), calculateX(auxEdge->getOrig()->getX()), calculateY(auxEdge->getOrig()->getY()));
         graphViewer->addNode(auxEdge->getDest()->getInfo(), calculateX(auxEdge->getDest()->getX()), calculateY(auxEdge->getDest()->getY()));
 
-        if(auxEdge->getOrig()->getVZone() == ZONE1)
-            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "green");
-        else if(auxEdge->getOrig()->getVZone() == ZONE2)
-            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "blue");
-        else if(auxEdge->getOrig()->getVZone() == ZONE3)
-            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "red");
-        else if(auxEdge->getOrig()->getVZone() == ZONE3)
-            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "black");
+        if(auxEdge->getOrig()->getVZone() >= 1 && auxEdge->getOrig()->getVZone() <= 6)
+            cout << auxEdge->getOrig()->getVZone() << endl ;
 
-        if(auxEdge->getDest()->getVZone() == ZONE1)
+        if(auxEdge->getOrig()->getVZone() == ZONE1) {
+            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "green");
+            graphViewer->setVertexSize(auxEdge->getOrig()->getInfo(), 100);
+        }
+        else if(auxEdge->getOrig()->getVZone() == ZONE2) {
+            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "blue");
+            graphViewer->setVertexSize(auxEdge->getOrig()->getInfo(), 100);
+        }
+        else if(auxEdge->getOrig()->getVZone() == ZONE3) {
+            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "red");
+            graphViewer->setVertexSize(auxEdge->getOrig()->getInfo(), 100);
+        }
+        else if(auxEdge->getOrig()->getVZone() == ZONE4) {
+            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "black");
+            graphViewer->setVertexSize(auxEdge->getOrig()->getInfo(), 100);
+        }
+        else if(auxEdge->getOrig()->getVZone() == ZONE5) {
+            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "cyan");
+            graphViewer->setVertexSize(auxEdge->getOrig()->getInfo(), 100);
+        }
+
+        if(auxEdge->getDest()->getVZone() == ZONE1) {
             graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "green");
-        else if(auxEdge->getDest()->getVZone() == ZONE2)
+            graphViewer->setVertexSize(auxEdge->getDest()->getInfo(), 100);
+        }
+        else if(auxEdge->getDest()->getVZone() == ZONE2) {
             graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "blue");
-        else if(auxEdge->getDest()->getVZone() == ZONE3)
+            graphViewer->setVertexSize(auxEdge->getDest()->getInfo(), 100);
+        }
+        else if(auxEdge->getDest()->getVZone() == ZONE3) {
             graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "red");
-        else if(auxEdge->getDest()->getVZone() == ZONE3)
+            graphViewer->setVertexSize(auxEdge->getDest()->getInfo(), 100);
+        }
+        else if(auxEdge->getDest()->getVZone() == ZONE4) {
             graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "black");
+            graphViewer->setVertexSize(auxEdge->getDest()->getInfo(), 100);
+        }
+        else if(auxEdge->getDest()->getVZone() == ZONE5) {
+            graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "cyan");
+            graphViewer->setVertexSize(auxEdge->getDest()->getInfo(), 100);
+        }
+
         graphViewer->addEdge(edgeID++, auxEdge->getOrig()->getInfo(), auxEdge->getDest()->getInfo(), EdgeType::DIRECTED);
     }
     graphViewer->rearrange();
-    sleep(15);
 }
 
 #endif //FIX_IT_GRAPHINTERFACE_H
