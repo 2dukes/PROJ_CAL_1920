@@ -30,4 +30,7 @@ add_executable( Fix_It
                 src/GraphInterface.cpp
                 lib/graphviewer.cpp
                 lib/edgetype.h
-                lib/connection.cpp src/Algorithms/TSP.h)
+                lib/connection.cpp
+                src/Algorithms/TSP.h
+                src/Algorithms/Prim.h
+                )

@@ -57,8 +57,28 @@ void GraphInterface::displayOporto(vector<Edge<T> *> edgesPath) {
     int edgeID = 0;
     for(int eIndex = 0; eIndex < edgesPath.size(); eIndex++) {
         Edge<T>* auxEdge = edgesPath[eIndex];
+
         graphViewer->addNode(auxEdge->getOrig()->getInfo(), calculateX(auxEdge->getOrig()->getX()), calculateY(auxEdge->getOrig()->getY()));
         graphViewer->addNode(auxEdge->getDest()->getInfo(), calculateX(auxEdge->getDest()->getX()), calculateY(auxEdge->getDest()->getY()));
+
+        if(auxEdge->getOrig()->getVZone() == ZONE1)
+            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "green");
+        else if(auxEdge->getOrig()->getVZone() == ZONE2)
+            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "blue");
+        else if(auxEdge->getOrig()->getVZone() == ZONE3)
+            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "red");
+        else if(auxEdge->getOrig()->getVZone() == ZONE4)
+            graphViewer->setVertexColor(auxEdge->getOrig()->getInfo(), "black");
+
+        if(auxEdge->getDest()->getVZone() == ZONE1)
+            graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "green");
+        else if(auxEdge->getDest()->getVZone() == ZONE2)
+            graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "blue");
+        else if(auxEdge->getDest()->getVZone() == ZONE3)
+            graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "red");
+        else if(auxEdge->getDest()->getVZone() == ZONE4)
+            graphViewer->setVertexColor(auxEdge->getDest()->getInfo(), "black");
+
         graphViewer->addEdge(edgeID++, auxEdge->getOrig()->getInfo(), auxEdge->getDest()->getInfo(), EdgeType::DIRECTED);
     }
     graphViewer->rearrange();
