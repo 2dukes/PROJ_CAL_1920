@@ -36,7 +36,7 @@ void mainMenu(Company &company) {
     cout << string(100, '\n');
     vector<string> mainChoices = { "1. Display and Manage Pickets and Tasks", "2. View city graph", "3. Assign Tasks to the Pickets", "0. Exit" };
     vector<string> firstChoices = { "1. Display Pickets", "2. Display Tasks", "3. Create Picket", "4. Create Task", "0. Main Menu" };
-    vector<string> secondChoices = { "1. Display Graph", "0. Main Menu" };
+    vector<string> secondChoices = { "1. Display Graph", "2. Display Clusters", "0. Main Menu" };
     vector<string> thirdChoices = { "1. Assign Tasks to the Pickets", "0. Main Menu" };
     vector<string> viewAvailablePackChoices = { "1. Other Workers", "0. Main Menu" };
 
@@ -114,22 +114,14 @@ void mainMenu(Company &company) {
                             for(Edge<long>* e: v->getOutgoingEdges())
                                 edgesTotal.push_back(e);
                         }
-                        graphI.displayOporto(edgesTotal);
+                        graphI.displayOporto(edgesTotal, company.getCityGraph().getVertexSet());
 //                        GraphInterface graphI(1920, 1080);
 //                        graphI.displayOporto(company.getCityGraph().getVertexSet());
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();
                         break;
                     }
-                    default:
-                        break;
-                }
-                break;
-            case 3:
-                option = displays(thirdChoices, mainChoices.at(mainMenu - 1), companyName);
-                switch (option)
-                {
-                    case 1:
+                    case 2:
                     {
                         vector<long> task_NodesIDs;
                         for(Task* task: company.getTasks())
@@ -149,7 +141,23 @@ void mainMenu(Company &company) {
                             }
 
                         }
-                        graphI.displayOporto(edgesTotal);
+                        graphI.displayOporto(edgesTotal, company.getCityGraph().getVertexSet());
+
+                        cout << endl << endl << "Press any Enter to continue...";
+                        cin.get();
+                        break;
+                    }
+                    default:
+                        break;
+                }
+                break;
+            case 3:
+                option = displays(thirdChoices, mainChoices.at(mainMenu - 1), companyName);
+                switch (option)
+                {
+                    case 1:
+                    {
+
 
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();

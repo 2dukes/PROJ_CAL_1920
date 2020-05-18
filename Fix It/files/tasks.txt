@@ -34,24 +34,6 @@ Duration: 180
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 114315563
-Duration: 180
-
-::::::::::
-
-Function: Trolha
-NodeId: 128655647
-Duration: 300
-
-::::::::::
-
-Function: Eletricista
-NodeId: 413301119
-Duration: 30
-
-::::::::::
-
 Function: Canalizador
 NodeId: 789709526
 Duration: 60
@@ -59,26 +41,17 @@ Duration: 60
 ::::::::::
 
 Function: Eletricista
-NodeId: 478861797
-Duration: 180
-
-::::::::::
-
-Function: Picheleiro
-NodeId: 137851199
+NodeId: 424016883
 Duration: 30
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 112634554
-Duration: 120
+Function: Canalizador
+NodeId: 424013916
+Duration: 60
 
 ::::::::::
 
 Function: Eletricista
-NodeId: 128591079
+NodeId: 417060478
 Duration: 180
-
-
-
