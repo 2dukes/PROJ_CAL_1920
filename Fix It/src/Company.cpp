@@ -12,8 +12,8 @@ Company::Company(string name) {
     this->name = name;
     readPicketsFile("../files/pickets.txt");
     readTasksFile("../files/tasks.txt");
-    readNodes("../maps/Porto/nodes_x_y_porto.txt");
-    readEdges("../maps/Porto/edges_porto.txt");
+    readNodes("../maps/Porto/nodes.txt");
+    readEdges("../maps/Porto/edges.txt");
 }
 
 string Company::getName() {
@@ -168,10 +168,11 @@ bool Company::readNodes(const string &filename) {
             }
             Vertex<long int> vertex(id);
             this->cityGraph.addVertex(id, x, y);
-//            generalFunctions::processCoordinates(x, y, minX, minY, maxX, maxY);
+            generalFunctions::processCoordinates(x, y, minX, minY, maxX, maxY);
 //            printf("X: %lf | T: %lf\n", this->cityGraph.findVertex(id)->getX(),x);
         }
         f.close();
+        return true;
     }
     else {
         cerr << "Error reading the file " << filename << endl;
@@ -197,7 +198,6 @@ bool Company::readNodes(const string &filename) {
 //        }
 //    }
 
-    return true;
 }
 
 bool Company::readEdges(const string &filename) {
@@ -232,7 +232,7 @@ bool Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
     return readNodes(nodesFile) && readEdges(edgesFile);
 }
 
-const Graph<long> &Company::getCityGraph() const {
+Graph<long> &Company::getCityGraph() {
     return cityGraph;
 }
 

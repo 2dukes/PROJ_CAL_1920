@@ -107,7 +107,7 @@ void mainMenu(Company &company) {
                     case 1:
                     {
                         /* Display Nodes */
-                        GraphInterface graphI(1920, 1080);
+                        GraphInterface graphI(625, 625);
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
@@ -130,7 +130,7 @@ void mainMenu(Company &company) {
                         Clustering<long> clusterAlg(&company.getCityGraph());
                         clusterAlg.calculateClustering(task_NodesIDs);
 
-                        GraphInterface graphI(1920, 1080);
+                        GraphInterface graphI(625, 625);
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {

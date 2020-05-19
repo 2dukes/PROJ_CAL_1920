@@ -31,25 +31,7 @@ enum MAP_ZONE {ZONE0 = 0, ZONE1 = 1, ZONE2 = 2, ZONE3 = 3};
 
 template <class T>
 class Vertex {
-    T info;                     // Content
-    vector<Edge<T> *> outgoing; // Outgoing Edges
-    vector<Edge<T> *> incoming; // Incoming
 
-    MAP_ZONE vZone;
-public:
-    MAP_ZONE getVZone() const;
-
-    void setVZone(MAP_ZONE vZone);
-
-private:
-    double weight;
-    double dist = 0;
-    bool visited;               // for path finding
-    bool invVisited;            // for intersections in BiDirs
-    Edge<T> *path;              // for path finding
-    int queueIndex = 0; 		// required by MutablePriorityQueue
-    long double x;
-    long double y;
 
     Edge<T> * addEdge(Vertex<T> *dest, double w);
     bool removeEdgeTo(Vertex<T> *d);
@@ -64,6 +46,24 @@ public:
     void setY(double y);
     double getX();
     double getY();
+
+    MAP_ZONE getVZone() const;
+
+    void setVZone(MAP_ZONE vZone);
+    T info;                     // Content
+    vector<Edge<T> *> outgoing; // Outgoing Edges
+    vector<Edge<T> *> incoming; // Incoming
+    double weight;
+    bool visited;               // for path finding
+    bool invVisited;            // for intersections in BiDirs
+    Vertex<T> *path;              // for path finding
+    int queueIndex = 0; 		// required by MutablePriorityQueue
+    long double x;
+    long double y;
+
+    MAP_ZONE vZone;
+    double dist = 0;
+
 
     friend class Graph<T>;
     friend class MutablePriorityQueue<Vertex<T>>;
@@ -100,10 +100,15 @@ vector<Edge<T> *> Vertex<T>::getIncomingEdges() const {
 
 template <class T>
 Edge<T> *Vertex<T>::addEdge(Vertex<T> *dest, double w) {
-    Edge<T> * e = new Edge<T>(this, dest, w); // IT'S THE SAME EDGE FOR BOTH VERTICES. DOESN'T SWITCH DIRECTION!
-    this->outgoing.push_back(e);
-    dest->incoming.push_back(e);
-    return e;
+    Edge<T> * e1 = new Edge<T>(this, dest, w);
+    this->outgoing.push_back(e1);
+    dest->incoming.push_back(e1);
+
+    Edge<T> * e2 = new Edge<T>(dest, this, w);
+    dest->outgoing.push_back(e2);
+    this->incoming.push_back(e2);
+
+    return e1;
 }
 
 template <class T>
@@ -146,15 +151,15 @@ double Vertex<T>::getY() {
 
 template <class T>
 class Edge {
-protected:
-    Vertex<T> * orig;      // origin vertex
-    Vertex<T> * dest;      // destination vertex
-    double weight;         // edge weight
-    double realDistance;   // heuristinc distance
 public:
     Edge(Vertex<T> *o, Vertex<T> *d, double w);
     Vertex<T>* getOrig();
     Vertex<T>* getDest();
+    Vertex<T> * orig;      // origin vertex
+    Vertex<T> * dest;      // destination vertex
+    double weight;         // edge weight
+    double realDistance;   // heuristinc distance
+
     friend class Graph<T>;
     friend class Vertex<T>;
 };

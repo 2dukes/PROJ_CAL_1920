@@ -26,7 +26,7 @@ public:
     Company(string name);
     ~Company();
     string getName();
-    const Graph<long> &getCityGraph() const;
+    Graph<long> &getCityGraph();
     bool readPicketsFile(const string& filename);
     bool readTasksFile(const string& filename);
     bool writePicketsFile(const string& filename);

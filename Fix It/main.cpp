@@ -4,6 +4,8 @@
 #include <iostream>
 #include <string>
 #include <Utils/Time.h>
+#include <Algorithms/Dijkstra.h>
+#include <Algorithms/TSP.h>
 
 using namespace std;
 
@@ -20,17 +22,28 @@ int main() {
 
     mainMenu(company);
 
-    /*
-    GraphInterface graphI(1920, 1080);
-    vector<Edge<long>*> edgesTotal;
 
-    for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
-        for(Edge<long>* e: v->getOutgoingEdges())
-            edgesTotal.push_back(e);
+//    GraphInterface graphI(1920, 1080);
+//    graphI.displayPath(company.getCityGraph().getVertexSet());
+
+    TSP<long> newTSP(&company.getCityGraph());
+    vector<long> pois {10, 20, 30, 40, 50, 60, 70};
+    vector<long> BAIDAR = newTSP.calculatePath(pois, 1, 100);
+
+    for(auto vertex: BAIDAR) {
+        cout << vertex << endl;
     }
-    graphI.displayOporto(edgesTotal);
-    */
 
+//    Graph<long>* g = const_cast<Graph<long> *>(&(company.getCityGraph()));
+//
+//    Dijkstra<long int> dijkstra(g);
+//
+//    dijkstra.dijkstraShortestPath(100, 210);
+//    vector<long int> vec = g->getPath(100, 210);
+//
+//    for(auto vertex: vec) {
+//        cout << vertex << endl;
+//    }
 
     return 0;
 }

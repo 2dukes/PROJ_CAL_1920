@@ -52,7 +52,6 @@ void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spann
     typedef typename map<T, destStruct<T>>::iterator mapIT;
     vector<double> auxDistances;
 
-
     int num_clusters = (auxPOIs.size() <= 6 && auxPOIs.size() > 2) ? 1 : 2;
 
     Vertex<T>* cVertex;

@@ -39,8 +39,8 @@ void GraphInterface::displayPath(vector<Vertex<T> *> nodesPath) {
     for(int vIndex = 0; vIndex < nodesPath.size() - 1; vIndex++) {
         Vertex<T>* auxVertex = nodesPath[vIndex];
         Vertex<T>* nextAuxVertex = nodesPath[vIndex + 1];
-        graphViewer->addNode(auxVertex->getInfo(), calculateX(auxVertex->getX()), calculateY(auxVertex->getY()));
-        graphViewer->addNode(nextAuxVertex->getInfo(), calculateX(nextAuxVertex->getX()), calculateY(nextAuxVertex->getY()));
+        graphViewer->addNode(auxVertex->getInfo(), auxVertex->getX(), auxVertex->getY());
+        graphViewer->addNode(nextAuxVertex->getInfo(), nextAuxVertex->getX(), nextAuxVertex->getY());
         graphViewer->addEdge(edgeID++, auxVertex->getInfo(), nextAuxVertex->getInfo(), EdgeType::DIRECTED);
     }
     graphViewer->setVertexColor(nodesPath.at(0)->getInfo(), "red");
@@ -57,7 +57,7 @@ void GraphInterface::displayOporto(vector<Edge<T> *> edgesPath, vector<Vertex<T>
     int edgeID = 0;
 
     for(auto v: vertexes) {
-        graphViewer->addNode(v->getInfo(), calculateX(v->getX()), calculateY(v->getY()));
+        graphViewer->addNode(v->getInfo(), v->getX(), v->getY());
 
 //        if(v->getVZone() >= 1 && v->getVZone() <= 3) {
 //            cout << v->getInfo() << endl;
