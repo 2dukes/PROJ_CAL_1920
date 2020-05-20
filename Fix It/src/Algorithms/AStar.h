@@ -32,8 +32,9 @@ AStar<T>::AStar(Graph<T> *graph) {
 template<class T>
 void AStar<T>::AStarStepSingle(MutablePriorityQueue<Vertex<T>> &q, Vertex<T> *v, Vertex<T>* t) {
     for (auto e : v->outgoing) {
+        auto oldDist = e->dest->weight;
         if (relaxSingle(v, e->dest, e->weight, t)) {
-            if (!q.find(e->dest))
+            if (oldDist == INF)
                 q.insert(e->dest);
             else
                 q.decreaseKey(e->dest);
@@ -65,7 +66,7 @@ void AStar<T>::AStarShortestPath(const T &origin, const T &dest) {
         Vertex<T>* v = q.extractMin();
         v->visited = true;
 
-        if(v->getInfo() == t->getInfo())
+        if(v->getInfo() == dest)
             break;
 
         AStarStepSingle(q, v, t);

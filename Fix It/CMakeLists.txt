@@ -32,10 +32,6 @@ add_executable( Fix_It
                 lib/edgetype.h
                 lib/connection.cpp
                 src/Algorithms/TSP.h
-<<<<<<< HEAD
+                src/Algorithms/Pairing.h
                 src/Algorithms/Clustering.h
                 )
-=======
-        src/Algorithms/Clustering.h
-        src/Algorithms/Pairing.h)
->>>>>>> 2a063d1a53cc2488dfb899c0ec6fd4cf82c43b96
