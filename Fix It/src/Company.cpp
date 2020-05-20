@@ -291,4 +291,11 @@ bool Company::createTask() {
     return false;
 }
 
+void Company::setZonesToTasks() {
+    for (auto task: tasks) {
+        Vertex<long>* v = cityGraph.findVertex(task->getNodeId());
+        task->setZone(v->getVZone());
+    }
+}
+
 

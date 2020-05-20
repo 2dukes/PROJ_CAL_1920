@@ -15,16 +15,16 @@ struct destStruct{
 
 template <class T>
 class Clustering {
-    const Graph<T>* cityGraph;
+    Graph<T>* cityGraph;
 public:
-    Clustering(const Graph<T>* cityGraph);
+    Clustering(Graph<T>* cityGraph);
     void calculateClustering(vector<T> auxPOIs);
     Vertex<T>* getClosestVertex(Vertex<T> *source, vector<Vertex<T> *>& POIs);
     double getFurthestVertex(Vertex<T>* source, vector<Vertex<T>*> POIs);
 };
 
 template<class T>
-Clustering<T>::Clustering(const Graph<T> *cityGraph) {
+Clustering<T>::Clustering(Graph<T> *cityGraph) {
         this->cityGraph = cityGraph;
 }
 

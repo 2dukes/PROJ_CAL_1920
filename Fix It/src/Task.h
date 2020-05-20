@@ -25,6 +25,7 @@ class Task {
     long int nodeId;
     int durationMinutes;
     Time beginTime;
+    MAP_ZONE zone;
 
 public:
     Task(string function, long int nodeId, int durationMinutes);
@@ -39,6 +40,8 @@ public:
     bool hasPicket() const;
     bool hasDefinedTime() const;
     friend ostream& operator<<(ostream& os, const Task &task);
+    void setZone(MAP_ZONE zone);
+    int getZone() const;
 };
 
 

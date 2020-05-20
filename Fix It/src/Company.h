@@ -38,6 +38,7 @@ public:
     bool readNodes(const string &filename);
     bool readEdges(const string &filename);
     bool readCityGraph(const string &nodesFile, const string &edgesFile);
+    void setZonesToTasks();
     template<class Type>
     void auxiliaryDestructor(vector<Type> &elements);
     void showPicketsInfo() const;
