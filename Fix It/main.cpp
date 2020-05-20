@@ -19,20 +19,25 @@ using namespace std;
 #include "GraphInterface.h"
 
 int main() {
-
+    cout << "Loading Maps..." << endl;
     Company company("Fix It");
 
     //mainMenu(company);
 
-    // ===========================================Tasks Divided By Zone==============================
-    // ainda tenho que meter isto na classe Company; não retirar da main para já :)
-
+  
+    /*
     vector<long> task_NodesIDs;
     for(Task* task: company.getTasks())
         task_NodesIDs.push_back(task->getNodeId());
 
+    
     Clustering<long> clusterAlg(&company.getCityGraph());
     clusterAlg.calculateClustering(task_NodesIDs);
+
+    TSP<long> newTSP(&company.getCityGraph());
+    vector<long> pois {26323, 53170};
+    vector<long> BAIDAR = newTSP.calculatePath(pois, 53492, 26590);
+    */
 
     company.setZonesToTasks();
 

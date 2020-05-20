@@ -12,8 +12,8 @@ Company::Company(string name) {
     this->name = name;
     readPicketsFile("../files/pickets.txt");
     readTasksFile("../files/tasks.txt");
-    readNodes("../maps/Porto/nodes.txt");
-    readEdges("../maps/Porto/edges.txt");
+    readNodes("../maps/Porto/porto_strong_nodes_xy.txt");
+    readEdges("../maps/Porto/porto_strong_edges.txt");
 }
 
 string Company::getName() {
@@ -154,7 +154,7 @@ bool Company::readNodes(const string &filename) {
     long int id, aux;
     double x, y;
     string line;
-    double minX = INF, minY = INF, maxX = INF_NEG, maxY = INF_NEG;
+//    double minX = INF, minY = INF, maxX = INF_NEG, maxY = INF_NEG;
 
     if (f.is_open()) {
         f >> aux; // ignorar primeira linha
@@ -168,7 +168,7 @@ bool Company::readNodes(const string &filename) {
             }
             Vertex<long int> vertex(id);
             this->cityGraph.addVertex(id, x, y);
-            generalFunctions::processCoordinates(x, y, minX, minY, maxX, maxY);
+//            generalFunctions::processCoordinates(x, y, minX, minY, maxX, maxY);
 //            printf("X: %lf | T: %lf\n", this->cityGraph.findVertex(id)->getX(),x);
         }
         f.close();
@@ -178,26 +178,6 @@ bool Company::readNodes(const string &filename) {
         cerr << "Error reading the file " << filename << endl;
         return false;
     }
-//    printf("MaxX: %lf | MaxY: %lf | MinX: %lf | MinY: %lf\n", maxX, maxY, minX, minY);
-//    double halfX = (maxX + minX) / 2;
-//    double halfY = (maxY + minY) / 2;
-//    printf("HALFX: %lf | HALFY: %lf \n", halfX, halfY);
-//
-//    for(auto vertex: this->cityGraph.getVertexSet()) {
-//        if(vertex->getX() >= halfX) {
-//            if(vertex->getY() >= halfY) // ZONE TOP_RIGHT
-//                vertex->setVZone(ZONE1);
-//            else                       // ZONE BOTTOM_RIGHT
-//                vertex->setVZone(ZONE3);
-//        }
-//        else {
-//            if(vertex->getY() >= halfY)  // ZONE TOP_LEFT
-//                vertex->setVZone(ZONE2);
-//            else                        // ZONE BOTTOM_LEFT
-//                vertex->setVZone(ZONE4);
-//        }
-//    }
-
 }
 
 bool Company::readEdges(const string &filename) {
@@ -218,6 +198,7 @@ bool Company::readEdges(const string &filename) {
             this->cityGraph.addEdge(idNode1, idNode2,
                     generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
                                                              this->cityGraph.findVertex(idNode2)));
+//            this->cityGraph.addEdge(idNode1, idNode2, 1.0);
         }
         f.close();
         return true;

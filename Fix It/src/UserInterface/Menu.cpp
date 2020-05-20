@@ -5,6 +5,7 @@
 #include <limits> // Used in numeric_limits<streamsize>::max()
 #include <GraphInterface.h>
 #include "../Algorithms/Clustering.h"
+#include "../Algorithms/Square.h"
 
 using namespace std;
 
@@ -107,7 +108,7 @@ void mainMenu(Company &company) {
                     case 1:
                     {
                         /* Display Nodes */
-                        GraphInterface graphI(625, 625);
+                        GraphInterface graphI(1920, 1080);
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
@@ -127,10 +128,10 @@ void mainMenu(Company &company) {
                         for(Task* task: company.getTasks())
                             task_NodesIDs.push_back(task->getNodeId());
 
-                        Clustering<long> clusterAlg(&company.getCityGraph());
-                        clusterAlg.calculateClustering(task_NodesIDs);
+                        Square<long> squareAlg(&company.getCityGraph());
+                        squareAlg.calculateSquare(task_NodesIDs);
 
-                        GraphInterface graphI(625, 625);
+                        GraphInterface graphI(1920, 1080);
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {

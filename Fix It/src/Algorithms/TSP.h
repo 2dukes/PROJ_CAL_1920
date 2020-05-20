@@ -142,10 +142,12 @@ Vertex<T>* TSP<T>::getClosestVertex(Vertex<T> *v, const vector<Vertex<T>*> &othe
 
 template<class T>
 void TSP<T>::buildSolution() {
-    Dijkstra<T> dijkstra(graph);
+    AStar<T> astar(graph);
+//    Dijkstra<T> dijkstra(graph);
 
     for (int i = 0;  i < visitOrder.size() - 1; i++) {
-        dijkstra.dijkstraShortestPath(visitOrder.at(i), visitOrder.at(i+1));
+//        dijkstra.dijkstraShortestPath(visitOrder.at(i), visitOrder.at(i+1));
+        astar.AStarShortestPath(visitOrder.at(i), visitOrder.at(i+1));
         for (int j : graph->getPath(visitOrder.at(i), visitOrder.at(i+1))) {
             lastSolution.push_back(j);
         }

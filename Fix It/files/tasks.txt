@@ -1,57 +1,55 @@
-Function: Eletricista
-NodeId: 50
-Duration: 30
-
-::::::::::
-
 Function: Canalizador
-NodeId: 25
+NodeId: 10723
 Duration: 60
 
 ::::::::::
 
 Function: Eletricista
-NodeId: 75
+NodeId: 34021
 Duration: 180
 
 ::::::::::
 
 Function: Picheleiro
-NodeId: 123
+NodeId: 32934
 Duration: 30
 
 ::::::::::
 
+Function: Canalizador
+NodeId: 38678
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 34009
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27838
+Duration: 180
+
 Function: Picheleiro
-NodeId: 190
+NodeId: 33221
 Duration: 120
 
 ::::::::::
 
 Function: Eletricista
-NodeId: 155
+NodeId: 16577
 Duration: 180
 
 ::::::::::
 
 Function: Canalizador
-NodeId: 14
+NodeId: 12453
 Duration: 60
 
 ::::::::::
 
 Function: Eletricista
-NodeId: 12
+NodeId: 45137
 Duration: 30
-
-::::::::::
-
-Function: Canalizador
-NodeId: 211
-Duration: 60
-
-::::::::::
-
-Function: Eletricista
-NodeId: 112
-Duration: 180

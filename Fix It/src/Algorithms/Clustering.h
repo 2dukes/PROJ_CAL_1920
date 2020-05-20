@@ -55,14 +55,14 @@ void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spann
     int num_clusters = (auxPOIs.size() <= 6 && auxPOIs.size() > 2) ? 1 : 2;
 
     Vertex<T>* cVertex;
-
     for(Vertex<T>* currVertex: POIs) {
         POIsAux = POIs;
         mapIT iTer;
-
         cVertex = getClosestVertex(currVertex, POIsAux);
+
         iTer = nodeMinDistance.find(cVertex->getInfo());
         while(true) {
+
             if(iTer != nodeMinDistance.end()) {
                 if(iTer->second.dest->getInfo() != currVertex->getInfo())
                     break;
@@ -80,7 +80,6 @@ void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spann
             cVertex = getClosestVertex(currVertex, POIsAux);
             iTer = nodeMinDistance.find(cVertex->getInfo());
         }
-
         destStruct<T> auxStruct;
         auxStruct.dest = cVertex;
         auxStruct.dist = generalFunctions::heuristicDistance(currVertex, cVertex);
@@ -91,21 +90,29 @@ void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spann
     }
     sort(auxDistances.begin(), auxDistances.end());
 
-    int borderDist = auxDistances.at(auxDistances.size() - num_clusters);
+    int borderDist = auxDistances.at(auxDistances.size() - num_clusters - 1);
 
     int zoneI = 1;
     auto zone = static_cast<MAP_ZONE>(zoneI);
     int vOccupied = 0;
     int numIter = 0;
+
+
     for(mapIT iterator = nodeMinDistance.begin(); iterator != nodeMinDistance.end(); iterator++) {
+        cout << iterator->first << endl;
         if(iterator->second.dist < borderDist) {
-            if(iterator->second.dest->getVZone() >= 1 && cityGraph->findVertex(iterator->first)->getVZone() == 0)
+            if(iterator->second.dest->getVZone() >= 1 && cityGraph->findVertex(iterator->first)->getVZone() == 0) {
                 cityGraph->findVertex(iterator->first)->setVZone(iterator->second.dest->getVZone());
-            else if (iterator->second.dest->getVZone() == 0 && cityGraph->findVertex(iterator->first)->getVZone() >= 1)
+                cout << "ENTERED1\n";
+            }
+            else if (iterator->second.dest->getVZone() == 0 && cityGraph->findVertex(iterator->first)->getVZone() >= 1) {
                 (iterator->second.dest)->setVZone(cityGraph->findVertex(iterator->first)->getVZone());
+                cout << "ENTERED2\n";
+            }
             else {
                 cityGraph->findVertex(iterator->first)->setVZone(zone);
                 (iterator->second.dest)->setVZone(zone);
+                cout << "ENTERED3\n";
             }
             vOccupied++;
         }
@@ -114,20 +121,22 @@ void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spann
                 zone = static_cast<MAP_ZONE>(++zoneI);
                 vOccupied = 0;
             }
-            (iterator->second.dest)->setVZone(zone);
+            cityGraph->findVertex(iterator->first)->setVZone(zone);
+            vOccupied++;
         }
+        cout << zone << endl;
         numIter++;
     }
 
-//    for(T v: auxPOIs) {
-//        cout << cityGraph->findVertex(v)->getInfo() << " | " << cityGraph->findVertex(v)->getVZone() << endl;
-//    }
-//
-//    for(Vertex<T>* v: cityGraph->getVertexSet()) {
-//        if(v->getVZone() >= 1 && v->getVZone() <= 3)
-//            cout << v->getInfo() << endl;
-//    }
-//    cout << numIter << endl;
+    for(T v: auxPOIs) {
+        cout << cityGraph->findVertex(v)->getInfo() << " | " << cityGraph->findVertex(v)->getVZone() << endl;
+    }
+
+    for(Vertex<T>* v: cityGraph->getVertexSet()) {
+        if(v->getVZone() >= 1 && v->getVZone() <= 3)
+            cout << v->getInfo() << endl;
+    }
+    cout << numIter << endl;
 }
 
 template<class T>
