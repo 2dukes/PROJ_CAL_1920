@@ -140,9 +140,9 @@ vector<Task *> Company::getTasks() {
     return tasks;
 }
 
-Company::~Company() {
-    writePicketsFile("../files/pickets.txt");
-    writeTasksFile("../files/tasks.txt");
+Company::~Company() { // TODO descomentar isto depois (era só pra não 'estragar' os files durantes os testes)
+//    writePicketsFile("../files/pickets.txt");
+//    writeTasksFile("../files/tasks.txt");
 
     auxiliaryDestructor(pickets);
     auxiliaryDestructor(tasks);

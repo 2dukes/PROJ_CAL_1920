@@ -107,5 +107,5 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: 
+Roles: Tecnico Informatico
 Tasks Done: 7

@@ -22,7 +22,7 @@ int main() {
 
     Company company("Fix It");
 
-    mainMenu(company);
+    //mainMenu(company);
 
     // ===========================================Tasks Divided By Zone==============================
 
@@ -35,17 +35,21 @@ int main() {
 
     company.setZonesToTasks();
 
+    company.setStartVertexId(159);
+
     Pairing pairing(company.getTasks(), company.getPickets(), company.getBeginTime(), company.getEndTime(), &company.getCityGraph(), company.getStartVertexId());
 
-    vector<vector<Task*>> tz = pairing.getTasksByZone();
+//    vector<vector<Task*>> tz = pairing.getTasksByZone();
 
-    for (int i = 0; i < tz.size(); i++) {
-        for (int j = 0; j < tz.at(i).size(); j++) {
-            cout << "Task with id: " << tz.at(i).at(j)->getNodeId() << endl;
-            cout << "Zone " <<  tz.at(i).at(j)->getZone() << endl;
-            cout << "-------------------------" << endl;
-        }
-    }
+//    for (int i = 0; i < tz.size(); i++) {
+//        for (int j = 0; j < tz.at(i).size(); j++) {
+//            cout << "Task with id: " << tz.at(i).at(j)->getNodeId() << endl;
+//            cout << "Zone " <<  tz.at(i).at(j)->getZone() << endl;
+//            cout << "-------------------------" << endl;
+//        }
+//    }
+
+    pairing.setTasksToPickets();
 
     // ==============================================================================================
 
