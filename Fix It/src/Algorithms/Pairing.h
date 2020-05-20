@@ -99,7 +99,10 @@ void Pairing::setTasksToPickets() {
                     continue;
                 }
                 for (auto picket: pickets) {
-                    if (picket->verifyRole(function) && picket->getZone() == zone && picket->timeIsCompatible(currentTime, currentTime.addMinutes(task->getDurationMinutes()+1))) {
+                    Time timeCopy = currentTime;
+                    if ((endTime < timeCopy.addMinutes(task->getDurationMinutes())) || (timeCopy.addMinutes(task->getDurationMinutes()) == endTime))
+                        continue;
+                    if (picket->verifyRole(function) && picket->getZone() == zone && picket->timeIsCompatible(timeCopy, timeCopy.addMinutes(task->getDurationMinutes()+1))) {
                         task->setBeginTime(currentTime);
                         currentTime = currentTime.addMinutes(task->getDurationMinutes()+1); // 1 minuto entre cada task; mudar dps
                         picket->addTask(task);
@@ -128,7 +131,7 @@ Task *Pairing::getTaskById(long vertexId) {
 void Pairing::setZonesToPickets() { // divide os piquetes pelas zonas de forma aleatória; mudar isso depois
     int num;
     for (auto picket: pickets) {
-        num = rand() % maxZone;
+        num = rand() % (maxZone);
         picket->setZone(num);
     }
 }

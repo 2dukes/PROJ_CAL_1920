@@ -42,7 +42,7 @@ int main() {
 
     company.setStartVertexId(12722);
     company.setBeginTime(Time("9:00"));
-    company.setEndTime(Time("17:30"));
+    company.setEndTime(Time("18:30"));
 
     Pairing pairing(company.getTasks(), company.getPickets(), company.getBeginTime(), company.getEndTime(), &company.getCityGraph(), company.getStartVertexId());
 
@@ -60,12 +60,34 @@ int main() {
             cout << "-------------------------------------------\n";
         }
         else {
-            cerr << "The task with id " << task->getNodeId() << " does not have a compatible picket" << endl;
+            cerr << "The task with id " << task->getNodeId() << " and zone " << task->getZone()
+                    << " does not have a compatible picket" << endl;
             cout << "-------------------------------------------\n";
         }
     }
 
     // ==============================================================================================
+
+    cout << "\n\n\n";
+
+
+    vector<Picket*> picketsWithTasks = company.getPickets();
+    for (auto picket: picketsWithTasks) {
+        if (picket->getTasks().size() > 0) { // se pelo menos uma tarefa atribuida
+            cout << "Picket with id " << picket->getId() << " and zone " << picket->getZone() << endl;
+            cout << "His tasks are: ";
+            vector<Task*> picketTasks = picket->getTasks();
+            for (auto task: picketTasks) {
+                cout << *task << endl;
+            }
+            cout << "------------------------\n";
+        }
+
+    }
+
+
+
+
 
 
     return 0;

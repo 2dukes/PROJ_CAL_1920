@@ -5,7 +5,7 @@ Duration: 60
 ::::::::::
 
 Function: Eletricista
-NodeId: 34021
+NodeId: 34022
 Duration: 180
 
 ::::::::::
@@ -57,5 +57,23 @@ Duration: 30
 ::::::::::
 
 Function: Tecnico Informatico
-NodeId: 45136
+NodeId: 23072
+Duration: 70
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 49864
 Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 49863
+Duration: 40
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 23351
+Duration: 60
