@@ -140,9 +140,9 @@ vector<Task *> Company::getTasks() {
     return tasks;
 }
 
-Company::~Company() {
-    writePicketsFile("../files/pickets.txt");
-    writeTasksFile("../files/tasks.txt");
+Company::~Company() { // TODO descomentar isto depois (era só pra não 'estragar' os files durantes os testes)
+//    writePicketsFile("../files/pickets.txt");
+//    writeTasksFile("../files/tasks.txt");
 
     auxiliaryDestructor(pickets);
     auxiliaryDestructor(tasks);
@@ -270,6 +270,37 @@ bool Company::createTask() {
     cout << "Data not inserted." << endl;
     delete task;
     return false;
+}
+
+void Company::setZonesToTasks() {
+    for (auto task: tasks) {
+        Vertex<long>* v = cityGraph.findVertex(task->getNodeId());
+        task->setZone(v->getVZone());
+    }
+}
+
+Time Company::getBeginTime() const {
+    return beginTime;
+}
+
+Time Company::getEndTime() const {
+    return endTime;
+}
+
+void Company::setBeginTime(const Time &time) {
+    beginTime = time;
+}
+
+void Company::setEndTime(const Time &time) {
+    endTime = time;
+}
+
+long Company::getStartVertexId() const {
+    return startVertexId;
+}
+
+void Company::setStartVertexId(long vertexId) {
+    startVertexId = vertexId;
 }
 
 

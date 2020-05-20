@@ -20,23 +20,27 @@ class Picket {
     string name;
     vector<string> roles;
     vector<Task*> tasks;
-    static int numTasksDone_static;
+    int zone;
     int numTasksDone;
-    bool timeIsCompatible(const Time &time1, const Time &time2) const;
+
 
 public:
     Picket(string name, vector<string> roles, int numTasksDone);
     int getId() const;
     string getName() const;
     vector<string> getRoles() const;
+    bool verifyRole(const string &role) const;
     void setName(const string &name);
     void setRoles(const vector<string> &roles);
     void addRole(const string &role);
     bool removeRole(const string &role); // true se removeu, false se não existia
+    bool timeIsCompatible(const Time &time1, const Time &time2) const;
     bool addTask(Task *task);
     vector<Task*> getTasks() const;
     int getNumTasksDone() const;
     friend ostream& operator<<(ostream& os, const Picket &picket);
+    void setZone(int zone);
+    int getZone() const;
 };
 
 

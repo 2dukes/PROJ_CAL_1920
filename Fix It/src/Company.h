@@ -21,6 +21,9 @@ class Company {
     vector<Picket*> pickets;
     vector<Task*> tasks;
     Graph<long int> cityGraph;
+    Time beginTime;
+    Time endTime;
+    long startVertexId;
 
 public:
     Company(string name);
@@ -38,12 +41,19 @@ public:
     bool readNodes(const string &filename);
     bool readEdges(const string &filename);
     bool readCityGraph(const string &nodesFile, const string &edgesFile);
+    void setZonesToTasks();
     template<class Type>
     void auxiliaryDestructor(vector<Type> &elements);
     void showPicketsInfo() const;
     void showTasksInfo() const;
     bool createPicket();
     bool createTask();
+    Time getBeginTime() const;
+    Time getEndTime() const;
+    void setBeginTime(const Time &time);
+    void setEndTime(const Time &time);
+    long getStartVertexId() const;
+    void setStartVertexId(long vertexId);
 };
 
 template<class Type>

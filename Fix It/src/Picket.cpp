@@ -15,6 +15,7 @@ Picket::Picket(string name, vector<string> roles, int numTasksDone) {
     this->roles = roles;
     this->numTasksDone = numTasksDone;
     id = current_id++;
+    zone = -1;
 }
 
 int Picket::getId() const {
@@ -81,6 +82,22 @@ ostream &operator<<(ostream &os, const Picket &picket) {
     os << "Roles: " << generalFunctions::coutVectorString(picket.getRoles()) << endl;
     os << "Tasks Done: " << picket.getNumTasksDone() << endl;
     return os;
+}
+
+bool Picket::verifyRole(const string &role) const {
+    for (auto r: roles) {
+        if (r == role)
+            return true;
+    }
+    return false;
+}
+
+void Picket::setZone(int zone) {
+    this->zone = zone;
+}
+
+int Picket::getZone() const {
+    return zone;
 }
 
 

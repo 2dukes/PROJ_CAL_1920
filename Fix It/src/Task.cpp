@@ -77,3 +77,13 @@ ostream &operator<<(ostream &os, const Task &task) {
     return os;
 }
 
+void Task::setZone(MAP_ZONE zone) {
+    this->zone = zone;
+}
+
+int Task::getZone() const {
+    return zone;
+}
+
+
+
