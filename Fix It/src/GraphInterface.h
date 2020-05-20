@@ -77,6 +77,10 @@ void GraphInterface::displayOporto(vector<Edge<T> *> edgesPath, vector<Vertex<T>
             graphViewer->setVertexColor(v->getInfo(), "red");
             graphViewer->setVertexSize(v->getInfo(), 100);
         }
+        else if(v->getVZone() == ZONE4) {
+            graphViewer->setVertexColor(v->getInfo(), "black");
+            graphViewer->setVertexSize(v->getInfo(), 100);
+        }
     }
 
     for(int eIndex = 0; eIndex < edgesPath.size(); eIndex++) {

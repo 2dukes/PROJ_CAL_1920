@@ -34,4 +34,5 @@ add_executable( Fix_It
                 src/Algorithms/TSP.h
                 src/Algorithms/Pairing.h
                 src/Algorithms/Clustering.h
+                src/Algorithms/Square.h
                 )

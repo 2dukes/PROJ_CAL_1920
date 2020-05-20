@@ -17,15 +17,15 @@ using namespace std;
 #include "GraphInterface.h"
 
 int main() {
-
+    cout << "Loading Maps..." << endl;
     Company company("Fix It");
 
     mainMenu(company);
 
-    Dijkstra<long> dijkstra((Graph<long> *) &company.getCityGraph());
-    dijkstra.dijkstraShortestPath(1, 10);
-    vector<long int> BAIDARdeu = company.getCityGraph().getPath(1, 10);
-
+//    Dijkstra<long> dijkstra((Graph<long> *) &company.getCityGraph());
+//    dijkstra.dijkstraShortestPath(53492, 26590);
+//    vector<long int> BAIDARdeu = company.getCityGraph().getPath(53492, 26590);
+//
 //    for(auto vertex: BAIDARdeu) {
 //        cout << vertex << endl;
 //    }
@@ -34,8 +34,8 @@ int main() {
 //    graphI.displayPath(company.getCityGraph().getVertexSet());
 
     TSP<long> newTSP(&company.getCityGraph());
-    vector<long> pois {10, 20, 30, 40, 50, 60, 70};
-    vector<long> BAIDAR = newTSP.calculatePath(pois, 1, 1);
+    vector<long> pois {26323, 53170};
+    vector<long> BAIDAR = newTSP.calculatePath(pois, 53492, 26590);
 
     for(auto vertex: BAIDAR) {
         cout << vertex << endl;
