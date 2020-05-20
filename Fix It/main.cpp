@@ -20,7 +20,7 @@ int main() {
 
     Company company("Fix It");
 
-    mainMenu(company);
+    //mainMenu(company);
 
     Dijkstra<long> dijkstra((Graph<long> *) &company.getCityGraph());
     dijkstra.dijkstraShortestPath(1, 10);
