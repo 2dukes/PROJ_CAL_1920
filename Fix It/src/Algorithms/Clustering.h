@@ -99,20 +99,20 @@ void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spann
 
 
     for(mapIT iterator = nodeMinDistance.begin(); iterator != nodeMinDistance.end(); iterator++) {
-        cout << iterator->first << endl;
+//        cout << iterator->first << endl;
         if(iterator->second.dist < borderDist) {
             if(iterator->second.dest->getVZone() >= 1 && cityGraph->findVertex(iterator->first)->getVZone() == 0) {
                 cityGraph->findVertex(iterator->first)->setVZone(iterator->second.dest->getVZone());
-                cout << "ENTERED1\n";
+//                cout << "ENTERED1\n";
             }
             else if (iterator->second.dest->getVZone() == 0 && cityGraph->findVertex(iterator->first)->getVZone() >= 1) {
                 (iterator->second.dest)->setVZone(cityGraph->findVertex(iterator->first)->getVZone());
-                cout << "ENTERED2\n";
+//                cout << "ENTERED2\n";
             }
             else {
                 cityGraph->findVertex(iterator->first)->setVZone(zone);
                 (iterator->second.dest)->setVZone(zone);
-                cout << "ENTERED3\n";
+//                cout << "ENTERED3\n";
             }
             vOccupied++;
         }
@@ -124,19 +124,19 @@ void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spann
             cityGraph->findVertex(iterator->first)->setVZone(zone);
             vOccupied++;
         }
-        cout << zone << endl;
+//        cout << zone << endl;
         numIter++;
     }
 
     for(T v: auxPOIs) {
-        cout << cityGraph->findVertex(v)->getInfo() << " | " << cityGraph->findVertex(v)->getVZone() << endl;
+//        cout << cityGraph->findVertex(v)->getInfo() << " | " << cityGraph->findVertex(v)->getVZone() << endl;
     }
 
     for(Vertex<T>* v: cityGraph->getVertexSet()) {
-        if(v->getVZone() >= 1 && v->getVZone() <= 3)
-            cout << v->getInfo() << endl;
+        if(v->getVZone() >= 1 && v->getVZone() <= 3) {}
+//            cout << v->getInfo() << endl;
     }
-    cout << numIter << endl;
+//    cout << numIter << endl;
 }
 
 template<class T>
