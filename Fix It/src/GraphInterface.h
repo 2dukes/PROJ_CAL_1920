@@ -55,8 +55,11 @@ void GraphInterface::displayOporto(vector<Edge<T> *> edgesPath, vector<Vertex<T>
     this->graphViewer= new GraphViewer(width, height, false);
     graphViewer->createWindow(this->width, this->height);
     int edgeID = 0;
-
     for(auto v: vertexes) {
+        if(v->getInfo() == 1)
+            graphViewer->setVertexColor(v->getInfo(), "green");
+        if(v->getInfo() == 287)
+            graphViewer->setVertexColor(v->getInfo(), "red");
         graphViewer->addNode(v->getInfo(), v->getX(), v->getY());
 
 //        if(v->getVZone() >= 1 && v->getVZone() <= 3) {

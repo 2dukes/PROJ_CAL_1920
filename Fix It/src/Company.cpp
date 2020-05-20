@@ -215,9 +215,10 @@ bool Company::readEdges(const string &filename) {
                 cerr << "Error reading the file " << filename << endl;
                 return false;
             }
-            this->cityGraph.addEdge(idNode1, idNode2,
-                    generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
-                                                             this->cityGraph.findVertex(idNode2)));
+//            this->cityGraph.addEdge(idNode1, idNode2,
+//                    generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
+//                                                             this->cityGraph.findVertex(idNode2)));
+            this->cityGraph.addEdge(idNode1, idNode2, 1.0);
         }
         f.close();
         return true;

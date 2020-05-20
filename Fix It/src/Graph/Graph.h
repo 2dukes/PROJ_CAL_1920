@@ -158,14 +158,13 @@ public:
     Vertex<T> * orig;      // origin vertex
     Vertex<T> * dest;      // destination vertex
     double weight;         // edge weight
-    double realDistance;   // heuristinc distance
 
     friend class Graph<T>;
     friend class Vertex<T>;
 };
 
 template <class T>
-Edge<T>::Edge(Vertex<T> *o, Vertex<T> *d, double w): orig(o), dest(d), realDistance(w) {}
+Edge<T>::Edge(Vertex<T> *o, Vertex<T> *d, double w): orig(o), dest(d), weight(w) {}
 
 template <class T>
 Vertex<T>* Edge<T>::getOrig() {
