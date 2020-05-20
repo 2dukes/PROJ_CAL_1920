@@ -35,7 +35,7 @@ int main() {
 
     company.setZonesToTasks();
 
-    Pairing pairing(company.getTasks(), company.getPickets());
+    Pairing pairing(company.getTasks(), company.getPickets(), company.getBeginTime(), company.getEndTime(), &company.getCityGraph(), company.getStartVertexId());
 
     vector<vector<Task*>> tz = pairing.getTasksByZone();
 

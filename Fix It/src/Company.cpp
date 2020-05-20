@@ -298,4 +298,28 @@ void Company::setZonesToTasks() {
     }
 }
 
+Time Company::getBeginTime() const {
+    return beginTime;
+}
+
+Time Company::getEndTime() const {
+    return endTime;
+}
+
+void Company::setBeginTime(const Time &time) {
+    beginTime = time;
+}
+
+void Company::setEndTime(const Time &time) {
+    endTime = time;
+}
+
+long Company::getStartVertexId() const {
+    return startVertexId;
+}
+
+void Company::setStartVertexId(long vertexId) {
+    startVertexId = vertexId;
+}
+
 
