@@ -20,7 +20,7 @@ int main() {
 
     Company company("Fix It");
 
-    mainMenu(company);
+    //mainMenu(company);
 
 
 //    GraphInterface graphI(1920, 1080);

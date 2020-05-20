@@ -33,4 +33,4 @@ add_executable( Fix_It
                 lib/connection.cpp
                 src/Algorithms/TSP.h
         src/Algorithms/Clustering.h
-                )
+        src/Algorithms/Pairing.h)
