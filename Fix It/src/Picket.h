@@ -22,7 +22,7 @@ class Picket {
     vector<Task*> tasks;
     int zone;
     int numTasksDone;
-    bool timeIsCompatible(const Time &time1, const Time &time2) const;
+
 
 public:
     Picket(string name, vector<string> roles, int numTasksDone);
@@ -34,6 +34,7 @@ public:
     void setRoles(const vector<string> &roles);
     void addRole(const string &role);
     bool removeRole(const string &role); // true se removeu, false se não existia
+    bool timeIsCompatible(const Time &time1, const Time &time2) const;
     bool addTask(Task *task);
     vector<Task*> getTasks() const;
     int getNumTasksDone() const;

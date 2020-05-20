@@ -88,24 +88,29 @@ void Pairing::setTasksToPickets() {
 
         Time currentTime = beginTime;
         for (auto idVertex: path) {
+            if (endTime < currentTime || endTime == currentTime) {
+                cerr << "Nao foi possivel atribuir as tarefas todas (o tempo nao chegou)\n";
+                break;
+            }
             if (generalFunctions::inVector<long>(tasksIds, idVertex)) { // se o ponto atual do path for o ponto de uma task
                 Task* task = getTaskById(idVertex);
                 string function = task->getFunction();
+                if (task->hasPicket()) {
+                    continue;
+                }
                 for (auto picket: pickets) {
-                    if (picket->verifyRole(function) && picket->getZone() == zone) {
-                        //cout << "The picket with id " << picket->getId() << " will complete the task with id " << idVertex << endl;
+                    if (picket->verifyRole(function) && picket->getZone() == zone && picket->timeIsCompatible(currentTime, currentTime.addMinutes(task->getDurationMinutes()+1))) {
+                        task->setBeginTime(currentTime);
+                        currentTime = currentTime.addMinutes(task->getDurationMinutes()+1); // 1 minuto entre cada task; mudar dps
                         picket->addTask(task);
-                        cout << "  PICKET:" << endl;
-                        cout << "Id: " << picket->getId() << endl;
-                        vector<string> roles = picket->getRoles();
-                        cout << "Roles: " << generalFunctions::coutVectorString(roles) << endl;
-                        cout << "  Task: " << endl;
-                        cout << "Id: " << function << endl;
-                        cout << "Zone: " << zone << endl;
-                        cout << "--------------------\n";
                         break;
                     }
                 }
+            }
+        }
+        for (auto task: tasksToPair) {
+            if (!task->hasPicket()) {
+                cerr << "There is no picket compatible with the task with id " << task->getNodeId() << endl;
             }
         }
     }
