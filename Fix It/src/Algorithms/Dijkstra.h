@@ -17,6 +17,8 @@ protected:
 public:
     Dijkstra(Graph<T>* graph);
     void dijkstraShortestPath(const T &origin, const T &dest);
+    void DijkstraStepSingle(MutablePriorityQueue<Vertex<T>> &vertexQueue, Vertex<T> *vertex);
+    void relaxSingle(MutablePriorityQueue<Vertex<T>> &vertexQueue, Vertex<T> *vertex, const Edge<T> *edge, double oldDist) const;
 };
 
 template<class T>
@@ -41,19 +43,30 @@ void Dijkstra<T>::dijkstraShortestPath(const T &origin, const T &dest) {
         if(vertex->getInfo() == dest)
             break;
 
-        for(Edge<T>* edge: vertex->getOutgoingEdges()) {
-            auto oldDist = edge->dest->weight;
-            if(edge->dest->weight > vertex->weight + edge->weight) { // Means that edge.dest can be updated to a smaller value.
-                edge->dest->weight = vertex->weight + edge->weight;
-                edge->dest->path = vertex;
-                if(oldDist == INF) // If element not in queue
-                    vertexQueue.insert(edge->dest);
-                else // If element in queue -> Push element to the top...
-                    vertexQueue.decreaseKey(edge->dest);
-            }
-        }
+        DijkstraStepSingle(vertexQueue, vertex);
     }
 
+}
+
+template <class T>
+void Dijkstra<T>::DijkstraStepSingle(MutablePriorityQueue<Vertex<T>> &vertexQueue, Vertex<T> *vertex) {
+    for(Edge<T>* edge: vertex->getOutgoingEdges()) {
+        auto oldDist = edge->dest->weight;
+        relaxSingle(vertexQueue, vertex, edge, oldDist);
+    }
+}
+
+template <class T>
+void Dijkstra<T>::relaxSingle(MutablePriorityQueue<Vertex<T>> &vertexQueue, Vertex<T> *vertex, const Edge<T> *edge,
+                      double oldDist) const {
+    if(edge->dest->weight > vertex->weight + edge->weight) { // Means that edge.dest can be updated to a smaller value.
+        edge->dest->weight = vertex->weight + edge->weight;
+        edge->dest->path = vertex;
+        if(oldDist == INF) // If element not in queue
+            vertexQueue.insert(edge->dest);
+        else // If element in queue -> Push element to the top...
+            vertexQueue.decreaseKey(edge->dest);
+    }
 }
 
 #endif //FIX_IT_DIJKSTRA_H
