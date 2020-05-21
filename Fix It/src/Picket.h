@@ -23,6 +23,7 @@ class Picket {
     int zone;
     int numTasksDone;
     vector<long> path;
+    Time currentTime;
 
 
 public:
@@ -45,6 +46,8 @@ public:
     void setPath(vector<long> path);
     void addToPath(long nodeId);
     vector<long> getPath() const;
+    void setInitTime(const Time &time);
+    Time getCurrentTime() const;
 };
 
 

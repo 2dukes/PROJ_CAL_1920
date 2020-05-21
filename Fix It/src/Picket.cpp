@@ -47,11 +47,12 @@ bool Picket::removeRole(const string &role) {
 }
 
 bool Picket::addTask(Task *task) {
-    if (!timeIsCompatible(task->getBeginTime(), task->getEndTime())) {
+    if (!timeIsCompatible(task->getBeginTime(), task->getEndTime().addMinutes(1))) {
         cerr << "The task time is not compatible with the tasks of the picket" << endl;
         return false;
     }
     if (task->setResponsiblePicket(this)) {
+        currentTime = currentTime.addMinutes(task->getDurationMinutes()+1); // mudar pra peso das arestas
         tasks.push_back(task);
         numTasksDone++;
         return true;
@@ -110,6 +111,14 @@ vector<long> Picket::getPath() const {
 
 void Picket::addToPath(long nodeId) {
     path.push_back(nodeId);
+}
+
+void Picket::setInitTime(const Time &time) {
+    currentTime = time;
+}
+
+Time Picket::getCurrentTime() const {
+    return currentTime;
 }
 
 
