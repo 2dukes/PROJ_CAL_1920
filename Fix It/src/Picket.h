@@ -22,6 +22,7 @@ class Picket {
     vector<Task*> tasks;
     int zone;
     int numTasksDone;
+    vector<long> path;
 
 
 public:
@@ -41,6 +42,9 @@ public:
     friend ostream& operator<<(ostream& os, const Picket &picket);
     void setZone(int zone);
     int getZone() const;
+    void setPath(vector<long> path);
+    void addToPath(long nodeId);
+    vector<long> getPath() const;
 };
 
 

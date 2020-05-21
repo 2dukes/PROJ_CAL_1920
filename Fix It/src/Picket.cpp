@@ -100,5 +100,17 @@ int Picket::getZone() const {
     return zone;
 }
 
+void Picket::setPath(vector<long> path) {
+    this->path = path;
+}
+
+vector<long> Picket::getPath() const {
+    return path;
+}
+
+void Picket::addToPath(long nodeId) {
+    path.push_back(nodeId);
+}
+
 
 

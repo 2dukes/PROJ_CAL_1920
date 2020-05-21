@@ -71,14 +71,10 @@ vector<vector<Task *>> Pairing::getTasksByZone() {
 }
 
 void Pairing::setTasksToPickets() {
-//    for (int i = 0; i < tasksByZone.size(); i++) {
-//        for (int j = 0; j < tasksByZone.at(i).size(); j++) {
-//
-//        }
-//    }
 
-    for (int zone = 0; zone < maxZone; zone++) {
-        vector<Task*> tasksToPair = tasksByZone.at(zone);
+    Time currentTime = beginTime;
+    for (int zone = 1; zone <= maxZone; zone++) {
+        vector<Task*> tasksToPair = tasksByZone.at(zone-1);
         vector<long> tasksIds;
         for (auto task: tasksToPair) {
             tasksIds.push_back(task->getNodeId());
@@ -86,7 +82,7 @@ void Pairing::setTasksToPickets() {
         TSP<long> tsp(graph);
         vector<long> path = tsp.calculatePath(tasksIds, startVertexId, startVertexId); // começa e acaba no início
 
-        Time currentTime = beginTime;
+        currentTime = beginTime;
         for (auto idVertex: path) {
             if (endTime < currentTime || endTime == currentTime) {
                 cerr << "Nao foi possivel atribuir as tarefas todas (o tempo nao chegou)\n";
@@ -95,19 +91,37 @@ void Pairing::setTasksToPickets() {
             if (generalFunctions::inVector<long>(tasksIds, idVertex)) { // se o ponto atual do path for o ponto de uma task
                 Task* task = getTaskById(idVertex);
                 string function = task->getFunction();
+
                 if (task->hasPicket()) {
                     continue;
                 }
+                Time timeCopy = currentTime;
                 for (auto picket: pickets) {
-                    Time timeCopy = currentTime;
-                    if ((endTime < timeCopy.addMinutes(task->getDurationMinutes())) || (timeCopy.addMinutes(task->getDurationMinutes()) == endTime))
+
+                    if ((endTime < currentTime.addMinutes(task->getDurationMinutes()+1)) || (currentTime.addMinutes(task->getDurationMinutes()+1) == endTime)) {
+                        //currentTime = beginTime;
+                        currentTime = beginTime;
                         continue;
-                    if (picket->verifyRole(function) && picket->getZone() == zone && picket->timeIsCompatible(timeCopy, timeCopy.addMinutes(task->getDurationMinutes()+1))) {
-                        task->setBeginTime(currentTime);
-                        currentTime = currentTime.addMinutes(task->getDurationMinutes()+1); // 1 minuto entre cada task; mudar dps
-                        picket->addTask(task);
-                        break;
                     }
+
+                    if (!picket->timeIsCompatible(currentTime, currentTime.addMinutes(task->getDurationMinutes()+1))) {
+                        currentTime = beginTime;
+                        continue;
+                    }
+                    if (!picket->getZone() == zone) {
+                        currentTime = timeCopy;
+                        continue;
+                    }
+                    if (!picket->verifyRole(function)) {
+                        currentTime = timeCopy;
+                        continue;
+                    }
+
+                    task->setBeginTime(currentTime);
+                    currentTime = currentTime.addMinutes(task->getDurationMinutes()+1); // 1 minuto entre cada task; mudar dps
+                    picket->addTask(task);
+                    break;
+
                 }
             }
         }
@@ -131,7 +145,7 @@ Task *Pairing::getTaskById(long vertexId) {
 void Pairing::setZonesToPickets() { // divide os piquetes pelas zonas de forma aleatória; mudar isso depois
     int num;
     for (auto picket: pickets) {
-        num = rand() % (maxZone);
+        num = rand() % (maxZone) + 1;
         picket->setZone(num);
     }
 }
