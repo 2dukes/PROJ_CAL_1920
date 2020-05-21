@@ -10,6 +10,7 @@
 #include "Picket.h"
 #include "Task.h"
 #include "Graph/Graph.h"
+#include "Algorithms/TSP.h"
 
 #define INF_NEG std::numeric_limits<double>::min()
 
@@ -24,6 +25,7 @@ class Company {
     Time beginTime;
     Time endTime;
     long startVertexId;
+    SEARCH_ALGORITHM searchAlgorithm;
 
 public:
     Company(string name);
@@ -57,6 +59,7 @@ public:
     void setRandomNodesToTasks();
     void setBestPathToPickets();
     Task* getTaskById(long vertexId);
+    void setSearchAlgorithm(SEARCH_ALGORITHM searchAlgorithm);
 };
 
 template<class Type>

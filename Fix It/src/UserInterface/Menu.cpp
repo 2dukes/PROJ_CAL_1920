@@ -159,6 +159,13 @@ void mainMenu(Company &company) {
                 {
                     case 1:
                     {
+                        int algOption;
+                        do {
+                            algOption = readOperations::readNumber<int>("Please chose a search algorithm to use in TSP algorithm:\n\n0. Dijkstra\n1. AStar\n\nOption (0 / 1): ");
+                        } while (algOption != 0 && algOption != 1);
+
+                        company.setSearchAlgorithm(static_cast<SEARCH_ALGORITHM>(algOption));
+
                         cout << endl << endl << "Executing a complex algorithm..." << endl << endl;
                         vector<long> task_NodesIDs;
                         for(Task* task: company.getTasks())
@@ -204,7 +211,9 @@ void mainMenu(Company &company) {
                                 cout << "His tasks are: ";
                                 vector<Task*> picketTasks = picket->getTasks();
                                 for (auto task: picketTasks) {
-                                    cout << *task << endl;
+                                    cout << endl << "Begin time: " << task->getBeginTime() << endl;
+                                    cout << *task;
+                                    cout << "End time: " << task->getEndTime() << endl;
                                 }
                                 cout << "------------------------\n";
                             }

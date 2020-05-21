@@ -1141,3 +1141,3426 @@ Duration: 30
 Function: Tecnico Informatico
 NodeId: 3844
 Duration: 70
+
+
+::::::::::
+
+Function: Eletricista
+NodeId: 19018
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 33250
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 413
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 46516
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 43007
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 38621
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 30076
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 909
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 25193
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 5861
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 28844
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 911
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 44128
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 10213
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 498
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 3070
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12268
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 31698
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 5578
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 33238
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 41837
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 3964
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 163
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27059
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12721
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 44757
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 19296
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 47058
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 47262
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 5595
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 49171
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 15205
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 38698
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 1920
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 20539
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 26372
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27010
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 44345
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 10140
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 29483
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 24558
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 5388
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 31117
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 45044
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31533
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 15623
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 34777
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 29013
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 33863
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 53082
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 1625
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 6807
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 6909
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 20650
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 13242
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 35791
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 36851
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 28262
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 27563
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 39542
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 3124
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 49674
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 1895
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 307
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 30879
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 9246
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 36040
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 19891
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 23300
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 28189
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 24585
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 16431
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 33717
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 25164
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 15866
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 15499
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 5190
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 25190
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 30380
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 20293
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12987
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 51645
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 20609
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 46157
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12195
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 31867
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 7606
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 41180
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 27066
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 44301
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 33408
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 25452
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 38496
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 5719
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 49042
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 43480
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 28891
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 50491
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 17148
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 4935
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 5249
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 4744
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 3756
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 23379
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 10228
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 14422
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 2406
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 32621
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 49882
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 5129
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 2853
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 986
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 46502
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6465
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6015
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 27577
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 42927
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 5234
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 43879
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 24817
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 13717
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 9391
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 46052
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 23053
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 52423
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 24469
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 42932
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 30851
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 12431
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 1401
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27915
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 17555
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 22416
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 14425
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 30273
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 32079
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31083
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 45436
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 11713
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 16014
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 39557
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 28610
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 10748
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 42277
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 36036
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 6459
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 10060
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 25109
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 46018
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 6621
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 25782
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 28354
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 13473
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 17063
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 3322
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 942
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6881
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 46216
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 28450
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 18079
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6556
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 1734
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 48042
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 22268
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 33501
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 1714
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 4152
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 30441
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 25246
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 37455
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31833
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 36531
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 38211
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31491
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 51672
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 1450
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 24004
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 20426
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 25388
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 8544
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 4852
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 26837
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 28801
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27289
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 2126
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 7146
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 3893
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 18828
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 27239
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 3844
+Duration: 70
+
+
+::::::::::
+
+Function: Eletricista
+NodeId: 19018
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 33250
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 413
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 46516
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 43007
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 38621
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 30076
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 909
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 25193
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 5861
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 28844
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 911
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 44128
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 10213
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 498
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 3070
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12268
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 31698
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 5578
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 33238
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 41837
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 3964
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 163
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27059
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12721
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 44757
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 19296
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 47058
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 47262
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 5595
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 49171
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 15205
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 38698
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 1920
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 20539
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 26372
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27010
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 44345
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 10140
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 29483
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 24558
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 5388
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 31117
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 45044
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31533
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 15623
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 34777
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 29013
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 33863
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 53082
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 1625
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 6807
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 6909
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 20650
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 13242
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 35791
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 36851
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 28262
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 27563
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 39542
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 3124
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 49674
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 1895
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 307
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 30879
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 9246
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 36040
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 19891
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 23300
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 28189
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 24585
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 16431
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 33717
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 25164
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 15866
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 15499
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 5190
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 25190
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 30380
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 20293
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12987
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 51645
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 20609
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 46157
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12195
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 31867
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 7606
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 41180
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 27066
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 44301
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 33408
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 25452
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 38496
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 5719
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 49042
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 43480
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 28891
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 50491
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 17148
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 4935
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 5249
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 4744
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 3756
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 23379
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 10228
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 14422
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 2406
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 32621
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 49882
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 5129
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 2853
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 986
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 46502
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6465
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6015
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 27577
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 42927
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 5234
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 43879
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 24817
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 13717
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 9391
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 46052
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 23053
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 52423
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 24469
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 42932
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 30851
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 12431
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 1401
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27915
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 17555
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 22416
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 14425
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 30273
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 32079
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31083
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 45436
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 11713
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 16014
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 39557
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 28610
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 10748
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 42277
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 36036
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 6459
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 10060
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 25109
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 46018
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 6621
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 25782
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 28354
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 13473
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 17063
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 3322
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 942
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6881
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 46216
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 28450
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 18079
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6556
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 1734
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 48042
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 22268
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 33501
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 1714
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 4152
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 30441
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 25246
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 37455
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31833
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 36531
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 38211
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31491
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 51672
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 1450
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 24004
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 20426
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 25388
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 8544
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 4852
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 26837
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 28801
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27289
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 2126
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 7146
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 3893
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 18828
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 27239
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 3844
+Duration: 70
+
+
+::::::::::
+
+Function: Eletricista
+NodeId: 19018
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 33250
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 413
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 46516
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 43007
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 38621
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 30076
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 909
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 25193
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 5861
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 28844
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 911
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 44128
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 10213
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 498
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 3070
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12268
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 31698
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 5578
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 33238
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 41837
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 3964
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 163
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27059
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12721
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 44757
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 19296
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 47058
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 47262
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 5595
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 49171
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 15205
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 38698
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 1920
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 20539
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 26372
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27010
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 44345
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 10140
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 29483
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 24558
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 5388
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 31117
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 45044
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31533
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 15623
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 34777
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 29013
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 33863
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 53082
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 1625
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 6807
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 6909
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 20650
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 13242
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 35791
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 36851
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 28262
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 27563
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 39542
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 3124
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 49674
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 1895
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 307
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 30879
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 9246
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 36040
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 19891
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 23300
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 28189
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 24585
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 16431
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 33717
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 25164
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 15866
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 15499
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 5190
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 25190
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 30380
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 20293
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12987
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 51645
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 20609
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 46157
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 12195
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 31867
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 7606
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 41180
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 27066
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 44301
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 33408
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 25452
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 38496
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 5719
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 49042
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 43480
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 28891
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 50491
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 17148
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 4935
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 5249
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 4744
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 3756
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 23379
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 10228
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 14422
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 2406
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 32621
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 49882
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 5129
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 2853
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 986
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 46502
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6465
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6015
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 27577
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 42927
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 5234
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 43879
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 24817
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 13717
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 9391
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 46052
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 23053
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 52423
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 24469
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 42932
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 30851
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 12431
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 1401
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27915
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 17555
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 22416
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 14425
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 30273
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 32079
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31083
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 45436
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 11713
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 16014
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 39557
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 28610
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 10748
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 42277
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 36036
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 6459
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 10060
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 25109
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 46018
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 6621
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 25782
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 28354
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 13473
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 17063
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 3322
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 942
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6881
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 46216
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 28450
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 18079
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 6556
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 1734
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 48042
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 22268
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 33501
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 1714
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 4152
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 30441
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 25246
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 37455
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31833
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 36531
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 38211
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 31491
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 51672
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 1450
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 24004
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 20426
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 25388
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 8544
+Duration: 70
+
+::::::::::
+
+Function: Eletricista
+NodeId: 4852
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 26837
+Duration: 30
+
+::::::::::
+
+Function: Canalizador
+NodeId: 28801
+Duration: 60
+
+::::::::::
+
+Function: Eletricista
+NodeId: 27289
+Duration: 30
+
+::::::::::
+
+Function: Eletricista
+NodeId: 2126
+Duration: 180
+
+::::::::::
+
+Function: Picheleiro
+NodeId: 7146
+Duration: 120
+
+::::::::::
+
+Function: Eletricista
+NodeId: 3893
+Duration: 180
+
+::::::::::
+
+Function: Canalizador
+NodeId: 18828
+Duration: 60
+
+::::::::::
+
+Function: Trolha
+NodeId: 27239
+Duration: 30
+
+::::::::::
+
+Function: Tecnico Informatico
+NodeId: 3844
+Duration: 70
