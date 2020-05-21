@@ -35,6 +35,7 @@ public:
     Pairing(vector<Task*> tasks, vector<Picket*> pickets, Time beginTime, Time endTime, Graph<long>* graph, long startVertexId);
     vector<vector<Task*>> getTasksByZone();
     void setTasksToPickets();
+    void setTasksToPickets2();
 };
 
 Pairing::Pairing(vector<Task *> tasks, vector<Picket *> pickets, Time beginTime, Time endTime, Graph<long>* graph, long startVertexId) {
@@ -70,7 +71,7 @@ vector<vector<Task *>> Pairing::getTasksByZone() {
     return tasksByZone;
 }
 
-void Pairing::setTasksToPickets() {
+void Pairing::setTasksToPickets2() {
 
 //    Time currentTime = beginTime;
     for (int zone = 1; zone <= maxZone; zone++) {
@@ -121,7 +122,6 @@ void Pairing::setTasksToPickets() {
 //                    currentTime = currentTime.addMinutes(task->getDurationMinutes()+1); // 1 minuto entre cada task; mudar dps
                     picket->addTask(task);
                     break;
-
                 }
             }
         }
@@ -148,6 +148,57 @@ void Pairing::setZonesToPickets() { // divide os piquetes pelas zonas de forma a
         num = rand() % (maxZone) + 1;
         picket->setZone(num);
         picket->setInitTime(beginTime);
+    }
+}
+
+void Pairing::setTasksToPickets() {
+    for (int zone = 1; zone <= maxZone; zone++) {
+        vector<Task*> tasksToPair = tasksByZone.at(zone-1);
+        vector<long> tasksIds;
+        for (auto task: tasksToPair) {
+            tasksIds.push_back(task->getNodeId());
+        }
+
+        for (auto idVertex: tasksIds) {
+
+            Task* task = getTaskById(idVertex);
+            string function = task->getFunction();
+
+            if (task->hasPicket()) {
+                continue;
+            }
+
+            for (auto picket: pickets) {
+
+                if (!picket->getZone() == zone) {
+                    continue;
+                }
+                if (!picket->verifyRole(function)) {
+                    continue;
+                }
+
+                if ((endTime < picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1)) || (picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1) == endTime)) {
+                    continue;
+                }
+
+                if (!picket->timeIsCompatible(picket->getCurrentTime(), picket->getCurrentTime().addMinutes(task->getDurationMinutes()))) {
+                    continue;
+                }
+
+                Time currentTime = picket->getCurrentTime();
+                task->setBeginTime(currentTime);
+                picket->addTask(task);
+                break;
+            }
+        }
+
+
+        for (auto task: tasksToPair) {
+            if (!task->hasPicket()) {
+                cerr << "There is no picket compatible with the task with id " << task->getNodeId() << endl;
+            }
+        }
+
     }
 }
 

@@ -30,6 +30,7 @@ class Task {
 public:
     Task(string function, long int nodeId, int durationMinutes);
     long int getNodeId() const;
+    void setNodeId(long nodeId);
     string getFunction() const;
     int getDurationMinutes() const;
     Time getBeginTime() const;

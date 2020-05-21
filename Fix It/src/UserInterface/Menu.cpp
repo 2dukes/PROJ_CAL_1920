@@ -4,6 +4,7 @@
 #include <iostream>
 #include <limits> // Used in numeric_limits<streamsize>::max()
 #include <GraphInterface.h>
+#include <Algorithms/Pairing.h>
 #include "../Algorithms/Clustering.h"
 #include "../Algorithms/Square.h"
 
@@ -158,6 +159,62 @@ void mainMenu(Company &company) {
                 {
                     case 1:
                     {
+                        cout << endl << endl << "Executing a complex algorithm..." << endl << endl;
+                        vector<long> task_NodesIDs;
+                        for(Task* task: company.getTasks())
+                            task_NodesIDs.push_back(task->getNodeId());
+
+                        Square<long> clusterAlg(&company.getCityGraph());
+                        clusterAlg.calculateSquare(task_NodesIDs);
+
+                        company.setZonesToTasks();
+
+                        company.setStartVertexId(12722);
+
+                        Pairing pairing(company.getTasks(), company.getPickets(), company.getBeginTime(), company.getEndTime(), &company.getCityGraph(), company.getStartVertexId());
+
+                        pairing.setTasksToPickets();
+                        company.setBestPathToPickets();
+
+                        vector<Task*> tasksPaired = company.getTasks();
+
+                        for (auto task: tasksPaired) {
+                            if (task->hasPicket()) {
+                                cout << "Task with ID = " << task->getNodeId() << " and zone = " << task->getZone() << endl;
+                                cout << "Function: " << task->getFunction() << endl;
+                                cout << "Begin Time: " << task->getBeginTime() << endl;
+                                cout << "End Time: " << task->getEndTime() << endl;
+                                cout << "Picket chosen: " << task->getResponsiblePicket()->getName() << " (ID= " << task->getResponsiblePicket()->getId() << ")" << endl;
+                                cout << "-------------------------------------------\n";
+                            }
+                            else {
+                                cerr << "The task with id " << task->getNodeId() << " and zone " << task->getZone()
+                                     << " does not have a compatible picket" << endl;
+                                cout << "-------------------------------------------\n";
+                            }
+                        }
+
+                        // ==============================================================================================
+
+                        cout << "\n\n\n";
+
+
+                        vector<Picket*> picketsWithTasks = company.getPickets();
+                        for (auto picket: picketsWithTasks) {
+                            if (picket->getTasks().size() > 0) { // se pelo menos uma tarefa atribuida
+                                cout << "Picket with id " << picket->getId() << " and zone " << picket->getZone() << endl;
+                                cout << "His tasks are: ";
+                                vector<Task*> picketTasks = picket->getTasks();
+                                for (auto task: picketTasks) {
+                                    cout << *task << endl;
+                                }
+                                cout << "------------------------\n";
+                            }
+
+                        }
+
+
+
 
 
                         cout << endl << endl << "Press any Enter to continue...";

@@ -7,6 +7,7 @@
 
 #include <algorithm>
 #include <iostream>
+#include <Algorithms/TSP.h>
 
 int Picket::current_id = 0;
 
@@ -120,6 +121,16 @@ void Picket::setInitTime(const Time &time) {
 Time Picket::getCurrentTime() const {
     return currentTime;
 }
+
+vector<long> Picket::getTasksIds() const {
+    vector<long> tasksIds;
+    for (auto task: tasks) {
+        tasksIds.push_back(task->getNodeId());
+    }
+    return tasksIds;
+}
+
+
 
 
 

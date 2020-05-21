@@ -39,6 +39,7 @@ public:
     bool timeIsCompatible(const Time &time1, const Time &time2) const;
     bool addTask(Task *task);
     vector<Task*> getTasks() const;
+    vector<long> getTasksIds() const;
     int getNumTasksDone() const;
     friend ostream& operator<<(ostream& os, const Picket &picket);
     void setZone(int zone);
