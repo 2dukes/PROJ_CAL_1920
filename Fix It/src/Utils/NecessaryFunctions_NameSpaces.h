@@ -7,6 +7,7 @@
 #include <limits>
 #include <vector>
 #include <cmath>
+#include <Task.h>
 #include "../Graph/Graph.h"
 
 namespace verifyInputs {
@@ -54,6 +55,8 @@ namespace generalFunctions {
     }
 
     void processCoordinates(double x, double y, double &minX, double &minY, double &maxX, double &maxY);
+
+    Task *getTaskById(long vertexId, const vector<Task*> &tasks);
 
 }
 

@@ -35,9 +35,6 @@ public:
 
     vector<T> calculatePath(const vector<T> &pois, T startNodeId, T endNodeId);
 
-
-    // TODO: mudar de vectors para uma melhor estrutura de dados, por exemplo HashTable
-
     friend class Graph<T>;
 
 };

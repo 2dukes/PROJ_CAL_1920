@@ -1,18 +1,180 @@
 Name: Zhen Soeiro Rosario
 Roles: Eletricista
-Tasks Done: 8
+Tasks Done: 15
 
 ::::::::::
 
 Name: Eden Sales Pontes
 Roles: Trolha
-Tasks Done: 22
+Tasks Done: 39
 
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
-Tasks Done: 8
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 30
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 14
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 13
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 29
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 9
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 15
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 15
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 13
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 24
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 24
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 14
 
 ::::::::::
 
@@ -24,100 +186,46 @@ Tasks Done: 23
 
 Name: Steven Argolo Nobre
 Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 5
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
 Tasks Done: 14
 
 ::::::::::
 
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 11
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 6
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 22
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 6
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 8
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 8
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 8
-
-::::::::::
-
 Name: Eden Sales Pontes
 Roles: Trolha
 Tasks Done: 7
@@ -126,7 +234,7 @@ Tasks Done: 7
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
-Tasks Done: 6
+Tasks Done: 14
 
 ::::::::::
 
@@ -144,25 +252,91 @@ Tasks Done: 13
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 4
+Tasks Done: 8
 
 ::::::::::
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 4
+Tasks Done: 8
 
 ::::::::::
 
 Name: Tone
 Roles: Eletricista, Canalizador
-Tasks Done: 4
+Tasks Done: 8
 
 ::::::::::
 
 Name: Antonio Jose
 Roles: Canalizador
+Tasks Done: 8
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 24
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 13
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 23
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 8
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 8
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
 Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 7
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 11
 
 ::::::::::
 
@@ -174,19 +348,19 @@ Tasks Done: 7
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
-Tasks Done: 6
+Tasks Done: 9
 
 ::::::::::
 
 Name: Jan Bentes Mieiro
 Roles: Tecnico Informatico
-Tasks Done: 16
+Tasks Done: 17
 
 ::::::::::
 
 Name: Steven Argolo Nobre
 Roles: Eletricista
-Tasks Done: 6
+Tasks Done: 18
 
 ::::::::::
 
@@ -198,7 +372,277 @@ Tasks Done: 8
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
+Tasks Done: 8
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
 Tasks Done: 5
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 8
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 5
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 10
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 18
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 8
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 8
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 8
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 7
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 5
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 8
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 8
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 8
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 6
 
 ::::::::::
 
@@ -210,7 +654,7 @@ Tasks Done: 3
 
 Name: Antonio Jose
 Roles: Canalizador
-Tasks Done: 5
+Tasks Done: 3
 
 ::::::::::
 
@@ -234,7 +678,7 @@ Tasks Done: 7
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
-Tasks Done: 6
+Tasks Done: 8
 
 ::::::::::
 
@@ -282,13 +726,13 @@ Tasks Done: 7
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
-Tasks Done: 6
+Tasks Done: 5
 
 ::::::::::
 
 Name: Jan Bentes Mieiro
 Roles: Tecnico Informatico
-Tasks Done: 16
+Tasks Done: 23
 
 ::::::::::
 
@@ -348,7 +792,115 @@ Tasks Done: 7
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
+Tasks Done: 5
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 8
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 14
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 8
 
 ::::::::::
 
@@ -378,7 +930,7 @@ Tasks Done: 3
 
 Name: Tone
 Roles: Eletricista, Canalizador
-Tasks Done: 2
+Tasks Done: 3
 
 ::::::::::
 
@@ -396,19 +948,19 @@ Tasks Done: 7
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
-Tasks Done: 0
+Tasks Done: 1
 
 ::::::::::
 
 Name: Jan Bentes Mieiro
 Roles: Tecnico Informatico
-Tasks Done: 16
+Tasks Done: 20
 
 ::::::::::
 
 Name: Steven Argolo Nobre
 Roles: Eletricista
-Tasks Done: 4
+Tasks Done: 6
 
 ::::::::::
 
@@ -420,13 +972,127 @@ Tasks Done: 5
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 2
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 7
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 5
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 0
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 0
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 8
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
 
 ::::::::::
 
 Name: Tone
 Roles: Eletricista
-Tasks Done: 1
+Tasks Done: 3
 
 ::::::::::
 
@@ -480,7 +1146,451 @@ Tasks Done: 1
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
 Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 0
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 0
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 7
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 5
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 0
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 0
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 1
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 0
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 0
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 3
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 7
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 8
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 0
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 8
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 0
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
 
 ::::::::::
 
@@ -570,7 +1680,229 @@ Tasks Done: 7
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
+Tasks Done: 5
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
 Tasks Done: 0
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 5
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 0
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 0
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 0
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 7
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 4
 
 ::::::::::
 
@@ -642,13 +1974,13 @@ Tasks Done: 5
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 2
+Tasks Done: 4
 
 ::::::::::
 
 Name: Tone
 Roles: Eletricista
-Tasks Done: 1
+Tasks Done: 3
 
 ::::::::::
 
@@ -690,13 +2022,13 @@ Tasks Done: 17
 
 Name: Steven Argolo Nobre
 Roles: Eletricista
-Tasks Done: 9
+Tasks Done: 11
 
 ::::::::::
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 1
+Tasks Done: 3
 
 ::::::::::
 
@@ -708,7 +2040,7 @@ Tasks Done: 1
 
 Name: Tone
 Roles: Eletricista, Canalizador
-Tasks Done: 1
+Tasks Done: 3
 
 ::::::::::
 
@@ -738,13 +2070,13 @@ Tasks Done: 16
 
 Name: Steven Argolo Nobre
 Roles: Eletricista
-Tasks Done: 4
+Tasks Done: 6
 
 ::::::::::
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 5
+Tasks Done: 7
 
 ::::::::::
 
@@ -804,238 +2136,16 @@ Tasks Done: 17
 
 Name: Steven Argolo Nobre
 Roles: Eletricista
-Tasks Done: 9
+Tasks Done: 10
 
 ::::::::::
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
 Tasks Done: 3
 
 ::::::::::
 
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
 Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
@@ -1074,1117 +2184,7 @@ Tasks Done: 16
 
 Name: Steven Argolo Nobre
 Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 9
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 0
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 4
+Tasks Done: 6
 
 ::::::::::
 

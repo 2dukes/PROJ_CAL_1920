@@ -12,8 +12,6 @@
 #include "Graph/Graph.h"
 #include "Algorithms/TSP.h"
 
-#define INF_NEG std::numeric_limits<double>::min()
-
 
 using namespace std;
 
@@ -58,7 +56,6 @@ public:
     void setStartVertexId(long vertexId);
     void setRandomNodesToTasks();
     void setBestPathToPickets();
-    Task* getTaskById(long vertexId);
     void setSearchAlgorithm(SEARCH_ALGORITHM searchAlgorithm);
 };
 

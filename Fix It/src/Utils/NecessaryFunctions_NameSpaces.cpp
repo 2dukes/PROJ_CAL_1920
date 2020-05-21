@@ -152,6 +152,13 @@ namespace generalFunctions {
             maxY = y;
         else if(y < minY)
             minY = y;
+    }
 
+    Task *getTaskById(long vertexId, const vector<Task*> &tasks) {
+        for (auto task: tasks) {
+            if (task->getNodeId() == vertexId)
+                return task;
+        }
+        return nullptr; // nunca chega aqui
     }
 }

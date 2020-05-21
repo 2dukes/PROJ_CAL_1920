@@ -17,34 +17,24 @@ class Pairing {
     int maxZone;
     Time beginTime;
     Time endTime;
-    Graph<long>* graph;
-    long startVertexId;
 
     vector<vector<Task*>> tasksByZone;
-
     void setMaxZone();
-
     void divideTasksByZone();
-
     void setZonesToPickets();
-
     Task* getTaskById(long vertexId);
 
 
 public:
-    Pairing(vector<Task*> tasks, vector<Picket*> pickets, Time beginTime, Time endTime, Graph<long>* graph, long startVertexId);
-    vector<vector<Task*>> getTasksByZone();
+    Pairing(vector<Task*> tasks, vector<Picket*> pickets, Time beginTime, Time endTime);
     void setTasksToPickets();
-//    void setTasksToPickets2();
 };
 
-Pairing::Pairing(vector<Task *> tasks, vector<Picket *> pickets, Time beginTime, Time endTime, Graph<long>* graph, long startVertexId) {
+Pairing::Pairing(vector<Task *> tasks, vector<Picket *> pickets, Time beginTime, Time endTime) {
     this->tasks = tasks;
     this->pickets = pickets;
     this->beginTime = beginTime;
     this->endTime = endTime;
-    this->graph = graph;
-    this->startVertexId = startVertexId;
     setMaxZone();
     divideTasksByZone();
     setZonesToPickets();
@@ -67,73 +57,6 @@ void Pairing::divideTasksByZone() {
     }
 }
 
-vector<vector<Task *>> Pairing::getTasksByZone() {
-    return tasksByZone;
-}
-
-//void Pairing::setTasksToPickets2() {
-//
-////    Time currentTime = beginTime;
-//    for (int zone = 1; zone <= maxZone; zone++) {
-//        vector<Task*> tasksToPair = tasksByZone.at(zone-1);
-//        vector<long> tasksIds;
-//        for (auto task: tasksToPair) {
-//            tasksIds.push_back(task->getNodeId());
-//        }
-//        TSP<long> tsp(graph);
-//        vector<long> path = tsp.calculatePath(tasksIds, startVertexId, startVertexId); // começa e acaba no início
-//
-////        currentTime = beginTime;
-//        for (auto idVertex: path) {
-////            if (endTime < currentTime || endTime == currentTime) {
-////                cerr << "Nao foi possivel atribuir as tarefas todas (o tempo nao chegou)\n";
-////                break;
-////            }
-//            if (generalFunctions::inVector<long>(tasksIds, idVertex)) { // se o ponto atual do path for o ponto de uma task
-//                Task* task = getTaskById(idVertex);
-//                string function = task->getFunction();
-//
-//                if (task->hasPicket()) {
-//                    continue;
-//                }
-////                Time timeCopy = currentTime;
-//                for (auto picket: pickets) {
-//
-//                    if ((endTime < picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1)) || (picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1) == endTime)) {
-//                        //currentTime = beginTime;
-////                        currentTime = beginTime;
-//                        continue;
-//                    }
-//
-//                    if (!picket->timeIsCompatible(picket->getCurrentTime(), picket->getCurrentTime().addMinutes(task->getDurationMinutes()))) {
-////                        currentTime = beginTime;
-//                        continue;
-//                    }
-//                    if (!picket->getZone() == zone) {
-////                        currentTime = timeCopy;
-//                        continue;
-//                    }
-//                    if (!picket->verifyRole(function)) {
-////                        currentTime = timeCopy;
-//                        continue;
-//                    }
-//                    Time currentTime = picket->getCurrentTime();
-//                    task->setBeginTime(currentTime);
-////                    currentTime = currentTime.addMinutes(task->getDurationMinutes()+1); // 1 minuto entre cada task; mudar dps
-//                    picket->addTask(task);
-//                    break;
-//                }
-//            }
-//        }
-//        for (auto task: tasksToPair) {
-//            if (!task->hasPicket()) {
-//                cerr << "There is no picket compatible with the task with id " << task->getNodeId() << endl;
-//            }
-//        }
-//    }
-//
-//}
-
 Task *Pairing::getTaskById(long vertexId) {
     for (auto task: tasks) {
         if (task->getNodeId() == vertexId)
@@ -142,12 +65,12 @@ Task *Pairing::getTaskById(long vertexId) {
     return nullptr; // nunca chega aqui
 }
 
-void Pairing::setZonesToPickets() { // divide os piquetes pelas zonas de forma aleatória; mudar isso depois
+void Pairing::setZonesToPickets() { // divide os piquetes pelas zonas de forma aleatória
     int num;
     for (auto picket: pickets) {
-        num = rand() % (maxZone) + 1;
+        num = rand() % maxZone + 1;
         picket->setZone(num);
-        picket->setInitTime(beginTime);
+        picket->setCurrentTime(beginTime);
     }
 }
 
@@ -170,10 +93,7 @@ void Pairing::setTasksToPickets() {
 
             for (auto picket: pickets) {
 
-                if (picket->getZone() != task->getZone()) {
-                    continue;
-                }
-                if (!picket->verifyRole(function)) {
+                if (picket->getZone() != task->getZone() || !picket->verifyRole(function)) {
                     continue;
                 }
 
@@ -191,7 +111,6 @@ void Pairing::setTasksToPickets() {
                 break;
             }
         }
-
 
         for (auto task: tasksToPair) {
             if (!task->hasPicket()) {

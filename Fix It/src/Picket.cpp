@@ -114,7 +114,7 @@ void Picket::addToPath(long nodeId) {
     path.push_back(nodeId);
 }
 
-void Picket::setInitTime(const Time &time) {
+void Picket::setCurrentTime(const Time &time) {
     currentTime = time;
 }
 

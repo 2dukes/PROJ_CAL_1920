@@ -47,7 +47,7 @@ public:
     void setPath(vector<long> path);
     void addToPath(long nodeId);
     vector<long> getPath() const;
-    void setInitTime(const Time &time);
+    void setCurrentTime(const Time &time);
     Time getCurrentTime() const;
 };
 

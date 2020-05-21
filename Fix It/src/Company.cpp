@@ -13,11 +13,10 @@ Company::Company(string name) {
     this->name = name;
     readPicketsFile("../files/pickets.txt");
     readTasksFile("../files/tasks.txt");
-    readNodes("../maps/Porto/porto_strong_nodes_xy.txt");
-    readEdges("../maps/Porto/porto_strong_edges.txt");
+    readCityGraph("../maps/Porto/porto_strong_nodes_xy.txt", "../maps/Porto/porto_strong_edges.txt");
     setRandomNodesToTasks();
-    beginTime = Time("01:00");
-    endTime = Time("23:00");
+    beginTime = Time("08:30");
+    endTime = Time("17:30");
     startVertexId = 27198;
 }
 
@@ -320,14 +319,6 @@ void Company::setRandomNodesToTasks() {
     }
 }
 
-Task *Company::getTaskById(long vertexId) {
-    for (auto task: tasks) {
-        if (task->getNodeId() == vertexId)
-            return task;
-    }
-    return nullptr; // nunca chega aqui
-}
-
 void Company::setBestPathToPickets() {
 
     for (auto picket: pickets) {
@@ -338,15 +329,15 @@ void Company::setBestPathToPickets() {
         vector<long> path = tsp.calculatePath(picket->getTasksIds(), startVertexId, startVertexId);
         picket->setPath(path);
 
-        picket->setInitTime(beginTime);
+        picket->setCurrentTime(beginTime);
 
         for (auto nodeId: path) {
             if (generalFunctions::inVector<long>(picket->getTasksIds(), nodeId)) {
-                Task* task = getTaskById(nodeId);
+                Task* task = generalFunctions::getTaskById(nodeId, tasks);
                 Time currentTime = picket->getCurrentTime();
                 task->setBeginTime(currentTime);
                 currentTime = currentTime.addMinutes(task->getDurationMinutes()+1);
-                picket->setInitTime(currentTime);
+                picket->setCurrentTime(currentTime);
             }
         }
     }

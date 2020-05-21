@@ -178,12 +178,14 @@ void mainMenu(Company &company) {
 
                         company.setZonesToTasks();
 
-                        Pairing pairing(company.getTasks(), company.getPickets(), company.getBeginTime(), company.getEndTime(), &company.getCityGraph(), company.getStartVertexId());
+                        Pairing pairing(company.getTasks(), company.getPickets(), company.getBeginTime(), company.getEndTime());
 
                         pairing.setTasksToPickets();
                         company.setBestPathToPickets();
 
                         vector<Task*> tasksPaired = company.getTasks();
+
+                        cout << "\n\n============TASKS===============\n\n";
 
                         for (auto task: tasksPaired) {
                             if (task->hasPicket()) {
@@ -203,8 +205,7 @@ void mainMenu(Company &company) {
 
                         // ==============================================================================================
 
-                        cout << "\n\n\n";
-
+                        cout << "\n\n\n============PICKETS WITH TASKS===============\n\n";
 
                         vector<Picket*> picketsWithTasks = company.getPickets();
                         for (auto picket: picketsWithTasks) {
@@ -230,9 +231,11 @@ void mainMenu(Company &company) {
                                 edgesTotal.push_back(e);
                         }
 
-                        for(auto picket: company.getPickets()) {
-                            if(picket->getPath().size() > 10) {
-                                cout << picket->getId() << endl;
+                        vector<Picket*> pickets = company.getPickets();
+                        int numPicketsToDiplay = 3;
+                        for(auto picket: pickets) {
+                            if(!picket->getTasks().empty() && numPicketsToDiplay-- > 0) {
+                                cout << "Displaying path of picket with ID = " << picket->getId() << "... " << endl;
                                 graphI.displayPath(edgesTotal, company.getCityGraph().getVertexSet(), picket->getPath(), picket->getTasksIds(), company.getStartVertexId());
                             }
                         }
