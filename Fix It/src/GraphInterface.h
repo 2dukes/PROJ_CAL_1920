@@ -10,6 +10,7 @@
 
 class GraphInterface {
     GraphViewer *graphViewer;
+    Graph<long>* graph;
     int width;
     int height;
     double maxX;
@@ -21,13 +22,13 @@ class GraphInterface {
     double calculateY(double coord);
 
 public:
-    GraphInterface(int width, int height);
+    GraphInterface(int width, int height, Graph<long>* graph);
 
     template <class T>
     void displayPath(vector<Edge<T> *> edgesPath, vector<Vertex<T>* > vertexes, vector<T> pathToCalc, vector<T> tasks, T companyPlaceID);
 
     template<class T>
-    void displayOporto(vector<Edge<T> *> edgesPath, vector<Vertex<T>*> vertexes);
+    void displayOporto(vector<Edge<T> *> edgesPath, vector<Vertex<T>*> vertexes,  T companyPlaceID);
 };
 
 template <class T>
@@ -65,7 +66,15 @@ void GraphInterface::displayPath(vector<Edge<T> *> edgesPath, vector<Vertex<T>* 
         graphViewer->setVertexColor(pathToCalc[vIndex], "gray");
 
     for(auto taskID: tasks) {
-        graphViewer->setVertexColor(taskID, "red");
+        if(graph->findVertex(taskID)->getVZone() == 1)
+            graphViewer->setVertexColor(taskID, "green");
+        else if(graph->findVertex(taskID)->getVZone() == 2)
+            graphViewer->setVertexColor(taskID, "blue");
+        else if(graph->findVertex(taskID)->getVZone() == 3)
+            graphViewer->setVertexColor(taskID, "red");
+        else if(graph->findVertex(taskID)->getVZone() == 4)
+            graphViewer->setVertexColor(taskID, "black");
+
         graphViewer->setVertexSize(taskID, 75);
     }
 
@@ -73,16 +82,12 @@ void GraphInterface::displayPath(vector<Edge<T> *> edgesPath, vector<Vertex<T>* 
     graphViewer->setVertexSize(companyPlaceID, 125);
     graphViewer->setVertexLabel(companyPlaceID, "Sede FIX IT");
 
-
     graphViewer->rearrange();
 
 }
 
 template <class T>
-void GraphInterface::displayOporto(vector<Edge<T> *> edgesPath, vector<Vertex<T>* > vertexes) {
-    for(auto v: vertexes)
-        v->setVZone(ZONE0);
-
+void GraphInterface::displayOporto(vector<Edge<T> *> edgesPath, vector<Vertex<T>* > vertexes, T companyPlaceID) {
     this->graphViewer= new GraphViewer(width, height, false);
     graphViewer->createWindow(this->width, this->height);
     int edgeID = 0;
@@ -111,6 +116,11 @@ void GraphInterface::displayOporto(vector<Edge<T> *> edgesPath, vector<Vertex<T>
         Edge<T>* auxEdge = edgesPath[eIndex];
         graphViewer->addEdge(edgeID++, auxEdge->getOrig()->getInfo(), auxEdge->getDest()->getInfo(), EdgeType::DIRECTED);
     }
+
+    graphViewer->setVertexColor(companyPlaceID, "cyan");
+    graphViewer->setVertexSize(companyPlaceID, 125);
+    graphViewer->setVertexLabel(companyPlaceID, "Sede FIX IT");
+
     graphViewer->rearrange();
 }
 

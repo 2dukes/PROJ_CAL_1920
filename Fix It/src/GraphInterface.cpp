@@ -1,8 +1,9 @@
 #include "GraphInterface.h"
 
-GraphInterface::GraphInterface(int width, int height) {
+GraphInterface::GraphInterface(int width, int height, Graph<long>* graph) {
     this->width = width;
     this->height = height;
+    this->graph = graph;
     this->maxX = 535877.2818438777;
     this->maxY = 4558064.868116516;
     this->minX = 527178.8739517079;

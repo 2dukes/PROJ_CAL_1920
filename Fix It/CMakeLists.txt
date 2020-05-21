@@ -8,8 +8,7 @@ include_directories(src)
 add_executable( Fix_It
                 main.cpp
                 src/Graph/Graph.h
-                src/Graph/TaskEdge.h
-                src/Graph/MutablePriorityQueue.h
+        src/Graph/MutablePriorityQueue.h
                 src/Algorithms/SearchAlgorithms.h
                 src/Algorithms/Dijkstra.h
                 src/Algorithms/AStar.h

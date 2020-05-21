@@ -170,7 +170,7 @@ void Pairing::setTasksToPickets() {
 
             for (auto picket: pickets) {
 
-                if (!picket->getZone() == zone) {
+                if (picket->getZone() != task->getZone()) {
                     continue;
                 }
                 if (!picket->verifyRole(function)) {

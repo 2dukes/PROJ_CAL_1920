@@ -109,14 +109,16 @@ void mainMenu(Company &company) {
                     case 1:
                     {
                         /* Display Nodes */
-                        GraphInterface graphI(1920, 1080);
+                        GraphInterface graphI(1920, 1080, NULL);
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
+                            v->setVZone(ZONE0);
                             for(Edge<long>* e: v->getOutgoingEdges())
                                 edgesTotal.push_back(e);
                         }
-                        graphI.displayOporto(edgesTotal, company.getCityGraph().getVertexSet());
+
+                        graphI.displayOporto(edgesTotal, company.getCityGraph().getVertexSet(), company.getStartVertexId());
 //                        GraphInterface graphI(1920, 1080);
 //                        graphI.displayOporto(company.getCityGraph().getVertexSet());
                         cout << endl << endl << "Press any Enter to continue...";
@@ -132,7 +134,7 @@ void mainMenu(Company &company) {
                         Square<long> squareAlg(&company.getCityGraph());
                         squareAlg.calculateSquare(task_NodesIDs);
 
-                        GraphInterface graphI(1920, 1080);
+                        GraphInterface graphI(1920, 1080, NULL);
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
@@ -143,7 +145,7 @@ void mainMenu(Company &company) {
                             }
 
                         }
-                        graphI.displayOporto(edgesTotal, company.getCityGraph().getVertexSet());
+                        graphI.displayOporto(edgesTotal, company.getCityGraph().getVertexSet(), company.getStartVertexId());
 
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();
@@ -220,7 +222,7 @@ void mainMenu(Company &company) {
 
                         }
 
-                        GraphInterface graphI(1920, 1080);
+                        GraphInterface graphI(1920, 1080, &company.getCityGraph());
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
@@ -229,9 +231,9 @@ void mainMenu(Company &company) {
                         }
 
                         for(auto picket: company.getPickets()) {
-                            if(picket->getPath().size() > 3) {
+                            if(picket->getPath().size() > 10) {
+                                cout << picket->getId() << endl;
                                 graphI.displayPath(edgesTotal, company.getCityGraph().getVertexSet(), picket->getPath(), picket->getTasksIds(), company.getStartVertexId());
-                                break;
                             }
                         }
 
