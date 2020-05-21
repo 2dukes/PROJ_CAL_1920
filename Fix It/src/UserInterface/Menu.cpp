@@ -36,8 +36,8 @@ void mainMenu(Company &company) {
     string companyName = company.getName();
 
     cout << string(100, '\n');
-    vector<string> mainChoices = { "1. Display and Manage Pickets and Tasks", "2. View city graph", "3. Assign Tasks to the Pickets", "0. Exit" };
-    vector<string> firstChoices = { "1. Display Pickets", "2. Display Tasks", "3. Create Picket", "4. Create Task", "0. Main Menu" };
+    vector<string> mainChoices = { "1. Manage company", "2. View city graph", "3. Assign Tasks to the Pickets", "0. Exit" };
+    vector<string> firstChoices = { "1. Display Pickets", "2. Display Tasks", "3. Create Picket", "4. Create Task", "5. Change the company's working hours", "6. Change the company's headquarters", "0. Main Menu" };
     vector<string> secondChoices = { "1. Display Graph", "2. Display & Generate Clusters' Tasks", "0. Main Menu" };
     vector<string> thirdChoices = { "1. Assign Tasks to the Pickets", "0. Main Menu" };
     vector<string> viewAvailablePackChoices = { "1. Other Workers", "0. Main Menu" };
@@ -45,7 +45,8 @@ void mainMenu(Company &company) {
     do
     {
 
-        cout << string(100, '\n'); cout << "====== " << companyName << " ======" << endl << endl << endl;
+        cout << string(100, '\n'); cout << "====== " << companyName << " ======" << endl << endl;
+        cout << "   At your disposal from " << company.getBeginTime() << " to " << company.getEndTime() << " from the vertex ID " << company.getStartVertexId() << " to the world " << endl << endl << endl;
 
         for (size_t i = 0; i < mainChoices.size(); i++)
             cout << "\t" << mainChoices.at(i) << endl;
@@ -72,6 +73,7 @@ void mainMenu(Company &company) {
                 {
                     case 1:
                     {
+                        cout << "\n\n";
                         company.showPicketsInfo();
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();
@@ -79,6 +81,7 @@ void mainMenu(Company &company) {
                     }
                     case 2:
                     {
+                        cout << "\n\n";
                         company.showTasksInfo();
                         cout << endl << endl << "Press any key to continue...";
                         cin.get();
@@ -86,6 +89,7 @@ void mainMenu(Company &company) {
                     }
                     case 3:
                     {
+                        cout << "\n\n";
                         company.createPicket();
                         cout << endl << endl << "Press any key to continue...";
                         cin.get();
@@ -93,7 +97,56 @@ void mainMenu(Company &company) {
                     }
                     case 4:
                     {
+                        cout << "\n\n";
                         company.createTask();
+                        cout << endl << endl << "Press any key to continue...";
+                        cin.get();
+                        break;
+                    }
+                    case 5:
+                    {
+                        Time beginTime, endTime;
+                        do {
+                            cout << "\n\n";
+
+                            do {
+                                string timeStr = readOperations::readString("Enter the start time of the working day: (hh:mm) ");
+                                beginTime = Time(timeStr);
+                            } while (beginTime == Time(0, 0));
+
+                            cout << "\n\n";
+
+                            do {
+                                string timeStr = readOperations::readString("Enter the end time of the working day: (hh:mm) ");
+                                endTime = Time(timeStr);
+                            } while (endTime == Time(0, 0));
+                        } while (endTime < beginTime || endTime == beginTime);
+
+                        company.setBeginTime(beginTime);
+                        company.setEndTime(endTime);
+
+                        cout << "The start time of the working day is now " << beginTime << " and the end time is " << endTime;
+
+                        cout << endl << endl << "Press any key to continue...";
+                        cin.get();
+                        break;
+                    }
+                    case 6:
+                    {
+                        int nodeId;
+                        Vertex<long> * v;
+                        do {
+                            cout << "\n\n";
+                            nodeId = readOperations::readNumber<long>("Enter the vertex ID of the company's headquarters: ");
+                            v = company.getCityGraph().findVertex(nodeId);
+                            if (v == nullptr)
+                                cout << "\n\nThere is no such vertex in the city's graph, please enter a valid vertex ID\n\n";
+                        } while(v == nullptr);
+
+                        company.setStartVertexId(nodeId);
+
+                        cout << endl << endl << "The company's headquarters is now in the vertex with ID " << nodeId << endl << endl;
+
                         cout << endl << endl << "Press any key to continue...";
                         cin.get();
                         break;
@@ -232,7 +285,7 @@ void mainMenu(Company &company) {
                         }
 
                         vector<Picket*> pickets = company.getPickets();
-                        int numPicketsToDiplay = 3;
+                        int numPicketsToDiplay = 0;
                         for(auto picket: pickets) {
                             if(!picket->getTasks().empty() && numPicketsToDiplay-- > 0) {
                                 cout << "Displaying path of picket with ID = " << picket->getId() << "... " << endl;

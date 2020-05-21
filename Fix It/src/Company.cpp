@@ -15,6 +15,8 @@ Company::Company(string name) {
     readTasksFile("../files/tasks.txt");
     readCityGraph("../maps/Porto/porto_strong_nodes_xy.txt", "../maps/Porto/porto_strong_edges.txt");
     setRandomNodesToTasks();
+    sortPicketsByNumTasksDone();
+
     beginTime = Time("08:30");
     endTime = Time("17:30");
     startVertexId = 27198;
@@ -346,6 +348,14 @@ void Company::setBestPathToPickets() {
 
 void Company::setSearchAlgorithm(SEARCH_ALGORITHM searchAlgorithm) {
     this->searchAlgorithm = searchAlgorithm;
+}
+
+bool sortFunction(Picket *picket1, Picket *picket2) {
+    return picket1->getNumTasksDone() > picket2->getNumTasksDone();
+}
+
+void Company::sortPicketsByNumTasksDone() {
+    sort(pickets.begin(), pickets.end(), sortFunction);
 }
 
 
