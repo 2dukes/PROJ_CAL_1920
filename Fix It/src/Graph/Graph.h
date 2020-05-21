@@ -23,6 +23,7 @@ template <class T> class Vertex;
 
 enum MAP_ZONE {ZONE0 = 0, ZONE1 = 1, ZONE2 = 2, ZONE3 = 3, ZONE4 = 4};
 
+
 /*
  * ================================================================================================
  * Class Vertex

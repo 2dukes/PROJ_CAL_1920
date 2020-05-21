@@ -4,7 +4,7 @@
 
 #include <fstream>
 #include <iostream>
-#include <Algorithms/TSP.h>
+//#include <Algorithms/TSP.h>
 
 #include "Company.h"
 #include "Utils/NecessaryFunctions_NameSpaces.h"
@@ -18,6 +18,7 @@ Company::Company(string name) {
     setRandomNodesToTasks();
     beginTime = Time("9:30");
     endTime = Time("17:30");
+    startVertexId = 12722;
 }
 
 string Company::getName() {
@@ -333,7 +334,7 @@ void Company::setBestPathToPickets() {
         if (picket->getTasks().size() == 0)
             continue;
 
-        TSP<long> tsp(&cityGraph);
+        TSP<long> tsp(&cityGraph, searchAlgorithm);
         vector<long> path = tsp.calculatePath(picket->getTasksIds(), startVertexId, startVertexId);
         picket->setPath(path);
 
@@ -350,6 +351,10 @@ void Company::setBestPathToPickets() {
         }
     }
 
+}
+
+void Company::setSearchAlgorithm(SEARCH_ALGORITHM searchAlgorithm) {
+    this->searchAlgorithm = searchAlgorithm;
 }
 
 
