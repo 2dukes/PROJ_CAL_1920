@@ -14,6 +14,7 @@ Company::Company(string name) {
     readTasksFile("../files/tasks.txt");
     readNodes("../maps/Porto/porto_strong_nodes_xy.txt");
     readEdges("../maps/Porto/porto_strong_edges.txt");
+    setRandomNodesToTasks();
 }
 
 string Company::getName() {
@@ -154,7 +155,6 @@ bool Company::readNodes(const string &filename) {
     long int id, aux;
     double x, y;
     string line;
-//    double minX = INF, minY = INF, maxX = INF_NEG, maxY = INF_NEG;
 
     if (f.is_open()) {
         f >> aux; // ignorar primeira linha
@@ -168,8 +168,7 @@ bool Company::readNodes(const string &filename) {
             }
             Vertex<long int> vertex(id);
             this->cityGraph.addVertex(id, x, y);
-//            generalFunctions::processCoordinates(x, y, minX, minY, maxX, maxY);
-//            printf("X: %lf | T: %lf\n", this->cityGraph.findVertex(id)->getX(),x);
+
         }
         f.close();
         return true;
@@ -301,6 +300,20 @@ long Company::getStartVertexId() const {
 
 void Company::setStartVertexId(long vertexId) {
     startVertexId = vertexId;
+}
+
+void Company::setRandomNodesToTasks() {
+
+    vector<Vertex<long>*> vertices = cityGraph.getVertexSet();
+    int randomIndexNum;
+    Vertex<long>* v;
+
+    for (auto task: tasks) {
+        randomIndexNum = rand() % vertices.size();
+        v = vertices.at(randomIndexNum);
+        vertices.erase(remove(vertices.begin(), vertices.end(), v), vertices.end()); // não podem haver tasks com o mesmo nodeId
+        task->setNodeId(v->getInfo());
+    }
 }
 
 

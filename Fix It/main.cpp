@@ -41,7 +41,7 @@ int main() {
     company.setZonesToTasks();
 
     company.setStartVertexId(12722);
-    company.setBeginTime(Time("9:00"));
+    company.setBeginTime(Time("9:30"));
     company.setEndTime(Time("18:30"));
 
     Pairing pairing(company.getTasks(), company.getPickets(), company.getBeginTime(), company.getEndTime(), &company.getCityGraph(), company.getStartVertexId());

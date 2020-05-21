@@ -85,5 +85,9 @@ int Task::getZone() const {
     return zone;
 }
 
+void Task::setNodeId(long nodeId) {
+    this->nodeId = nodeId;
+}
+
 
 

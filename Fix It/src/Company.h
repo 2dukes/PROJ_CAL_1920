@@ -54,6 +54,7 @@ public:
     void setEndTime(const Time &time);
     long getStartVertexId() const;
     void setStartVertexId(long vertexId);
+    void setRandomNodesToTasks();
 };
 
 template<class Type>
