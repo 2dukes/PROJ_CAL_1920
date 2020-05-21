@@ -344,7 +344,8 @@ void Company::setBestPathToPickets() {
                 Task* task = getTaskById(nodeId);
                 Time currentTime = picket->getCurrentTime();
                 task->setBeginTime(currentTime);
-                currentTime = currentTime.addMinutes(task->getDurationMinutes());
+                currentTime = currentTime.addMinutes(task->getDurationMinutes()+1);
+                picket->setInitTime(currentTime);
             }
         }
     }

@@ -206,7 +206,9 @@ void mainMenu(Company &company) {
                                 cout << "His tasks are: ";
                                 vector<Task*> picketTasks = picket->getTasks();
                                 for (auto task: picketTasks) {
-                                    cout << *task << endl;
+                                    cout << endl << "Begin time: " << task->getBeginTime() << endl;
+                                    cout << *task;
+                                    cout << "End time: " << task->getEndTime() << endl;
                                 }
                                 cout << "------------------------\n";
                             }
