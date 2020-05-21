@@ -38,7 +38,7 @@ void mainMenu(Company &company) {
     cout << string(100, '\n');
     vector<string> mainChoices = { "1. Display and Manage Pickets and Tasks", "2. View city graph", "3. Assign Tasks to the Pickets", "0. Exit" };
     vector<string> firstChoices = { "1. Display Pickets", "2. Display Tasks", "3. Create Picket", "4. Create Task", "0. Main Menu" };
-    vector<string> secondChoices = { "1. Display Graph", "2. Display Clusters", "0. Main Menu" };
+    vector<string> secondChoices = { "1. Display Graph", "2. Display & Generate Clusters' Tasks", "0. Main Menu" };
     vector<string> thirdChoices = { "1. Assign Tasks to the Pickets", "0. Main Menu" };
     vector<string> viewAvailablePackChoices = { "1. Other Workers", "0. Main Menu" };
 
