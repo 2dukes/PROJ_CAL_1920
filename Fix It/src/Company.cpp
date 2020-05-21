@@ -4,10 +4,9 @@
 
 #include <fstream>
 #include <iostream>
-//#include <Algorithms/TSP.h>
 
 #include "Company.h"
-#include "Utils/NecessaryFunctions_NameSpaces.h"
+
 
 Company::Company(string name) {
     this->name = name;
@@ -15,9 +14,17 @@ Company::Company(string name) {
     readTasksFile("../files/tasks.txt");
     readCityGraph("../maps/Porto/porto_strong_nodes_xy.txt", "../maps/Porto/porto_strong_edges.txt");
     setRandomNodesToTasks();
+    sortPicketsByNumTasksDone();
+
     beginTime = Time("08:30");
     endTime = Time("17:30");
     startVertexId = 27198;
+    Vertex<long> *v = cityGraph.findVertex(startVertexId);
+    if (v == nullptr) {
+        cerr << "\n\nThere is no such vertex in the city's graph\n\n";
+        exit(1);
+    }
+
 }
 
 string Company::getName() {
@@ -200,7 +207,6 @@ bool Company::readEdges(const string &filename) {
             this->cityGraph.addEdge(idNode1, idNode2,
                     generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
                                                              this->cityGraph.findVertex(idNode2)));
-//            this->cityGraph.addEdge(idNode1, idNode2, 1.0);
         }
         f.close();
         return true;
@@ -255,7 +261,27 @@ bool Company::createPicket() {
 bool Company::createTask() {
     string function = readOperations::readRole("Function:");
 
-    int nodeId = readOperations::readNumber<long int>("Node ID: ");
+    long nodeId;
+    Vertex<long> *v;
+    do {
+        nodeId = readOperations::readNumber<long int>("Node ID: ");
+
+        v = cityGraph.findVertex(nodeId);
+        if (v == nullptr) {
+            cerr << "\n\nThere is no such vertex in the city's graph\n\n";
+        }
+
+        vector<long> tasksIds;
+        for (auto task: tasks) {
+            tasksIds.push_back(task->getNodeId());
+        }
+
+        if (generalFunctions::inVector(tasksIds, nodeId)) {
+            cerr << "\n\nThere is already a task in this vertex!\n\n";
+            v = nullptr;
+        }
+
+    } while (v == nullptr);
 
     int duration = readOperations::readNumber<int>("Duration: ");
 
@@ -322,7 +348,7 @@ void Company::setRandomNodesToTasks() {
 void Company::setBestPathToPickets() {
 
     for (auto picket: pickets) {
-        if (picket->getTasks().size() == 0)
+        if (picket->getTasks().empty())
             continue;
 
         TSP<long> tsp(&cityGraph, searchAlgorithm);
@@ -346,6 +372,14 @@ void Company::setBestPathToPickets() {
 
 void Company::setSearchAlgorithm(SEARCH_ALGORITHM searchAlgorithm) {
     this->searchAlgorithm = searchAlgorithm;
+}
+
+bool sortFunction(Picket *picket1, Picket *picket2) {
+    return picket1->getNumTasksDone() > picket2->getNumTasksDone();
+}
+
+void Company::sortPicketsByNumTasksDone() {
+    sort(pickets.begin(), pickets.end(), sortFunction);
 }
 
 

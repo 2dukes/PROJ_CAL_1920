@@ -57,6 +57,7 @@ public:
     void setRandomNodesToTasks();
     void setBestPathToPickets();
     void setSearchAlgorithm(SEARCH_ALGORITHM searchAlgorithm);
+    void sortPicketsByNumTasksDone();
 };
 
 template<class Type>

@@ -4561,3 +4561,15 @@ Duration: 30
 Function: Tecnico Informatico
 NodeId: 49200
 Duration: 70
+
+::::::::::
+
+Function: Trolha
+NodeId: 125
+Duration: 40
+
+::::::::::
+
+Function: Eletricista
+NodeId: 127
+Duration: 30
