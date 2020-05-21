@@ -35,7 +35,7 @@ public:
     Pairing(vector<Task*> tasks, vector<Picket*> pickets, Time beginTime, Time endTime, Graph<long>* graph, long startVertexId);
     vector<vector<Task*>> getTasksByZone();
     void setTasksToPickets();
-    void setTasksToPickets2();
+//    void setTasksToPickets2();
 };
 
 Pairing::Pairing(vector<Task *> tasks, vector<Picket *> pickets, Time beginTime, Time endTime, Graph<long>* graph, long startVertexId) {
@@ -71,68 +71,68 @@ vector<vector<Task *>> Pairing::getTasksByZone() {
     return tasksByZone;
 }
 
-void Pairing::setTasksToPickets2() {
-
-//    Time currentTime = beginTime;
-    for (int zone = 1; zone <= maxZone; zone++) {
-        vector<Task*> tasksToPair = tasksByZone.at(zone-1);
-        vector<long> tasksIds;
-        for (auto task: tasksToPair) {
-            tasksIds.push_back(task->getNodeId());
-        }
-        TSP<long> tsp(graph);
-        vector<long> path = tsp.calculatePath(tasksIds, startVertexId, startVertexId); // começa e acaba no início
-
-//        currentTime = beginTime;
-        for (auto idVertex: path) {
-//            if (endTime < currentTime || endTime == currentTime) {
-//                cerr << "Nao foi possivel atribuir as tarefas todas (o tempo nao chegou)\n";
-//                break;
+//void Pairing::setTasksToPickets2() {
+//
+////    Time currentTime = beginTime;
+//    for (int zone = 1; zone <= maxZone; zone++) {
+//        vector<Task*> tasksToPair = tasksByZone.at(zone-1);
+//        vector<long> tasksIds;
+//        for (auto task: tasksToPair) {
+//            tasksIds.push_back(task->getNodeId());
+//        }
+//        TSP<long> tsp(graph);
+//        vector<long> path = tsp.calculatePath(tasksIds, startVertexId, startVertexId); // começa e acaba no início
+//
+////        currentTime = beginTime;
+//        for (auto idVertex: path) {
+////            if (endTime < currentTime || endTime == currentTime) {
+////                cerr << "Nao foi possivel atribuir as tarefas todas (o tempo nao chegou)\n";
+////                break;
+////            }
+//            if (generalFunctions::inVector<long>(tasksIds, idVertex)) { // se o ponto atual do path for o ponto de uma task
+//                Task* task = getTaskById(idVertex);
+//                string function = task->getFunction();
+//
+//                if (task->hasPicket()) {
+//                    continue;
+//                }
+////                Time timeCopy = currentTime;
+//                for (auto picket: pickets) {
+//
+//                    if ((endTime < picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1)) || (picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1) == endTime)) {
+//                        //currentTime = beginTime;
+////                        currentTime = beginTime;
+//                        continue;
+//                    }
+//
+//                    if (!picket->timeIsCompatible(picket->getCurrentTime(), picket->getCurrentTime().addMinutes(task->getDurationMinutes()))) {
+////                        currentTime = beginTime;
+//                        continue;
+//                    }
+//                    if (!picket->getZone() == zone) {
+////                        currentTime = timeCopy;
+//                        continue;
+//                    }
+//                    if (!picket->verifyRole(function)) {
+////                        currentTime = timeCopy;
+//                        continue;
+//                    }
+//                    Time currentTime = picket->getCurrentTime();
+//                    task->setBeginTime(currentTime);
+////                    currentTime = currentTime.addMinutes(task->getDurationMinutes()+1); // 1 minuto entre cada task; mudar dps
+//                    picket->addTask(task);
+//                    break;
+//                }
 //            }
-            if (generalFunctions::inVector<long>(tasksIds, idVertex)) { // se o ponto atual do path for o ponto de uma task
-                Task* task = getTaskById(idVertex);
-                string function = task->getFunction();
-
-                if (task->hasPicket()) {
-                    continue;
-                }
-//                Time timeCopy = currentTime;
-                for (auto picket: pickets) {
-
-                    if ((endTime < picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1)) || (picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1) == endTime)) {
-                        //currentTime = beginTime;
-//                        currentTime = beginTime;
-                        continue;
-                    }
-
-                    if (!picket->timeIsCompatible(picket->getCurrentTime(), picket->getCurrentTime().addMinutes(task->getDurationMinutes()))) {
-//                        currentTime = beginTime;
-                        continue;
-                    }
-                    if (!picket->getZone() == zone) {
-//                        currentTime = timeCopy;
-                        continue;
-                    }
-                    if (!picket->verifyRole(function)) {
-//                        currentTime = timeCopy;
-                        continue;
-                    }
-                    Time currentTime = picket->getCurrentTime();
-                    task->setBeginTime(currentTime);
-//                    currentTime = currentTime.addMinutes(task->getDurationMinutes()+1); // 1 minuto entre cada task; mudar dps
-                    picket->addTask(task);
-                    break;
-                }
-            }
-        }
-        for (auto task: tasksToPair) {
-            if (!task->hasPicket()) {
-                cerr << "There is no picket compatible with the task with id " << task->getNodeId() << endl;
-            }
-        }
-    }
-
-}
+//        }
+//        for (auto task: tasksToPair) {
+//            if (!task->hasPicket()) {
+//                cerr << "There is no picket compatible with the task with id " << task->getNodeId() << endl;
+//            }
+//        }
+//    }
+//
+//}
 
 Task *Pairing::getTaskById(long vertexId) {
     for (auto task: tasks) {

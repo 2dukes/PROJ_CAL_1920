@@ -159,6 +159,13 @@ void mainMenu(Company &company) {
                 {
                     case 1:
                     {
+                        int algOption;
+                        do {
+                            algOption = readOperations::readNumber<int>("Please chose a search algorithm to use in TSP algorithm:\n\n0. Dijkstra\n1. AStar\n\nOption (0 / 1): ");
+                        } while (algOption != 0 && algOption != 1);
+
+                        company.setSearchAlgorithm(static_cast<SEARCH_ALGORITHM>(algOption));
+
                         cout << endl << endl << "Executing a complex algorithm..." << endl << endl;
                         vector<long> task_NodesIDs;
                         for(Task* task: company.getTasks())
@@ -168,8 +175,6 @@ void mainMenu(Company &company) {
                         clusterAlg.calculateSquare(task_NodesIDs);
 
                         company.setZonesToTasks();
-
-                        company.setStartVertexId(12722);
 
                         Pairing pairing(company.getTasks(), company.getPickets(), company.getBeginTime(), company.getEndTime(), &company.getCityGraph(), company.getStartVertexId());
 

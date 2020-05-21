@@ -10,6 +10,8 @@
 
 using namespace std;
 
+enum SEARCH_ALGORITHM {DIJKSTRA = 0, ASTAR = 1};
+
 template <class T>
 class TSP {
     Graph<T>* graph;
@@ -19,13 +21,17 @@ class TSP {
     int visitOrderFinalSize;
     Vertex<T>* finishNode;
     Vertex<T>* startNode;
+    SEARCH_ALGORITHM searchAlgorithm;
 
     void findBestVisitOrder(Vertex<T> *startVertex, Vertex<T> *endVertex);
     Vertex<T>* getClosestVertex(Vertex<T> *v, const vector<Vertex<T>*> &otherVertices) const;
+    void buildSolutionDijkstra();
+    void buildSolutionAStar();
     void buildSolution();
 
+
 public:
-    TSP(Graph<T>* graph);
+    TSP(Graph<T>* graph, SEARCH_ALGORITHM searchAlgorithm);
 
     vector<T> calculatePath(const vector<T> &pois, T startNodeId, T endNodeId);
 
@@ -37,8 +43,9 @@ public:
 };
 
 template<class T>
-TSP<T>::TSP(Graph<T>* graph) {
+TSP<T>::TSP(Graph<T>* graph, SEARCH_ALGORITHM searchAlgorithm) {
     this->graph = graph;
+    this->searchAlgorithm = searchAlgorithm;
 }
 
 template<class T>
@@ -88,14 +95,6 @@ void TSP<T>::findBestVisitOrder(Vertex<T> *start, Vertex<T> *end) {
     SearchAlgorithm<T> searchAlgorithm(graph);
     vector<T> reachableVertices = searchAlgorithm.bfs(start->getInfo());
 
-    // TODO verificar se o endVertex é alcançável
-
-    // TODO verificar se os vertices de this->poisVertices são alcançáveis
-
-
-
-    //--------------------------------All Vertices are reachable now---------------------------------
-
     visitOrder.push_back(start->getInfo());
     poisVertices.erase(std::remove(poisVertices.begin(), poisVertices.end(), start), poisVertices.end());
 
@@ -141,13 +140,14 @@ Vertex<T>* TSP<T>::getClosestVertex(Vertex<T> *v, const vector<Vertex<T>*> &othe
 }
 
 template<class T>
-void TSP<T>::buildSolution() {
-    AStar<T> astar(graph);
-//    Dijkstra<T> dijkstra(graph);
+void TSP<T>::buildSolutionDijkstra() {
+
+    Dijkstra<T> dijkstra(graph);
 
     for (int i = 0;  i < visitOrder.size() - 1; i++) {
-//        dijkstra.dijkstraShortestPath(visitOrder.at(i), visitOrder.at(i+1));
-        astar.AStarShortestPath(visitOrder.at(i), visitOrder.at(i+1));
+
+        dijkstra.dijkstraShortestPath(visitOrder.at(i), visitOrder.at(i+1));
+
         for (int j : graph->getPath(visitOrder.at(i), visitOrder.at(i+1))) {
             lastSolution.push_back(j);
         }
@@ -156,7 +156,38 @@ void TSP<T>::buildSolution() {
             lastSolution.pop_back();
         }
     }
-
 }
+
+template<class T>
+void TSP<T>::buildSolutionAStar() {
+
+    AStar<T> astar(graph);
+
+    for (int i = 0;  i < visitOrder.size() - 1; i++) {
+
+        astar.AStarShortestPath(visitOrder.at(i), visitOrder.at(i+1));
+
+        for (int j : graph->getPath(visitOrder.at(i), visitOrder.at(i+1))) {
+            lastSolution.push_back(j);
+        }
+
+        if (i != visitOrder.size() - 2) {
+            lastSolution.pop_back();
+        }
+    }
+}
+
+template<class T>
+void TSP<T>::buildSolution() {
+    if (searchAlgorithm == DIJKSTRA) {
+        buildSolutionDijkstra();
+    }
+    else if (searchAlgorithm == ASTAR) {
+        buildSolutionAStar();
+    }
+}
+
+
+
 
 #endif //FIX_IT_TSP_H
