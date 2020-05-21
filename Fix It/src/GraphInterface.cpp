@@ -3,7 +3,7 @@
 GraphInterface::GraphInterface(int width, int height) {
     this->width = width;
     this->height = height;
-    this->maxX = 535877.2818438777 ;
+    this->maxX = 535877.2818438777;
     this->maxY = 4558064.868116516;
     this->minX = 527178.8739517079;
     this->minY = 4555491.437477145;

@@ -169,8 +169,6 @@ void mainMenu(Company &company) {
 
                         company.setZonesToTasks();
 
-                        company.setStartVertexId(12722);
-
                         Pairing pairing(company.getTasks(), company.getPickets(), company.getBeginTime(), company.getEndTime(), &company.getCityGraph(), company.getStartVertexId());
 
                         pairing.setTasksToPickets();
@@ -213,9 +211,20 @@ void mainMenu(Company &company) {
 
                         }
 
+                        GraphInterface graphI(1920, 1080);
+                        vector<Edge<long>*> edgesTotal;
 
+                        for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
+                            for(Edge<long>* e: v->getOutgoingEdges())
+                                edgesTotal.push_back(e);
+                        }
 
-
+                        for(auto picket: company.getPickets()) {
+                            if(picket->getPath().size() > 3) {
+                                graphI.displayPath(edgesTotal, company.getCityGraph().getVertexSet(), picket->getPath(), picket->getTasksIds(), company.getStartVertexId());
+                                break;
+                            }
+                        }
 
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();

@@ -16,6 +16,7 @@ Company::Company(string name) {
     readNodes("../maps/Porto/porto_strong_nodes_xy.txt");
     readEdges("../maps/Porto/porto_strong_edges.txt");
     setRandomNodesToTasks();
+    startVertexId = 12722;
     beginTime = Time("9:30");
     endTime = Time("17:30");
 }
