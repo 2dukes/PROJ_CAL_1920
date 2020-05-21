@@ -26,10 +26,10 @@ void Square<T>::calculateSquare(vector<T> POIs) {
     for(Vertex<T>* vertex: POIsAux)
         generalFunctions::processCoordinates(vertex->getX(), vertex->getY(), minX, minY, maxX, maxY);
 
-    printf("MaxX: %lf | MaxY: %lf | MinX: %lf | MinY: %lf\n", maxX, maxY, minX, minY);
+//    printf("MaxX: %lf | MaxY: %lf | MinX: %lf | MinY: %lf\n", maxX, maxY, minX, minY);
     double halfX = (maxX + minX) / 2;
     double halfY = (maxY + minY) / 2;
-    printf("HALFX: %lf | HALFY: %lf \n", halfX, halfY);
+//    printf("HALFX: %lf | HALFY: %lf \n", halfX, halfY);
 
     for(auto vertex: POIsAux) {
         if(vertex->getX() >= halfX) {

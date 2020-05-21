@@ -4,6 +4,7 @@
 
 #include <fstream>
 #include <iostream>
+#include <Algorithms/TSP.h>
 
 #include "Company.h"
 #include "Utils/NecessaryFunctions_NameSpaces.h"
@@ -15,6 +16,8 @@ Company::Company(string name) {
     readNodes("../maps/Porto/porto_strong_nodes_xy.txt");
     readEdges("../maps/Porto/porto_strong_edges.txt");
     setRandomNodesToTasks();
+    beginTime = Time("9:30");
+    endTime = Time("17:30");
 }
 
 string Company::getName() {
@@ -141,9 +144,9 @@ vector<Task *> Company::getTasks() {
     return tasks;
 }
 
-Company::~Company() { // TODO descomentar isto depois (era só pra não 'estragar' os files durantes os testes)
-//    writePicketsFile("../files/pickets.txt");
-//    writeTasksFile("../files/tasks.txt");
+Company::~Company() {
+    writePicketsFile("../files/pickets.txt");
+    writeTasksFile("../files/tasks.txt");
 
     auxiliaryDestructor(pickets);
     auxiliaryDestructor(tasks);
@@ -315,5 +318,38 @@ void Company::setRandomNodesToTasks() {
         task->setNodeId(v->getInfo());
     }
 }
+
+Task *Company::getTaskById(long vertexId) {
+    for (auto task: tasks) {
+        if (task->getNodeId() == vertexId)
+            return task;
+    }
+    return nullptr; // nunca chega aqui
+}
+
+void Company::setBestPathToPickets() {
+
+    for (auto picket: pickets) {
+        if (picket->getTasks().size() == 0)
+            continue;
+
+        TSP<long> tsp(&cityGraph);
+        vector<long> path = tsp.calculatePath(picket->getTasksIds(), startVertexId, startVertexId);
+        picket->setPath(path);
+
+        picket->setInitTime(beginTime);
+
+        for (auto nodeId: path) {
+            if (generalFunctions::inVector<long>(picket->getTasksIds(), nodeId)) {
+                Task* task = getTaskById(nodeId);
+                Time currentTime = picket->getCurrentTime();
+                task->setBeginTime(currentTime);
+                currentTime = currentTime.addMinutes(task->getDurationMinutes());
+            }
+        }
+    }
+
+}
+
 
 

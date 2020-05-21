@@ -55,6 +55,8 @@ public:
     long getStartVertexId() const;
     void setStartVertexId(long vertexId);
     void setRandomNodesToTasks();
+    void setBestPathToPickets();
+    Task* getTaskById(long vertexId);
 };
 
 template<class Type>
