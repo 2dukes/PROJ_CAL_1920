@@ -191,7 +191,7 @@ void mainMenu(Company &company) {
                     case 1:
                     {
                         /* Display Nodes */
-                        GraphInterface graphI(1920, 1080, NULL);
+                        GraphInterface graphI(1920, 1080, &company.getCityGraph());
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
@@ -216,7 +216,7 @@ void mainMenu(Company &company) {
                         Square<long> squareAlg(&company.getCityGraph());
                         squareAlg.calculateSquare(task_NodesIDs);
 
-                        GraphInterface graphI(1920, 1080, NULL);
+                        GraphInterface graphI(1920, 1080, &company.getCityGraph());
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
@@ -341,13 +341,86 @@ void mainMenu(Company &company) {
                         }
 
                         vector<Picket*> pickets = company.getPickets();
-                        int numPicketsToDiplay = 0;
-                        for(auto picket: pickets) {
-                            if(!picket->getTasks().empty() && numPicketsToDiplay-- > 0) {
-                                cout << "Displaying path of picket with ID = " << picket->getId() << "... " << endl;
-                                graphI.displayPath(edgesTotal, company.getCityGraph().getVertexSet(), picket->getPath(), picket->getTasksIds(), company.getStartVertexId());
+
+                        int opt;
+                        cout << "Display Tasks by: " << endl << endl;
+                        cout << "0. Back" << endl;
+                        cout << "1. Zone" << endl;
+                        cout << "2. Picket ID" << endl;
+                        cin >> opt;
+
+                        switch(opt) {
+                            case 1:
+                            {
+                                cout << "We're currently dividing our region in 4 different Zones." << endl;
+
+                                vector<int> zoneX_numPickets;
+                                vector<int> minTaskX_Pickets;
+
+                                int auxVar;
+
+                                for (int zone = 1; zone <= 4; zone++) {
+                                    cout << endl << "For Zone " << zone << " how many Pickets do you want do display? ";
+                                    cin >> auxVar;
+                                    if(auxVar < 0) {
+                                        cout << "Invalid Number!" << endl << endl;
+                                        zone--;
+                                        continue;
+                                    }
+                                    zoneX_numPickets.push_back(auxVar);
+                                    cout << endl << "For Zone " << zone << " select the minimum of Tasks for each Picket: ";
+                                    cin >> auxVar;
+                                    if(auxVar < 0) {
+                                        cout << "Invalid Number!" << endl << endl;
+                                        zone--;
+                                        continue;
+                                    }
+                                    minTaskX_Pickets.push_back(auxVar);
+                                }
+
+                                for (int zone = 1; zone <= 4; zone++) {
+                                    cout << endl << "Displaying Tasks For Zone " << zone << ": " << endl;
+                                    int numPicketsToDiplay = zoneX_numPickets.at(zone - 1);
+
+                                    if(numPicketsToDiplay > 0) {
+                                        for(auto picket: pickets) {
+                                            if(picket->getTasks().size() >= minTaskX_Pickets.at(zone - 1) && picket->getZone() == zone) {
+                                                cout << endl << "Displaying path of picket with ID = " << picket->getId() << "... " << endl;
+                                                graphI.displayPath(edgesTotal, company.getCityGraph().getVertexSet(), picket->getPath(), picket->getTasksIds(), company.getStartVertexId());
+
+                                                if(--numPicketsToDiplay <= 0)
+                                                    break;
+                                            }
+                                        }
+                                    }
+                                    cout << endl << endl << "Finished Display For Zone" << zone << "!" << endl;
+                                }
+                            }
+                            case 2:
+                            {
+                                int picketID;
+                                bool hasFound = false;
+
+                                while(!hasFound) {
+                                    cout << endl << endl << "Enter Picket ID: ";
+                                    cin >> picketID;
+                                    for(auto picket: company.getPickets()) {
+                                        if(picket->getId() == picketID) {
+                                            if(picket->getTasksIds().size() > 0)
+                                                graphI.displayPath(edgesTotal, company.getCityGraph().getVertexSet(), picket->getPath(), picket->getTasksIds(), company.getStartVertexId());
+                                            else
+                                                cout << endl << "Picket has 0 Tasks assigned!" << endl;
+                                            hasFound = true;
+                                            break;
+                                        }
+                                    }
+                                    if(!hasFound)
+                                        cout << endl << "No Picket with That ID was Found. Please Enter another!" << endl << endl;
+                                }
                             }
                         }
+
+
 
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();

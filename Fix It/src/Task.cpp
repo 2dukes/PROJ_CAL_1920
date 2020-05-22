@@ -6,6 +6,7 @@
 #include "Task.h"
 
 #include <algorithm>
+#include <sstream>
 
 int Task::current_id = 0;
 
@@ -71,9 +72,23 @@ bool Task::hasDefinedTime() const {
 }
 
 ostream &operator<<(ostream &os, const Task &task) {
-    os << "Function: " << task.getFunction() << endl;
-    os << "NodeId: " << task.getNodeId() << endl;
-    os << "Duration: " << task.getDurationMinutes() << endl;
+    if(os.rdbuf() == std::cout.rdbuf()) {
+        os << "Function: " << task.getFunction() << endl;
+        os << "NodeId: " << task.getNodeId() << endl;
+        os << "Duration: " << task.getDurationMinutes() << endl;
+
+        if(!(task.getBeginTime() == Time(0, 0))) {
+            os << "Begin Time: " << task.getBeginTime() << endl;
+            os << "End Time: " << task.getBeginTime().addMinutes(task.getDurationMinutes()) << endl;
+            os << "Responsible Picket: " << task.getResponsiblePicket()->getId() << endl;
+        }
+    }
+    else {
+        os << "Function: " << task.getFunction() << endl;
+        os << "NodeId: " << task.getNodeId() << endl;
+        os << "Duration: " << task.getDurationMinutes() << endl;
+    }
+
     return os;
 }
 
