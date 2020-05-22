@@ -191,7 +191,7 @@ void mainMenu(Company &company) {
                     case 1:
                     {
                         /* Display Nodes */
-                        GraphInterface graphI(1920, 1080, &company.getCityGraph());
+                        GraphInterface graphI(1920, 1080, &company.getCityGraph(), &company);
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
@@ -216,7 +216,7 @@ void mainMenu(Company &company) {
                         Square<long> squareAlg(&company.getCityGraph());
                         squareAlg.calculateSquare(task_NodesIDs);
 
-                        GraphInterface graphI(1920, 1080, &company.getCityGraph());
+                        GraphInterface graphI(1920, 1080, &company.getCityGraph(), &company);
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
@@ -332,7 +332,7 @@ void mainMenu(Company &company) {
                         cout << "Number of pickets that needed to work: " << numPicketsWithTasks << endl;
                         cout << "Number of pickets that did not work: " << numPicketsWithoutTasks << endl << endl << endl;
 
-                        GraphInterface graphI(1920, 1080, &company.getCityGraph());
+                        GraphInterface graphI(1920, 1080, &company.getCityGraph(), &company);
                         vector<Edge<long>*> edgesTotal;
 
                         for(Vertex<long>* v: company.getCityGraph().getVertexSet()) {
@@ -395,6 +395,7 @@ void mainMenu(Company &company) {
                                     }
                                     cout << endl << endl << "Finished Display For Zone" << zone << "!" << endl;
                                 }
+                                break;
                             }
                             case 2:
                             {
@@ -417,12 +418,14 @@ void mainMenu(Company &company) {
                                     if(!hasFound)
                                         cout << endl << "No Picket with That ID was Found. Please Enter another!" << endl << endl;
                                 }
+                                break;
                             }
                         }
 
 
 
                         cout << endl << endl << "Press any Enter to continue...";
+                        cin.get();
                         cin.get();
                         break;
                     }

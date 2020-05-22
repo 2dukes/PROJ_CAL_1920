@@ -4,13 +4,16 @@
 #include "Graph/Graph.h"
 #include "Algorithms/TSP.h"
 #include "../lib/graphviewer.h"
+#include "Company.h"
 #include <unistd.h>
+#include <sstream>
 
 #define PRECISION 10e9
 
 class GraphInterface {
     GraphViewer *graphViewer;
     Graph<long>* graph;
+    Company* company;
     int width;
     int height;
     double maxX;
@@ -22,7 +25,7 @@ class GraphInterface {
     double calculateY(double coord);
 
 public:
-    GraphInterface(int width, int height, Graph<long>* graph);
+    GraphInterface(int width, int height, Graph<long>* graph, Company* company);
 
     template <class T>
     void displayPath(vector<Edge<T> *> edgesPath, vector<Vertex<T>* > vertexes, vector<T> pathToCalc, vector<T> tasks, T companyPlaceID);
@@ -65,7 +68,21 @@ void GraphInterface::displayPath(vector<Edge<T> *> edgesPath, vector<Vertex<T>* 
     for(int vIndex = 0; vIndex < pathToCalc.size() - 1; vIndex++)
         graphViewer->setVertexColor(pathToCalc[vIndex], "gray");
 
+
     for(auto taskID: tasks) {
+        for(auto task: company->getTasks()) {
+            if(task->getNodeId() == taskID) {
+                if(!(task->getBeginTime() == Time(0, 0))) {
+                    ostringstream o_stream;
+                    o_stream << "Begin Time: " << task->getBeginTime() << " | "
+                             << "End Time:" << task->getEndTime() << " | "
+                             << "Task Node ID: " << taskID << endl;
+                    graphViewer->setVertexLabel(taskID, o_stream.str());
+                }
+                break;
+            }
+        }
+
         if(graph->findVertex(taskID)->getVZone() == 1)
             graphViewer->setVertexColor(taskID, "green");
         else if(graph->findVertex(taskID)->getVZone() == 2)

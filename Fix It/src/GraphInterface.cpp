@@ -1,9 +1,10 @@
 #include "GraphInterface.h"
 
-GraphInterface::GraphInterface(int width, int height, Graph<long>* graph) {
+GraphInterface::GraphInterface(int width, int height, Graph<long>* graph, Company* company) {
     this->width = width;
     this->height = height;
     this->graph = graph;
+    this->company = company;
 
     for(Vertex<long>* vertex: graph->getVertexSet())
         generalFunctions::processCoordinates(vertex->getX(), vertex->getY(), this->minX, this->minY, this->maxX, this->maxY);
