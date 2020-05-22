@@ -10,12 +10,21 @@ CITY readCityOption() {
     cout << "1. Porto" << endl;
     cout << "2. Penafiel" << endl;
     cout << "3. Espinho" << endl;
+    cout << "4. Coimbra" << endl;
+    cout << "5. Aveiro" << endl;
+    cout << "6. Braga" << endl;
+    cout << "7. Fafe" << endl;
+    cout << "8. Gondomar" << endl;
+    cout << "9. Lisboa" << endl;
+    cout << "10. Maia" << endl;
+    cout << "11. Viseu" << endl;
+    cout << "12. Portugal" << endl;
     cout << endl;
 
     int cityNum;
     do {
         cityNum = readOperations::readNumber<int>("Please chose the city of the company: ");
-    } while (cityNum != 1 && cityNum != 2 && cityNum != 3);
+    } while (cityNum < 1 || cityNum > 12);
 
     cout << "\n\nLoading Maps..." << endl;
 
