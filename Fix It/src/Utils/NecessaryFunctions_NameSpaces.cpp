@@ -130,18 +130,6 @@ namespace generalFunctions {
         return str_fields;
     }
 
-    std::vector<int> convert_vector_str_to_int(std::vector<std::string> v) {
-        std::vector<int> vec;
-        std::string temp;
-        for (size_t i = 0; i < v.size(); i++){
-            temp = "";
-            temp = v.at(i);
-            trim(temp);
-            vec.push_back(stoi(temp));
-        }
-        return vec;
-    }
-
     void processCoordinates(double x, double y, double &minX, double &minY, double &maxX, double &maxY) {
         if(x > maxX)
             maxX = x;

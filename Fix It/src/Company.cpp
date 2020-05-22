@@ -8,23 +8,35 @@
 #include "Company.h"
 
 
-Company::Company(string name) {
+Company::Company(string name, CITY cityNum) {
     this->name = name;
     readPicketsFile("../files/pickets.txt");
     readTasksFile("../files/tasks.txt");
-    readCityGraph("../maps/Porto/porto_strong_nodes_xy.txt", "../maps/Porto/porto_strong_edges.txt");
+
+    if (cityNum == Porto) {
+        readCityGraph("../maps/Porto/porto_strong_nodes_xy.txt", "../maps/Porto/porto_strong_edges.txt");
+    }
+    else if (cityNum == Penafiel) {
+        readCityGraph("../maps/Penafiel/penafiel_strong_nodes_xy.txt", "../maps/Penafiel/penafiel_strong_edges.txt");
+    }
+    else if (cityNum == Espinho) {
+        readCityGraph("../maps/Espinho/espinho_strong_nodes_xy.txt", "../maps/Espinho/espinho_strong_edges.txt");
+    }
+    else {
+        cerr << "There is no map!\n";
+        exit(1);
+    }
     setRandomNodesToTasks();
     sortPicketsByNumTasksDone();
 
     beginTime = Time("08:30");
     endTime = Time("17:30");
-    startVertexId = 27198;
+    startVertexId = cityGraph.getVertexSet().at(0)->getInfo();
     Vertex<long> *v = cityGraph.findVertex(startVertexId);
     if (v == nullptr) {
         cerr << "\n\nThere is no such vertex in the city's graph\n\n";
-        exit(1);
+        exit(2);
     }
-
 }
 
 string Company::getName() {
