@@ -110,14 +110,35 @@ void Pairing::setTasksToPickets() {
                 picket->addTask(task);
                 break;
             }
-        }
 
-        for (auto task: tasksToPair) {
-            if (!task->hasPicket()) {
-                cerr << "There is no picket compatible with the task with id " << task->getNodeId() << endl;
+
+        }
+    }
+    for (auto task: tasks) {
+        if (!task->hasPicket()) { // verifir se ainda há tarefas, e desta vez os piquetes podem mudar da sua zona original
+            int taskZone = task->getZone();
+            string function = task->getFunction();
+            for (auto picket: pickets) {
+
+                if (!picket->verifyRole(function)) {
+                    continue;
+                }
+
+                if ((endTime < picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1)) || (picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1) == endTime)) {
+                    continue;
+                }
+
+                if (!picket->timeIsCompatible(picket->getCurrentTime(), picket->getCurrentTime().addMinutes(task->getDurationMinutes()))) {
+                    continue;
+                }
+
+                picket->setZone(taskZone);
+                Time currentTime = picket->getCurrentTime();
+                task->setBeginTime(currentTime);
+                picket->addTask(task);
+                break;
             }
         }
-
     }
 }
 

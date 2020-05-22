@@ -24,6 +24,8 @@ class Company {
     Time endTime;
     long startVertexId;
     SEARCH_ALGORITHM searchAlgorithm;
+    int maxNumTasks = INT32_MAX;
+    int maxNumPickets = INT32_MAX;
 
 public:
     Company(string name);
@@ -36,8 +38,8 @@ public:
     bool writeTasksFile(const string& filename);
     void addPicket(Picket* picket);
     void addTask(Task* task);
-    vector<Picket*> getPickets();
-    vector<Task*> getTasks();
+    vector<Picket*> getPickets() const;
+    vector<Task*> getTasks() const;
     bool readNodes(const string &filename);
     bool readEdges(const string &filename);
     bool readCityGraph(const string &nodesFile, const string &edgesFile);
@@ -58,6 +60,8 @@ public:
     void setBestPathToPickets();
     void setSearchAlgorithm(SEARCH_ALGORITHM searchAlgorithm);
     void sortPicketsByNumTasksDone();
+    void limitNumTasks(int maxNumTasks);
+    void limitNumPickets(int maxNumPickets);
 };
 
 template<class Type>

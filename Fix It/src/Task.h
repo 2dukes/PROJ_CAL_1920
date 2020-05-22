@@ -45,6 +45,7 @@ public:
     friend ostream& operator<<(ostream& os, const Task &task);
     void setZone(MAP_ZONE zone);
     int getZone() const;
+    void removeResponsiblePicket();
 };
 
 

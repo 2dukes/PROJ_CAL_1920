@@ -143,12 +143,24 @@ void Company::addTask(Task* task) {
     this->tasks.push_back(task);
 }
 
-vector<Picket *> Company::getPickets() {
-    return pickets;
+vector<Picket *> Company::getPickets() const {
+    vector<Picket*> picketsLimited;
+    int i = 0;
+    int aux = maxNumPickets;
+    while (aux-- > 0 && i < pickets.size()) {
+        picketsLimited.push_back(pickets.at(i++));
+    }
+    return picketsLimited;
 }
 
-vector<Task *> Company::getTasks() {
-    return tasks;
+vector<Task *> Company::getTasks() const {
+    vector<Task*> tasksLimited;
+    int i = 0;
+    int aux = maxNumTasks;
+    while (aux-- > 0 && i < tasks.size()) {
+        tasksLimited.push_back(tasks.at(i++));
+    }
+    return tasksLimited;
 }
 
 Company::~Company() {
@@ -226,13 +238,13 @@ Graph<long> &Company::getCityGraph() {
 }
 
 void Company::showPicketsInfo() const {
-    for (Picket *picket: pickets) {
+    for (Picket *picket: getPickets()) {
         cout << *picket << endl;
     }
 }
 
 void Company::showTasksInfo() const {
-    for (Task *task: tasks) {
+    for (Task *task: getTasks()) {
         cout << *task << endl;
     }
 }
@@ -272,7 +284,7 @@ bool Company::createTask() {
         }
 
         vector<long> tasksIds;
-        for (auto task: tasks) {
+        for (auto task: getTasks()) {
             tasksIds.push_back(task->getNodeId());
         }
 
@@ -301,7 +313,8 @@ bool Company::createTask() {
 }
 
 void Company::setZonesToTasks() {
-    for (auto task: tasks) {
+    vector<Task*> t = getTasks();
+    for (auto task: t) {
         Vertex<long>* v = cityGraph.findVertex(task->getNodeId());
         task->setZone(v->getVZone());
     }
@@ -346,8 +359,8 @@ void Company::setRandomNodesToTasks() {
 }
 
 void Company::setBestPathToPickets() {
-
-    for (auto picket: pickets) {
+    vector<Picket*> p = getPickets(); // usa-se o método getPickets() e não pickets, para se poder limitar o seu número
+    for (auto picket: p) {
         if (picket->getTasks().empty())
             continue;
 
@@ -359,7 +372,7 @@ void Company::setBestPathToPickets() {
 
         for (auto nodeId: path) {
             if (generalFunctions::inVector<long>(picket->getTasksIds(), nodeId)) {
-                Task* task = generalFunctions::getTaskById(nodeId, tasks);
+                Task* task = generalFunctions::getTaskById(nodeId, getTasks());
                 Time currentTime = picket->getCurrentTime();
                 task->setBeginTime(currentTime);
                 currentTime = currentTime.addMinutes(task->getDurationMinutes()+1);
@@ -375,11 +388,22 @@ void Company::setSearchAlgorithm(SEARCH_ALGORITHM searchAlgorithm) {
 }
 
 bool sortFunction(Picket *picket1, Picket *picket2) {
-    return picket1->getNumTasksDone() > picket2->getNumTasksDone();
+    if (picket1->getRoles().size() == picket2->getRoles().size()) {
+        return picket1->getNumTasksDone() > picket2->getNumTasksDone();
+    }
+    return picket1->getRoles().size() > picket2->getRoles().size();
 }
 
 void Company::sortPicketsByNumTasksDone() {
     sort(pickets.begin(), pickets.end(), sortFunction);
+}
+
+void Company::limitNumTasks(int maxNumTasks) {
+    this->maxNumTasks = maxNumTasks;
+}
+
+void Company::limitNumPickets(int maxNumPickets) {
+    this->maxNumPickets = maxNumPickets;
 }
 
 

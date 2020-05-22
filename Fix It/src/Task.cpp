@@ -104,5 +104,9 @@ void Task::setNodeId(long nodeId) {
     this->nodeId = nodeId;
 }
 
+void Task::removeResponsiblePicket() {
+    responsiblePicket = nullptr;
+}
+
 
 
