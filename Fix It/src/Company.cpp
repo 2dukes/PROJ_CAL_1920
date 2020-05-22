@@ -388,7 +388,10 @@ void Company::setSearchAlgorithm(SEARCH_ALGORITHM searchAlgorithm) {
 }
 
 bool sortFunction(Picket *picket1, Picket *picket2) {
-    return picket1->getNumTasksDone() > picket2->getNumTasksDone();
+    if (picket1->getRoles().size() == picket2->getRoles().size()) {
+        return picket1->getNumTasksDone() > picket2->getNumTasksDone();
+    }
+    return picket1->getRoles().size() > picket2->getRoles().size();
 }
 
 void Company::sortPicketsByNumTasksDone() {
