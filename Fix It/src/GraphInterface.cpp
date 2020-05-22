@@ -9,6 +9,7 @@ GraphInterface::GraphInterface(int width, int height, Graph<long>* graph, Compan
     for(Vertex<long>* vertex: graph->getVertexSet())
         generalFunctions::processCoordinates(vertex->getX(), vertex->getY(), this->minX, this->minY, this->maxX, this->maxY);
 
+//    cout << minX << " " << minY << " " << maxX << " " << maxY << endl;
 //    this->maxX = 535877.2818438777;
 //    this->maxY = 4558064.868116516;
 //    this->minX = 527178.8739517079;

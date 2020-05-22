@@ -245,7 +245,7 @@ void mainMenu(Company &company) {
                     {
                         int algOption;
                         do {
-                            algOption = readOperations::readNumber<int>("Please chose a search algorithm to use in TSP algorithm:\n\n0. Dijkstra\n1. AStar\n\nOption (0 / 1): ");
+                            algOption = readOperations::readNumber<int>("Please choose a search algorithm to use in TSP algorithm:\n\n0. Dijkstra\n1. AStar\n\nOption (0 / 1): ");
                         } while (algOption != 0 && algOption != 1);
 
                         for (auto picket: company.getPickets()) {

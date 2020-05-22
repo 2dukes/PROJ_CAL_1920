@@ -22,31 +22,14 @@ Company::Company(string name, CITY cityNum) {
     else if (cityNum == Coimbra) {
         readCityGraph("../maps/Coimbra/nodes_x_y_coimbra.txt", "../maps/Coimbra/edges_coimbra.txt");
     }
-    else if (cityNum == Aveiro) {
-        readCityGraph("../maps/Aveiro/nodes_x_y_aveiro.txt", "../maps/Aveiro/edges_aveiro.txt");
-    }
-    else if (cityNum == Braga) {
-        readCityGraph("../maps/Braga/nodes_x_y_braga.txt", "../maps/Braga/edges_braga.txt");
-    }
-    else if (cityNum == Fafe) {
-        readCityGraph("../maps/Fafe/nodes_x_y_fafe.txt", "../maps/Fafe/edges_fafe.txt");
-    }
-    else if (cityNum == Gondomar) {
-        readCityGraph("../maps/Gondomar/nodes_x_y_gondomar.txt", "../maps/Gondomar/edges_gondomar.txt");
-    }
     else if (cityNum == Lisboa) {
         readCityGraph("../maps/Lisboa/nodes_x_y_lisboa.txt", "../maps/Lisboa/edges_lisboa.txt");
-    }
-    else if (cityNum == Maia) {
-        readCityGraph("../maps/Maia/nodes_x_y_maia.txt", "../maps/Maia/edges_maia.txt");
-    }
-    else if (cityNum == Viseu) {
-        readCityGraph("../maps/Viseu/nodes_x_y_viseu.txt", "../maps/Viseu/edges_viseu.txt");
     }
     else {
         cerr << "There is no map!\n";
         exit(1);
     }
+
     setRandomNodesToTasks();
     sortPicketsByNumTasksDone();
 
@@ -54,6 +37,7 @@ Company::Company(string name, CITY cityNum) {
     endTime = Time("17:30");
     startVertexId = cityGraph.getVertexSet().at(0)->getInfo();
     Vertex<long> *v = cityGraph.findVertex(startVertexId);
+
     if (v == nullptr) {
         cerr << "\n\nThere is no such vertex in the city's graph\n\n";
         exit(2);
@@ -282,13 +266,10 @@ void Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
             selectedTree = SCCTree;
         }
     }
-
     cout << SCCVector.size() << " | " << maxTreeSize << endl; // Number of Trees | Respective Content Length
 
     cityGraph.deleteUnusefulNodes(selectedTree);
     cityGraph.deleteUnusefulEdges(selectedTree);
-
-
 }
 
 Graph<long> &Company::getCityGraph() {

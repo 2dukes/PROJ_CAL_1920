@@ -12,7 +12,7 @@
 #include "Graph/Graph.h"
 #include "Algorithms/TSP.h"
 
-enum CITY {Porto = 1, Penafiel = 2, Espinho = 3, Coimbra = 4, Aveiro = 5, Braga = 6, Fafe = 7, Gondomar = 8, Lisboa = 9, Maia = 10, Viseu = 11};
+enum CITY {Porto = 1, Penafiel = 2, Espinho = 3, Coimbra = 4, Lisboa = 5};
 
 using namespace std;
 
