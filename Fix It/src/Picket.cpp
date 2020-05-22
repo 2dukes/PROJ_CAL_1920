@@ -130,6 +130,10 @@ vector<long> Picket::getTasksIds() const {
     return tasksIds;
 }
 
+void Picket::clearTasks() {
+    tasks.clear();
+}
+
 
 
 

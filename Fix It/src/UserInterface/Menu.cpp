@@ -37,7 +37,7 @@ void mainMenu(Company &company) {
 
     cout << string(100, '\n');
     vector<string> mainChoices = { "1. Manage company", "2. View city graph", "3. Assign Tasks to the Pickets", "0. Exit" };
-    vector<string> firstChoices = { "1. Display Pickets", "2. Display Tasks", "3. Create Picket", "4. Create Task", "5. Change the company's working hours", "6. Change the company's headquarters", "0. Main Menu" };
+    vector<string> firstChoices = { "1. Display Pickets", "2. Display Tasks", "3. Create Picket", "4. Create Task", "5. Change the company's working hours", "6. Change the company's headquarters", "7. Limit number of pickets", "8. Limit number of tasks", "0. Main Menu" };
     vector<string> secondChoices = { "1. Display Graph", "2. Display & Generate Clusters' Tasks", "0. Main Menu" };
     vector<string> thirdChoices = { "1. Assign Tasks to the Pickets", "0. Main Menu" };
     vector<string> viewAvailablePackChoices = { "1. Other Workers", "0. Main Menu" };
@@ -151,6 +151,35 @@ void mainMenu(Company &company) {
                         cin.get();
                         break;
                     }
+                    case 7:
+                    {
+                        int numPickets;
+                        do {
+                            numPickets = readOperations::readNumber<int>("Please enter the maximum number of pickets: ");
+                        } while (numPickets <= 0);
+
+                        company.limitNumPickets(numPickets);
+
+                        cout << endl << endl << "Press any key to continue...";
+                        cin.get();
+                        break;
+                    }
+                    case 8:
+                    {
+                        int numTasks;
+                        do {
+                            numTasks = readOperations::readNumber<int>("Please enter the maximum number of tasks: ");
+                        } while (numTasks <= 0);
+
+                        company.limitNumTasks(numTasks);
+
+
+                        cout << endl << endl << "Press any key to continue...";
+                        cin.get();
+                        break;
+                    }
+
+
                     default:
                         break;
                 }
@@ -219,7 +248,19 @@ void mainMenu(Company &company) {
                             algOption = readOperations::readNumber<int>("Please chose a search algorithm to use in TSP algorithm:\n\n0. Dijkstra\n1. AStar\n\nOption (0 / 1): ");
                         } while (algOption != 0 && algOption != 1);
 
+                        for (auto picket: company.getPickets()) {
+                            picket->clearTasks();
+                        }
+                        for (auto task: company.getTasks()) {
+                            Time t = company.getBeginTime();
+                            task->setBeginTime(t);
+                            task->removeResponsiblePicket();
+                        }
+
                         company.setSearchAlgorithm(static_cast<SEARCH_ALGORITHM>(algOption));
+
+                        cout << endl << endl << "Number of tasks: " << company.getTasks().size() << endl;
+                        cout << "Number of pickets: " << company.getPickets().size() << endl << endl;
 
                         cout << endl << endl << "Executing a complex algorithm..." << endl << endl;
                         vector<long> task_NodesIDs;
@@ -232,14 +273,14 @@ void mainMenu(Company &company) {
                         company.setZonesToTasks();
 
                         Pairing pairing(company.getTasks(), company.getPickets(), company.getBeginTime(), company.getEndTime());
-
                         pairing.setTasksToPickets();
                         company.setBestPathToPickets();
 
                         vector<Task*> tasksPaired = company.getTasks();
 
-                        cout << "\n\n============TASKS===============\n\n";
+                        cout << "\n\n=================================TASKS WITH PICKETS==================================================\n\n";
 
+                        int numTasksWithPicket = 0, numTasksWithoutPicket = 0;
                         for (auto task: tasksPaired) {
                             if (task->hasPicket()) {
                                 cout << "Task with ID = " << task->getNodeId() << " and zone = " << task->getZone() << endl;
@@ -248,18 +289,26 @@ void mainMenu(Company &company) {
                                 cout << "End Time: " << task->getEndTime() << endl;
                                 cout << "Picket chosen: " << task->getResponsiblePicket()->getName() << " (ID= " << task->getResponsiblePicket()->getId() << ")" << endl;
                                 cout << "-------------------------------------------\n";
+                                numTasksWithPicket++;
                             }
-                            else {
-                                cerr << "The task with id " << task->getNodeId() << " and zone " << task->getZone()
-                                     << " does not have a compatible picket" << endl;
+                        }
+
+                        cout << "\n\n\n\n========================TASKS WITHOUT PICKETS=================================================\n\n";
+
+                        for (auto task: tasksPaired) {
+                            if (!task->hasPicket()) {
+                                cout << "Task with ID = " << task->getNodeId() << " and zone = " << task->getZone() << endl;
+                                cout << *task << endl;
                                 cout << "-------------------------------------------\n";
+                                numTasksWithoutPicket++;
                             }
                         }
 
                         // ==============================================================================================
 
-                        cout << "\n\n\n============PICKETS WITH TASKS===============\n\n";
+                        cout << "\n\n\n\n============================PICKETS WITH TASKS=================================================\n\n";
 
+                        int numPicketsWithTasks = 0, numPicketsWithoutTasks = 0;
                         vector<Picket*> picketsWithTasks = company.getPickets();
                         for (auto picket: picketsWithTasks) {
                             if (picket->getTasks().size() > 0) { // se pelo menos uma tarefa atribuida
@@ -271,10 +320,17 @@ void mainMenu(Company &company) {
                                     cout << *task;
                                     cout << "End time: " << task->getEndTime() << endl;
                                 }
-                                cout << "------------------------\n";
+                                cout << "-----------------------------------\n";
+                                numPicketsWithTasks++;
                             }
-
+                            else
+                                numPicketsWithoutTasks++;
                         }
+
+                        cout << "\n\n\nNumber of tasks attributed to a picket: " << numTasksWithPicket << endl;
+                        cout << "Number of tasks not attributed to a picket: " << numTasksWithoutPicket << endl;
+                        cout << "Number of pickets that needed to work: " << numPicketsWithTasks << endl;
+                        cout << "Number of pickets that did not work: " << numPicketsWithoutTasks << endl << endl << endl;
 
                         GraphInterface graphI(1920, 1080, &company.getCityGraph());
                         vector<Edge<long>*> edgesTotal;

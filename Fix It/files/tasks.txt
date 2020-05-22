@@ -4565,11 +4565,11 @@ Duration: 70
 ::::::::::
 
 Function: Trolha
-NodeId: 125
+NodeId: 25906
 Duration: 40
 
 ::::::::::
 
 Function: Eletricista
-NodeId: 127
+NodeId: 1948
 Duration: 30

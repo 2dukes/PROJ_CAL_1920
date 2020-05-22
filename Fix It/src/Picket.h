@@ -49,6 +49,7 @@ public:
     vector<long> getPath() const;
     void setCurrentTime(const Time &time);
     Time getCurrentTime() const;
+    void clearTasks();
 };
 
 

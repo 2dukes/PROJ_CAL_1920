@@ -110,13 +110,52 @@ void Pairing::setTasksToPickets() {
                 picket->addTask(task);
                 break;
             }
-        }
 
-        for (auto task: tasksToPair) {
-            if (!task->hasPicket()) {
-                cerr << "There is no picket compatible with the task with id " << task->getNodeId() << endl;
+            if (!task->hasPicket()) { // verifir se ainda há tarefas, e desta vez os piquetes podem ir a outras zonas.
+                for (auto picket: pickets) {
+                    if (!picket->verifyRole(function)) {
+                        continue;
+                    }
+
+                    if ((endTime < picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1)) || (picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1) == endTime)) {
+                        continue;
+                    }
+
+                    if (!picket->timeIsCompatible(picket->getCurrentTime(), picket->getCurrentTime().addMinutes(task->getDurationMinutes()))) {
+                        continue;
+                    }
+
+                    Time currentTime = picket->getCurrentTime();
+                    task->setBeginTime(currentTime);
+                    picket->addTask(task);
+                    break;
+                }
             }
         }
+
+
+//        for (auto task: tasksToPair) {
+//            if (!task->hasPicket()) { // verifir se ainda há tarefas, e desta vez os piquetes podem ir a outras zonas.
+//                for (auto picket: pickets) {
+//                    if (!picket->verifyRole(task->getFunction())) {
+//                        continue;
+//                    }
+//
+//                    if ((endTime < picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1)) || (picket->getCurrentTime().addMinutes(task->getDurationMinutes()+1) == endTime)) {
+//                        continue;
+//                    }
+//
+//                    if (!picket->timeIsCompatible(picket->getCurrentTime(), picket->getCurrentTime().addMinutes(task->getDurationMinutes()))) {
+//                        continue;
+//                    }
+//
+//                    Time currentTime = picket->getCurrentTime();
+//                    task->setBeginTime(currentTime);
+//                    picket->addTask(task);
+//                    break;
+//                }
+//            }
+//        }
 
     }
 }
