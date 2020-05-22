@@ -18,7 +18,6 @@ CITY readCityOption() {
     cout << "9. Lisboa" << endl;
     cout << "10. Maia" << endl;
     cout << "11. Viseu" << endl;
-    cout << "12. Portugal" << endl;
     cout << endl;
 
     int cityNum;

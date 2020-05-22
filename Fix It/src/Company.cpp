@@ -43,9 +43,6 @@ Company::Company(string name, CITY cityNum) {
     else if (cityNum == Viseu) {
         readCityGraph("../maps/Viseu/nodes_x_y_viseu.txt", "../maps/Viseu/edges_viseu.txt");
     }
-    else if (cityNum == Portugal) {
-        readCityGraph("../maps/Portugal/nodes_x_y_portugal.txt", "../maps/Portugal/edges_portugal.txt");
-    }
     else {
         cerr << "There is no map!\n";
         exit(1);
