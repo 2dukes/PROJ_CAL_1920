@@ -19,11 +19,14 @@ Company::Company(string name, CITY cityNum) {
     else if (cityNum == Espinho) {
         readCityGraph("../maps/Espinho/espinho_strong_nodes_xy.txt", "../maps/Espinho/espinho_strong_edges.txt");
     }
-    else if (cityNum == Coimbra) {
-        readCityGraph("../maps/Coimbra/nodes_x_y_coimbra.txt", "../maps/Coimbra/edges_coimbra.txt");
+    else if (cityNum == PortoFull) {
+        readCityGraph("../maps/Porto/porto_full_nodes_xy.txt", "../maps/Porto/porto_full_edges.txt");
     }
-    else if (cityNum == Lisboa) {
-        readCityGraph("../maps/Lisboa/nodes_x_y_lisboa.txt", "../maps/Lisboa/edges_lisboa.txt");
+    else if (cityNum == PenafielFull) {
+        readCityGraph("../maps/Penafiel/penafiel_full_nodes_xy.txt", "../maps/Penafiel/penafiel_full_edges.txt");
+    }
+    else if (cityNum == EspinhoFull) {
+        readCityGraph("../maps/Espinho/espinho_full_nodes_xy.txt", "../maps/Espinho/espinho_full_edges.txt");
     }
     else {
         cerr << "There is no map!\n";

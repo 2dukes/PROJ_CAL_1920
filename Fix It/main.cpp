@@ -10,8 +10,10 @@ CITY readCityOption() {
     cout << "1. Porto" << endl;
     cout << "2. Penafiel" << endl;
     cout << "3. Espinho" << endl;
-    cout << "4. Coimbra" << endl;
-    cout << "5. Lisboa" << endl;
+    cout << "4. Porto FULL" << endl;
+    cout << "5. Penafiel FULL" << endl;
+    cout << "6. Espinho FULL" << endl;
+
     cout << endl;
 
     int cityNum;

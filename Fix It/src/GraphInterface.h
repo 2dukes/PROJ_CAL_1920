@@ -45,7 +45,7 @@ void GraphInterface::displayPath(vector<Edge<T> *> edgesPath, vector<Vertex<T>* 
 
     // Entire MAP
     for(auto v: vertexes)
-        graphViewer->addNode(v->getInfo(), v->getX() - abs(maxX), v->getY() - abs(maxY));
+        graphViewer->addNode(v->getInfo(), v->getX(), v->getY());
 
     for(int eIndex = 0; eIndex < edgesPath.size(); eIndex++) {
         Edge<T>* auxEdge = edgesPath[eIndex];
@@ -111,7 +111,7 @@ void GraphInterface::displayOporto(vector<Edge<T> *> edgesPath, vector<Vertex<T>
     graphViewer->createWindow(this->width, this->height);
     int edgeID = 0;
     for(auto v: vertexes) {
-        graphViewer->addNode(v->getInfo(), v->getX() - abs(maxX), v->getY() - abs(maxY));
+        graphViewer->addNode(v->getInfo(), v->getX(), v->getY());
 
         if(v->getVZone() == ZONE1) {
             graphViewer->setVertexColor(v->getInfo(), "green");
