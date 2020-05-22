@@ -43,7 +43,7 @@ public:
     vector<Task*> getTasks() const;
     bool readNodes(const string &filename);
     bool readEdges(const string &filename);
-    bool readCityGraph(const string &nodesFile, const string &edgesFile);
+    void readCityGraph(const string &nodesFile, const string &edgesFile);
     void setZonesToTasks();
     template<class Type>
     void auxiliaryDestructor(vector<Type> &elements);
@@ -63,6 +63,7 @@ public:
     void sortPicketsByNumTasksDone();
     void limitNumTasks(int maxNumTasks);
     void limitNumPickets(int maxNumPickets);
+    void deleteUnusefulNodes(vector<long>& SCCTree);
 };
 
 template<class Type>

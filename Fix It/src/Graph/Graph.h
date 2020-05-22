@@ -19,7 +19,7 @@ template <class T> class Edge;
 template <class T> class Graph;
 template <class T> class Vertex;
 
-#define INF std::numeric_limits<double>::max()
+#define INF std::numeric_limits<int>::max()
 
 enum MAP_ZONE {ZONE0 = 0, ZONE1 = 1, ZONE2 = 2, ZONE3 = 3, ZONE4 = 4};
 
@@ -197,6 +197,9 @@ public:
     Vertex<T>* initPathAlg(const T &origin);
     Vertex<T>* initDestinationPathAlg(const T &destination);
     vector<T> getPath(const T &origin, const T &dest) const;
+    void deleteUnusefulNodes(vector<long>& SCCTree);
+    void deleteUnusefulEdges(vector<long>& SCCTree);
+
 };
 
 template<class T>
@@ -315,6 +318,32 @@ vector<T> Graph<T>::getPath(const T &origin, const T &dest) const { // Works for
 template<class T>
 const vector<Vertex<T>* >& Graph<T>::getVertexSet() const{
     return vertexSet;
+}
+
+template <class T>
+void Graph<T>::deleteUnusefulNodes(vector<long>& SCCTree) {
+    typedef typename vector<Vertex<long>*>::iterator iterator;
+
+    for(iterator iTr = vertexSet.begin(); iTr != vertexSet.end(); iTr++) {
+        if(find(SCCTree.begin(), SCCTree.end(), (*iTr)->getInfo()) == SCCTree.end())
+            iTr = --vertexSet.erase(iTr);
+
+    }
+}
+
+template <class T>
+void Graph<T>::deleteUnusefulEdges(vector<long>& SCCTree) {
+    typedef typename vector<Edge<long>*>::iterator iterator;
+
+    for(auto vertex: vertexSet) {
+        for(iterator iTr = vertex->outgoing.begin(); iTr != vertex->outgoing.end(); iTr++) {
+
+            if(find(SCCTree.begin(), SCCTree.end(), (*iTr)->getOrig()->getInfo()) == SCCTree.end()
+            || find(SCCTree.begin(), SCCTree.end(), (*iTr)->getDest()->getInfo()) == SCCTree.end())
+                iTr = --vertex->outgoing.erase(iTr);
+        }
+    }
+
 }
 
 

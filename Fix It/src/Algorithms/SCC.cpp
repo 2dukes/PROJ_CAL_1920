@@ -61,8 +61,9 @@ vector<vector<long>> SCC::reverseDFSVisit(stack<Vertex<long>* >  &vPostOrdered) 
         if(!auxVertex->visited) // If not visited yet... Then visit.
             ReversedfsWithPostOrderVisit(auxVertex, res); // res will hold the different trees!
 
-        if(res.size() > 0)
+        if(res.size() > 0) {
             SCCVector.push_back(res);
+        }
     }
 
     return SCCVector;

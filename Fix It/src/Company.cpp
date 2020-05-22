@@ -1,11 +1,8 @@
-//
-// Created by Tiago on 12/05/2020.
-//
-
 #include <fstream>
 #include <iostream>
 
 #include "Company.h"
+#include "Algorithms/SCC.h"
 
 
 Company::Company(string name, CITY cityNum) {
@@ -228,9 +225,11 @@ bool Company::readEdges(const string &filename) {
                 cerr << "Error reading the file " << filename << endl;
                 return false;
             }
+            int flag;
             this->cityGraph.addEdge(idNode1, idNode2,
-                    generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
-                                                             this->cityGraph.findVertex(idNode2)));
+                                    generalFunctions::heuristicDistance<long int>(this->cityGraph.findVertex(idNode1),
+                                                                                  this->cityGraph.findVertex(idNode2)));
+
         }
         f.close();
         return true;
@@ -241,8 +240,31 @@ bool Company::readEdges(const string &filename) {
     }
 }
 
-bool Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
-    return readNodes(nodesFile) && readEdges(edgesFile);
+void Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
+    readNodes(nodesFile);
+    readEdges(edgesFile);
+
+    SCC strongComponents(&cityGraph);
+    vector<vector<long>> SCCVector = strongComponents.calculateSCCs();
+    long maxTreeSize = -INF;
+    vector<long> selectedTree;
+//    cout << SCCVector.size() << " | " << SCCVector.at(0).size() << endl; // Number of Trees | Respective Content Length
+    if(SCCVector.at(0).size() == cityGraph.getVertexSet().size())
+        cout << "Graph is a Strongly Connected Component!" << endl;
+    for(auto SCCTree: SCCVector) {
+        int aux = SCCTree.size();
+        if(aux > maxTreeSize) {
+            maxTreeSize = aux;
+            selectedTree = SCCTree;
+        }
+    }
+
+//    cout << SCCVector.size() << " | " << maxTreeSize << endl; // Number of Trees | Respective Content Length
+
+    cityGraph.deleteUnusefulNodes(selectedTree);
+    cityGraph.deleteUnusefulEdges(selectedTree);
+
+
 }
 
 Graph<long> &Company::getCityGraph() {

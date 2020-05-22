@@ -36,9 +36,11 @@ public:
 
 template <class T>
 void GraphInterface::displayPath(vector<Edge<T> *> edgesPath, vector<Vertex<T>* > vertexes, vector<T> pathToCalc, vector<T> tasks, T companyPlaceID) {
+
     this->graphViewer= new GraphViewer(width, height, false);
     // graphViewer->setBackground(MAP_BACKGROUND);
     graphViewer->createWindow(this->width, this->height);
+
     int edgeID = 0;
 
     // Entire MAP
