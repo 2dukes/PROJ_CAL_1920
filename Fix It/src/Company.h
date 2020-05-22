@@ -12,6 +12,7 @@
 #include "Graph/Graph.h"
 #include "Algorithms/TSP.h"
 
+enum CITY {Porto = 1, Penafiel = 2, Espinho = 3};
 
 using namespace std;
 
@@ -28,7 +29,7 @@ class Company {
     int maxNumPickets = INT32_MAX;
 
 public:
-    Company(string name);
+    Company(string name, CITY cityNum);
     ~Company();
     string getName();
     Graph<long> &getCityGraph();

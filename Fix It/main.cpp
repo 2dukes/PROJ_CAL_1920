@@ -2,17 +2,29 @@
 
 #include "Company.h"
 #include "src/UserInterface/Menu.h"
-#include "Algorithms/SCC.h"
 
 using namespace std;
 
-int main() {
-    cout << "Loading Maps..." << endl;
-    Company company("Fix It");
-    SCC strongComponents(&company.getCityGraph());
-    vector<vector<long>> SCCVector = strongComponents.calculateSCCs();
+CITY readCityOption() {
+    cout << "\n\nCities available: " << endl << endl;
+    cout << "1. Porto" << endl;
+    cout << "2. Penafiel" << endl;
+    cout << "3. Espinho" << endl;
+    cout << endl;
 
-    cout << SCCVector.size() << endl << SCCVector.at(0).size() << endl; // Number of Trees | Respective Content
+    int cityNum;
+    do {
+        cityNum = readOperations::readNumber<int>("Please chose the city of the company: ");
+    } while (cityNum != 1 && cityNum != 2 && cityNum != 3);
+
+    cout << "\n\nLoading Maps..." << endl;
+
+    return static_cast<CITY>(cityNum);
+}
+
+int main() {
+
+    Company company("Fix It", readCityOption());
 
     mainMenu(company);
 

@@ -17,13 +17,11 @@ class Pairing {
     int maxZone;
     Time beginTime;
     Time endTime;
-
     vector<vector<Task*>> tasksByZone;
+
     void setMaxZone();
     void divideTasksByZone();
     void setZonesToPickets();
-    Task* getTaskById(long vertexId);
-
 
 public:
     Pairing(vector<Task*> tasks, vector<Picket*> pickets, Time beginTime, Time endTime);
@@ -57,14 +55,6 @@ void Pairing::divideTasksByZone() {
     }
 }
 
-Task *Pairing::getTaskById(long vertexId) {
-    for (auto task: tasks) {
-        if (task->getNodeId() == vertexId)
-            return task;
-    }
-    return nullptr; // nunca chega aqui
-}
-
 void Pairing::setZonesToPickets() { // divide os piquetes pelas zonas de forma aleatória
     int num;
     for (auto picket: pickets) {
@@ -84,7 +74,7 @@ void Pairing::setTasksToPickets() {
 
         for (auto idVertex: tasksIds) {
 
-            Task* task = getTaskById(idVertex);
+            Task* task = generalFunctions::getTaskById(idVertex, tasks);
             string function = task->getFunction();
 
             if (task->hasPicket()) {
@@ -110,10 +100,9 @@ void Pairing::setTasksToPickets() {
                 picket->addTask(task);
                 break;
             }
-
-
         }
     }
+
     for (auto task: tasks) {
         if (!task->hasPicket()) { // verifir se ainda há tarefas, e desta vez os piquetes podem mudar da sua zona original
             int taskZone = task->getZone();

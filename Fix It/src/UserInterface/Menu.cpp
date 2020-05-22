@@ -298,7 +298,8 @@ void mainMenu(Company &company) {
                         for (auto task: tasksPaired) {
                             if (!task->hasPicket()) {
                                 cout << "Task with ID = " << task->getNodeId() << " and zone = " << task->getZone() << endl;
-                                cout << *task << endl;
+                                cout << "Function: " << task->getFunction() << endl;
+                                cout << "Duration: " << task->getDurationMinutes() << endl;
                                 cout << "-------------------------------------------\n";
                                 numTasksWithoutPicket++;
                             }
@@ -313,14 +314,12 @@ void mainMenu(Company &company) {
                         for (auto picket: picketsWithTasks) {
                             if (picket->getTasks().size() > 0) { // se pelo menos uma tarefa atribuida
                                 cout << "Picket with id " << picket->getId() << " and zone " << picket->getZone() << endl;
-                                cout << "His tasks are: ";
+                                cout << "His tasks are: \n";
                                 vector<Task*> picketTasks = picket->getTasks();
                                 for (auto task: picketTasks) {
-                                    cout << endl << "Begin time: " << task->getBeginTime() << endl;
-                                    cout << *task;
-                                    cout << "End time: " << task->getEndTime() << endl;
+                                    cout << endl << *task << endl;
                                 }
-                                cout << "-----------------------------------\n";
+                                cout << "--------------------------------------\n";
                                 numPicketsWithTasks++;
                             }
                             else
@@ -421,8 +420,6 @@ void mainMenu(Company &company) {
                                 break;
                             }
                         }
-
-
 
                         cout << endl << endl << "Press any Enter to continue...";
                         cin.get();

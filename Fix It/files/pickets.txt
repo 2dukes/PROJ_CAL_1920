@@ -1,12 +1,30 @@
 Name: Eden Sales Pontes
 Roles: Trolha, Canalizador
-Tasks Done: 101
+Tasks Done: 135
 
 ::::::::::
 
 Name: Eden Sales Pontes
 Roles: Trolha, Tecnico Informatico
-Tasks Done: 65
+Tasks Done: 106
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 84
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 81
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 73
 
 ::::::::::
 
@@ -16,21 +34,129 @@ Tasks Done: 63
 
 ::::::::::
 
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 60
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 60
+
+::::::::::
+
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 61
+Tasks Done: 59
 
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
-Tasks Done: 58
+Tasks Done: 56
 
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
+Tasks Done: 54
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 51
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 50
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 49
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 47
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 46
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 46
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 45
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 45
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 45
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 44
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 44
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 44
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 43
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 43
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 41
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 40
 
 ::::::::::
 
@@ -42,25 +168,67 @@ Tasks Done: 40
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
+Tasks Done: 40
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 40
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 39
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 39
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 38
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 36
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 37
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 35
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 34
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
 
 ::::::::::
 
@@ -70,50 +238,50 @@ Tasks Done: 32
 
 ::::::::::
 
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 30
+
+::::::::::
+
 Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 29
 
 ::::::::::
 
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 29
+
+::::::::::
+
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 29
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 29
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
 Tasks Done: 28
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 28
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 28
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 28
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 27
 
 ::::::::::
@@ -121,48 +289,18 @@ Tasks Done: 27
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
 Tasks Done: 27
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 26
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 26
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 26
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 24
 
 ::::::::::
 
 Name: Tone
 Roles: Eletricista, Canalizador
-Tasks Done: 23
+Tasks Done: 26
 
 ::::::::::
 
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 23
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 23
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 25
 
 ::::::::::
 
@@ -172,14 +310,38 @@ Tasks Done: 22
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Name: Tone
+Roles: Eletricista, Canalizador
 Tasks Done: 22
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 21
 
 ::::::::::
@@ -192,7 +354,7 @@ Tasks Done: 21
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
-Tasks Done: 21
+Tasks Done: 20
 
 ::::::::::
 
@@ -202,8 +364,26 @@ Tasks Done: 20
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 20
 
 ::::::::::
@@ -220,18 +400,6 @@ Tasks Done: 19
 
 ::::::::::
 
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 18
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 18
-
-::::::::::
-
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
 Tasks Done: 18
@@ -240,6 +408,18 @@ Tasks Done: 18
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 17
 
 ::::::::::
@@ -253,6 +433,72 @@ Tasks Done: 17
 Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 16
 
 ::::::::::
 
@@ -265,6 +511,30 @@ Tasks Done: 16
 Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 15
 
 ::::::::::
 
@@ -276,6 +546,36 @@ Tasks Done: 15
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 13
 
 ::::::::::
@@ -283,6 +583,12 @@ Tasks Done: 13
 Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
 
 ::::::::::
 
@@ -294,6 +600,24 @@ Tasks Done: 12
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
 Tasks Done: 11
 
 ::::::::::
@@ -301,6 +625,120 @@ Tasks Done: 11
 Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
 
 ::::::::::
 
@@ -312,12 +750,132 @@ Tasks Done: 10
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 9
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 9
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 9
 
 ::::::::::
 
 Name: Tone
 Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
 Tasks Done: 8
 
 ::::::::::
@@ -330,11 +888,101 @@ Tasks Done: 8
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
+Tasks Done: 8
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 7
 
 ::::::::::
 
 Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 7
+
+::::::::::
+
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 7
 
@@ -382,8 +1030,50 @@ Tasks Done: 6
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 6
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 6
 
 ::::::::::
@@ -400,212 +1090,8 @@ Tasks Done: 5
 
 ::::::::::
 
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
 Tasks Done: 5
 
 ::::::::::
@@ -748,326 +1234,80 @@ Tasks Done: 5
 
 ::::::::::
 
-Name: Zezinho
-Roles: Eletricista, Canalizador
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
 Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 5
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 4
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 4
 
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
 Roles: Canalizador, Picheleiro
+Tasks Done: 5
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 5
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 5
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
 Tasks Done: 4
 
 ::::::::::
@@ -1108,43 +1348,25 @@ Tasks Done: 4
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Name: Zezinho
+Roles: Eletricista, Canalizador
 Tasks Done: 4
 
 ::::::::::
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 3
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
 
 ::::::::::
 
 Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 3
 
@@ -1198,24 +1420,6 @@ Tasks Done: 3
 
 ::::::::::
 
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 3
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
 Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 3
@@ -1229,18 +1433,6 @@ Tasks Done: 3
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 3
 
@@ -1272,48 +1464,6 @@ Tasks Done: 3
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 2
-
-::::::::::
-
-Name: Zezinho
-Roles: Eletricista, Canalizador
 Tasks Done: 2
 
 ::::::::::
@@ -1720,8 +1870,8 @@ Tasks Done: 2
 
 ::::::::::
 
-Name: Zezinho
-Roles: Eletricista, Canalizador
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
 Tasks Done: 2
 
 ::::::::::
@@ -1738,14 +1888,14 @@ Tasks Done: 2
 
 ::::::::::
 
-Name: Zezinho
-Roles: Eletricista, Canalizador
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
 Tasks Done: 2
 
 ::::::::::
 
-Name: Zezinho
-Roles: Eletricista, Canalizador
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
 Tasks Done: 2
 
 ::::::::::
@@ -1872,49 +2022,49 @@ Tasks Done: 2
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 2
+Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
-Tasks Done: 2
+Tasks Done: 1
 
 ::::::::::
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 2
+Tasks Done: 1
 
 ::::::::::
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 2
+Tasks Done: 1
 
 ::::::::::
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 2
+Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
-Tasks Done: 2
+Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
-Tasks Done: 2
+Tasks Done: 1
 
 ::::::::::
 
 Name: Zezinho
 Roles: Eletricista, Canalizador
-Tasks Done: 2
+Tasks Done: 1
 
 ::::::::::
 
@@ -1930,7 +2080,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -1948,7 +2098,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2003,12 +2153,6 @@ Tasks Done: 1
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2032,7 +2176,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2068,7 +2212,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2080,7 +2224,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2110,13 +2254,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2134,7 +2278,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2153,12 +2297,6 @@ Tasks Done: 1
 ::::::::::
 
 Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2195,12 +2333,6 @@ Tasks Done: 1
 ::::::::::
 
 Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2242,7 +2374,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2272,7 +2404,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2302,13 +2434,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2332,7 +2464,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2363,6 +2495,12 @@ Tasks Done: 1
 ::::::::::
 
 Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2416,7 +2554,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2428,7 +2566,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2452,7 +2590,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2482,13 +2620,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2506,7 +2644,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2518,13 +2656,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2548,7 +2686,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2566,7 +2704,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2590,25 +2728,25 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2620,7 +2758,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2644,7 +2782,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2686,13 +2824,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2704,19 +2842,19 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2740,7 +2878,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2752,13 +2890,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2788,7 +2926,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2806,19 +2944,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2836,7 +2968,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2848,7 +2980,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2884,7 +3016,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2920,13 +3052,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2968,7 +3100,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2980,7 +3112,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -2992,13 +3124,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3010,7 +3142,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3040,7 +3172,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3070,7 +3202,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3082,25 +3214,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
 Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3119,12 +3239,6 @@ Tasks Done: 1
 ::::::::::
 
 Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3185,12 +3299,6 @@ Tasks Done: 1
 ::::::::::
 
 Name: Tone
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3208,7 +3316,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3220,7 +3328,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3238,7 +3346,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3250,7 +3358,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3274,13 +3382,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3298,7 +3406,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3340,13 +3448,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3382,7 +3490,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3400,7 +3508,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3442,7 +3550,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3461,12 +3569,6 @@ Tasks Done: 1
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3520,13 +3622,13 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3544,7 +3646,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3586,19 +3688,19 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3610,7 +3712,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3640,25 +3742,25 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3670,7 +3772,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3688,7 +3790,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3712,19 +3814,19 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
-Roles: Eletricista, Canalizador
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3742,7 +3844,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3766,19 +3868,19 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3790,7 +3892,7 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Zezinho
+Name: Tone
 Roles: Eletricista, Canalizador
 Tasks Done: 1
 
@@ -3802,87 +3904,9 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
+Name: Zezinho
 Roles: Eletricista, Canalizador
 Tasks Done: 1
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
-
-::::::::::
-
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
 
 ::::::::::
 
@@ -5026,27 +5050,27 @@ Tasks Done: 0
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 105
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 81
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 80
 
 ::::::::::
 
-Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
-Tasks Done: 0
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 66
 
 ::::::::::
 
@@ -5064,7 +5088,13 @@ Tasks Done: 64
 
 Name: Jan Bentes Mieiro
 Roles: Tecnico Informatico
-Tasks Done: 60
+Tasks Done: 62
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 62
 
 ::::::::::
 
@@ -5074,21 +5104,57 @@ Tasks Done: 59
 
 ::::::::::
 
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 59
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 58
 
 ::::::::::
 
 Name: Jan Bentes Mieiro
 Roles: Tecnico Informatico
-Tasks Done: 46
+Tasks Done: 55
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 53
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 52
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 50
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 50
 
 ::::::::::
 
 Name: Jan Bentes Mieiro
 Roles: Tecnico Informatico
 Tasks Done: 45
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 45
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 43
 
 ::::::::::
 
@@ -5100,12 +5166,6 @@ Tasks Done: 42
 
 Name: Eden Sales Pontes
 Roles: Trolha
-Tasks Done: 41
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
 Tasks Done: 41
 
 ::::::::::
@@ -5122,12 +5182,6 @@ Tasks Done: 39
 
 ::::::::::
 
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 39
-
-::::::::::
-
 Name: Jan Bentes Mieiro
 Roles: Tecnico Informatico
 Tasks Done: 38
@@ -5136,18 +5190,6 @@ Tasks Done: 38
 
 Name: Steven Argolo Nobre
 Roles: Eletricista
-Tasks Done: 38
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 38
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
 Tasks Done: 38
 
 ::::::::::
@@ -5160,7 +5202,7 @@ Tasks Done: 37
 
 Name: Jan Bentes Mieiro
 Roles: Tecnico Informatico
-Tasks Done: 36
+Tasks Done: 35
 
 ::::::::::
 
@@ -5182,12 +5224,6 @@ Tasks Done: 34
 
 ::::::::::
 
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 33
-
-::::::::::
-
 Name: Antonio Jose
 Roles: Canalizador
 Tasks Done: 33
@@ -5202,13 +5238,7 @@ Tasks Done: 33
 
 Name: Jan Bentes Mieiro
 Roles: Tecnico Informatico
-Tasks Done: 31
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 31
+Tasks Done: 33
 
 ::::::::::
 
@@ -5218,8 +5248,8 @@ Tasks Done: 31
 
 ::::::::::
 
-Name: Eden Sales Pontes
-Roles: Trolha
+Name: Antonio Jose
+Roles: Canalizador
 Tasks Done: 30
 
 ::::::::::
@@ -5232,12 +5262,6 @@ Tasks Done: 30
 
 Name: Steven Argolo Nobre
 Roles: Eletricista
-Tasks Done: 30
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
 Tasks Done: 30
 
 ::::::::::
@@ -5245,6 +5269,12 @@ Tasks Done: 30
 Name: Jan Bentes Mieiro
 Roles: Tecnico Informatico
 Tasks Done: 28
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 27
 
 ::::::::::
 
@@ -5260,6 +5290,12 @@ Tasks Done: 26
 
 ::::::::::
 
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 25
+
+::::::::::
+
 Name: Steven Argolo Nobre
 Roles: Eletricista
 Tasks Done: 25
@@ -5269,6 +5305,18 @@ Tasks Done: 25
 Name: Antonio Jose
 Roles: Canalizador
 Tasks Done: 25
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 24
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 24
 
 ::::::::::
 
@@ -5286,12 +5334,18 @@ Tasks Done: 24
 
 Name: Steven Argolo Nobre
 Roles: Eletricista
-Tasks Done: 24
+Tasks Done: 23
 
 ::::::::::
 
-Name: Steven Argolo Nobre
-Roles: Eletricista
+Name: Eden Sales Pontes
+Roles: Trolha
+Tasks Done: 23
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
 Tasks Done: 23
 
 ::::::::::
@@ -5299,12 +5353,6 @@ Tasks Done: 23
 Name: Steven Argolo Nobre
 Roles: Eletricista
 Tasks Done: 22
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 21
 
 ::::::::::
 
@@ -5322,12 +5370,12 @@ Tasks Done: 21
 
 Name: Steven Argolo Nobre
 Roles: Eletricista
-Tasks Done: 20
+Tasks Done: 21
 
 ::::::::::
 
-Name: Eden Sales Pontes
-Roles: Trolha
+Name: Steven Argolo Nobre
+Roles: Eletricista
 Tasks Done: 20
 
 ::::::::::
@@ -5350,1688 +5398,1646 @@ Tasks Done: 19
 
 ::::::::::
 
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 17
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Jan Bentes Mieiro
+Roles: Tecnico Informatico
+Tasks Done: 16
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 15
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 14
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 14
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 14
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
+Tasks Done: 14
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 13
+
+::::::::::
+
 Name: Eden Sales Pontes
 Roles: Trolha
-Tasks Done: 18
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 17
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Jan Bentes Mieiro
-Roles: Tecnico Informatico
-Tasks Done: 16
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 15
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 14
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 14
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 14
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 14
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 14
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 13
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
 Tasks Done: 13
 
 ::::::::::
@@ -7162,62 +7168,62 @@ Tasks Done: 11
 
 ::::::::::
 
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
+Name: Steven Argolo Nobre
+Roles: Eletricista
+Tasks Done: 11
+
+::::::::::
+
 Name: Eden Sales Pontes
 Roles: Trolha
-Tasks Done: 11
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 11
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 11
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 11
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 11
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 11
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 11
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 11
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
-Tasks Done: 11
-
-::::::::::
-
-Name: Steven Argolo Nobre
-Roles: Eletricista
 Tasks Done: 11
 
 ::::::::::
@@ -7234,14 +7240,14 @@ Tasks Done: 10
 
 ::::::::::
 
-Name: Tone
-Roles: Tecnico Informatico
+Name: Steven Argolo Nobre
+Roles: Eletricista
 Tasks Done: 9
 
 ::::::::::
 
-Name: Steven Argolo Nobre
-Roles: Eletricista
+Name: Tone
+Roles: Tecnico Informatico
 Tasks Done: 9
 
 ::::::::::
@@ -7408,21 +7414,15 @@ Tasks Done: 8
 
 ::::::::::
 
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 8
-
-::::::::::
-
 Name: Steven Argolo Nobre
 Roles: Eletricista
 Tasks Done: 8
 
 ::::::::::
 
-Name: Eden Sales Pontes
-Roles: Trolha
-Tasks Done: 7
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 8
 
 ::::::::::
 
@@ -7434,18 +7434,12 @@ Tasks Done: 7
 
 Name: Eden Sales Pontes
 Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -7463,7 +7457,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -7583,13 +7577,13 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -7601,7 +7595,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -7667,7 +7661,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -7757,7 +7751,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -7769,7 +7763,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -7781,7 +7775,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -7847,7 +7841,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -7871,7 +7865,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -7896,12 +7890,6 @@ Tasks Done: 7
 
 Name: Eden Sales Pontes
 Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -7937,12 +7925,6 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
 Roles: Trolha
 Tasks Done: 7
 
@@ -8111,13 +8093,13 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8165,7 +8147,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8183,7 +8165,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -8213,7 +8195,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -8231,7 +8213,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8249,19 +8231,19 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8291,13 +8273,13 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8322,6 +8304,12 @@ Tasks Done: 7
 
 Name: Eden Sales Pontes
 Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -8339,7 +8327,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8351,13 +8339,13 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8375,13 +8363,13 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -8435,7 +8423,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8447,7 +8435,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -8477,13 +8465,13 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -8549,7 +8537,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8573,7 +8561,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8639,7 +8627,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -8664,6 +8652,12 @@ Tasks Done: 7
 
 Name: Eden Sales Pontes
 Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -8675,7 +8669,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8688,6 +8682,12 @@ Tasks Done: 7
 
 Name: Eden Sales Pontes
 Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -8729,13 +8729,13 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -8747,7 +8747,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8795,7 +8795,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -8807,7 +8807,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8820,6 +8820,12 @@ Tasks Done: 7
 
 Name: Eden Sales Pontes
 Roles: Tecnico Informatico
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -8903,7 +8909,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -9011,7 +9017,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -9035,13 +9041,13 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -9053,13 +9059,13 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -9083,19 +9089,19 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -9131,7 +9137,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -9155,13 +9161,13 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -9257,7 +9263,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -9311,7 +9317,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -9329,7 +9335,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -9341,7 +9347,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -9431,7 +9437,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -9492,6 +9498,12 @@ Tasks Done: 7
 
 Name: Eden Sales Pontes
 Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -9587,13 +9599,13 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -9672,6 +9684,12 @@ Tasks Done: 7
 
 Name: Eden Sales Pontes
 Roles: Trolha
+Tasks Done: 7
+
+::::::::::
+
+Name: Eden Sales Pontes
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -9683,7 +9701,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -9738,12 +9756,6 @@ Tasks Done: 7
 
 Name: Eden Sales Pontes
 Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -9798,12 +9810,6 @@ Tasks Done: 7
 
 Name: Eden Sales Pontes
 Roles: Trolha
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -9815,7 +9821,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -9858,12 +9864,6 @@ Tasks Done: 7
 
 Name: Eden Sales Pontes
 Roles: Tecnico Informatico
-Tasks Done: 7
-
-::::::::::
-
-Name: Eden Sales Pontes
-Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -10139,7 +10139,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Tecnico Informatico
+Roles: Trolha
 Tasks Done: 7
 
 ::::::::::
@@ -10205,7 +10205,7 @@ Tasks Done: 7
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha
+Roles: Tecnico Informatico
 Tasks Done: 7
 
 ::::::::::
@@ -10930,12 +10930,6 @@ Tasks Done: 3
 
 ::::::::::
 
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
 Name: Tone
 Roles: Eletricista
 Tasks Done: 3
@@ -11074,6 +11068,72 @@ Tasks Done: 3
 
 ::::::::::
 
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
+Name: Zhen Soeiro Rosario
+Roles: Eletricista
+Tasks Done: 3
+
+::::::::::
+
 Name: Tone
 Roles: Eletricista
 Tasks Done: 3
@@ -11087,54 +11147,6 @@ Tasks Done: 3
 ::::::::::
 
 Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Tone
 Roles: Eletricista
 Tasks Done: 3
 
@@ -11232,18 +11244,6 @@ Tasks Done: 3
 
 Name: Antonio Jose
 Roles: Canalizador
-Tasks Done: 3
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
-Tasks Done: 3
-
-::::::::::
-
-Name: Zhen Soeiro Rosario
-Roles: Eletricista
 Tasks Done: 3
 
 ::::::::::
@@ -11278,6 +11278,30 @@ Tasks Done: 2
 
 ::::::::::
 
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
 Name: Antonio Jose
 Roles: Canalizador
 Tasks Done: 1
@@ -11332,138 +11356,6 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
 Name: Tone
 Roles: Tecnico Informatico
 Tasks Done: 1
@@ -11500,12 +11392,6 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
 Name: Tone
 Roles: Eletricista
 Tasks Done: 1
@@ -11514,150 +11400,6 @@ Tasks Done: 1
 
 Name: Tone
 Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
 Tasks Done: 1
 
 ::::::::::
@@ -11686,8 +11428,8 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Antonio Jose
-Roles: Canalizador
+Name: Tone
+Roles: Tecnico Informatico
 Tasks Done: 1
 
 ::::::::::
@@ -11740,120 +11482,6 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
 Name: Tone
 Roles: Eletricista
 Tasks Done: 1
@@ -11890,6 +11518,24 @@ Tasks Done: 1
 
 ::::::::::
 
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
 Name: Tone
 Roles: Tecnico Informatico
 Tasks Done: 1
@@ -11910,6 +11556,18 @@ Tasks Done: 1
 
 Name: Tone
 Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
 Tasks Done: 1
 
 ::::::::::
@@ -11956,6 +11614,30 @@ Tasks Done: 1
 
 ::::::::::
 
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
 Name: Tone
 Roles: Tecnico Informatico
 Tasks Done: 1
@@ -11964,66 +11646,6 @@ Tasks Done: 1
 
 Name: Tone
 Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
 Tasks Done: 1
 
 ::::::::::
@@ -12060,24 +11682,6 @@ Tasks Done: 1
 
 Name: Tone
 Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
 Tasks Done: 1
 
 ::::::::::
@@ -12137,25 +11741,13 @@ Tasks Done: 1
 ::::::::::
 
 Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
 Roles: Tecnico Informatico
 Tasks Done: 1
 
 ::::::::::
 
-Name: Tone
-Roles: Tecnico Informatico
+Name: Antonio Jose
+Roles: Canalizador
 Tasks Done: 1
 
 ::::::::::
@@ -12196,8 +11788,32 @@ Tasks Done: 1
 
 ::::::::::
 
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
 Name: Tone
 Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
 Tasks Done: 1
 
 ::::::::::
@@ -12214,98 +11830,20 @@ Tasks Done: 1
 
 ::::::::::
 
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
 Name: Tone
 Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
 Tasks Done: 1
 
 ::::::::::
@@ -12340,6 +11878,480 @@ Tasks Done: 1
 
 ::::::::::
 
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
 Name: Tone
 Roles: Eletricista
 Tasks Done: 1
@@ -12389,6 +12401,90 @@ Tasks Done: 1
 ::::::::::
 
 Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Antonio Jose
+Roles: Canalizador
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
 Roles: Eletricista
 Tasks Done: 1
 
@@ -12412,78 +12508,6 @@ Tasks Done: 1
 
 ::::::::::
 
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
 Name: Tone
 Roles: Tecnico Informatico
 Tasks Done: 1
@@ -12552,24 +12576,6 @@ Tasks Done: 1
 
 Name: Antonio Jose
 Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Antonio Jose
-Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
 Tasks Done: 1
 
 ::::::::::
@@ -12605,31 +12611,25 @@ Tasks Done: 1
 ::::::::::
 
 Name: Tone
+Roles: Tecnico Informatico
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
 Roles: Eletricista
+Tasks Done: 1
+
+::::::::::
+
+Name: Tone
+Roles: Tecnico Informatico
 Tasks Done: 1
 
 ::::::::::
 
 Name: Antonio Jose
 Roles: Canalizador
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Eletricista
-Tasks Done: 1
-
-::::::::::
-
-Name: Tone
-Roles: Tecnico Informatico
 Tasks Done: 1
 
 ::::::::::

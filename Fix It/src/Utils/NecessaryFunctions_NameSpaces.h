@@ -21,7 +21,7 @@ namespace readOperations {
     std::vector<std::string> readVectorString(std::string parameter);
     std::string confirmAnswer();
 
-    template <class T> // https://dev-notes.eu/2018/08/c++-namespace-template-functions/
+    template <class T>
     T readNumber(std::string parameter)
     {
         T auxNum;
@@ -38,7 +38,6 @@ namespace generalFunctions {
     std::string coutVectorString(const std::vector<std::string> &v);
     void trim(std::string &str);
     std::vector<std::string> separate_string(std::string str, char separator);
-    std::vector<int> convert_vector_str_to_int(std::vector<std::string> v);
 
     template <class T>
     bool inVector(std::vector<T> v, T elem) {
