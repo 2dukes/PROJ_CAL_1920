@@ -109,6 +109,11 @@ void Pairing::setTasksToPickets() {
             string function = task->getFunction();
             for (auto picket: pickets) {
 
+                if (!picket->getTasks().empty()) { // só se atribui as restantes tasks a piquetes que não tenham nenhuma tarefa atribuída,
+                                                   // de forma a não correr o risco de um piquete ter que ir fazer tasks a mais do que uma zona
+                    continue;
+                }
+
                 if (!picket->verifyRole(function)) {
                     continue;
                 }

@@ -53,7 +53,7 @@ bool Picket::addTask(Task *task) {
         return false;
     }
     if (task->setResponsiblePicket(this)) {
-        currentTime = currentTime.addMinutes(task->getDurationMinutes()+1); // mudar pra peso das arestas
+        currentTime = currentTime.addMinutes(task->getDurationMinutes()+1);
         tasks.push_back(task);
         numTasksDone++;
         return true;
