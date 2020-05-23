@@ -255,6 +255,7 @@ void Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
     readNodes(nodesFile);
     readEdges(edgesFile);
 
+    cout << "\n\nPerforming the Strongly Connected Component algorithm...\n\n";
     SCC strongComponents(&cityGraph);
     vector<vector<long>> SCCVector = strongComponents.calculateSCCs();
     long maxTreeSize = -INF;
@@ -269,7 +270,9 @@ void Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
             selectedTree = SCCTree;
         }
     }
-    cout << SCCVector.size() << " | " << maxTreeSize << endl; // Number of Trees | Respective Content Length
+    cout << "\n\nNumber of Trees: " << SCCVector.size() << endl;
+    cout << "Number of Vertices of the Bigger Tree: " << maxTreeSize << endl;
+//    cout << SCCVector.size() << " | " << maxTreeSize << endl; // Number of Trees | Respective Content Length
 
     cityGraph.deleteUnusefulNodes(selectedTree);
     cityGraph.deleteUnusefulEdges(selectedTree);
@@ -406,15 +409,20 @@ void Company::setBestPathToPickets() {
         if (picket->getTasks().empty())
             continue;
 
+        vector<Task*> picketTasks = picket->getTasks();
+        vector<long> picketTasksIds = picket->getTasksIds();
+
         TSP<long> tsp(&cityGraph, searchAlgorithm);
-        vector<long> path = tsp.calculatePath(picket->getTasksIds(), startVertexId, startVertexId);
+        vector<long> path = tsp.calculatePath(picketTasksIds, startVertexId, startVertexId);
         picket->setPath(path);
 
         picket->setCurrentTime(beginTime);
 
         for (auto nodeId: path) {
-            if (generalFunctions::inVector<long>(picket->getTasksIds(), nodeId)) {
-                Task* task = generalFunctions::getTaskById(nodeId, getTasks());
+            if (generalFunctions::inVector<long>(picketTasksIds, nodeId)) {
+                Task* task = generalFunctions::getTaskById(nodeId, picketTasks);
+                picketTasks.erase(std::remove(picketTasks.begin(), picketTasks.end(), task), picketTasks.end());
+                picketTasksIds.erase(std::remove(picketTasksIds.begin(), picketTasksIds.end(), nodeId), picketTasksIds.end());
                 Time currentTime = picket->getCurrentTime();
                 task->setBeginTime(currentTime);
                 currentTime = currentTime.addMinutes(task->getDurationMinutes()+1);

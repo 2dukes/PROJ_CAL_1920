@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <limits> // Used in numeric_limits<streamsize>::max()
-#include <GraphInterface.h>
+#include <UserInterface/GraphInterface.h>
 #include <Algorithms/Pairing.h>
 #include "../Algorithms/Clustering.h"
 #include "../Algorithms/Square.h"

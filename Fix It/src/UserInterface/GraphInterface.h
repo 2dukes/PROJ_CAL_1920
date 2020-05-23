@@ -3,7 +3,7 @@
 
 #include "Graph/Graph.h"
 #include "Algorithms/TSP.h"
-#include "../lib/graphviewer.h"
+#include "../../lib/graphviewer.h"
 #include "Company.h"
 #include <unistd.h>
 #include <sstream>

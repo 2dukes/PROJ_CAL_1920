@@ -26,7 +26,7 @@ add_executable( Fix_It
                 src/UserInterface/Menu.cpp
                 src/UserInterface/Menu.h
                 src/Algorithms/AStarBiDir.h
-                src/GraphInterface.cpp
+        src/UserInterface/GraphInterface.cpp
                 lib/graphviewer.cpp
                 lib/edgetype.h
                 lib/connection.cpp
