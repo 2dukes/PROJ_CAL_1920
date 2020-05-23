@@ -17,6 +17,7 @@ vector<vector<long>> SCC::calculateSCCs() {
     return SCCVector;
 }
 
+/* Enumerar vértices em pós-ordem utilizando uma stack (DFS) */
 vector<long> SCC::dfsWithPostOrder(stack<Vertex<long>* >  &vPostOrdered) const {
     vector<long> res;
     for(auto vertex: graph->getVertexSet())
@@ -28,6 +29,7 @@ vector<long> SCC::dfsWithPostOrder(stack<Vertex<long>* >  &vPostOrdered) const {
     return res;
 }
 
+/* DFS -> Recursividade */
 void SCC::dfsWithPostOrderVisit(Vertex<long> *v, vector<long> & res, stack<Vertex<long>* >  &vPostOrdered) const {
     v->visited = true;
     res.push_back(v->info);
@@ -38,6 +40,7 @@ void SCC::dfsWithPostOrderVisit(Vertex<long> *v, vector<long> & res, stack<Verte
     vPostOrdered.push(v);
 }
 
+/* DFS -> Reversa */
 void SCC::ReversedfsWithPostOrderVisit(Vertex<long> *v, vector<long> & res) const {
     v->visited = true;
     res.push_back(v->info);
@@ -47,6 +50,7 @@ void SCC::ReversedfsWithPostOrderVisit(Vertex<long> *v, vector<long> & res) cons
     }
 }
 
+/* Visita dos vértices com maior numeração ainda não visitados e iniciar DFS reversa */
 vector<vector<long>> SCC::reverseDFSVisit(stack<Vertex<long>* >  &vPostOrdered) const {
     vector<vector<long>> SCCVector;
     vector<long> res;

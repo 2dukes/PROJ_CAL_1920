@@ -26,7 +26,7 @@ add_executable( Fix_It
                 src/UserInterface/Menu.cpp
                 src/UserInterface/Menu.h
                 src/Algorithms/AStarBiDir.h
-        src/UserInterface/GraphInterface.cpp
+                src/UserInterface/GraphInterface.cpp
                 lib/graphviewer.cpp
                 lib/edgetype.h
                 lib/connection.cpp
@@ -35,4 +35,4 @@ add_executable( Fix_It
                 src/Algorithms/Clustering.h
                 src/Algorithms/Square.h
                 src/Algorithms/SCC.cpp
-        )
+                )
