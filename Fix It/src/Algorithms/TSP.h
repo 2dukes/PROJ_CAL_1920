@@ -23,8 +23,8 @@ class TSP {
     Vertex<T>* startNode;
     SEARCH_ALGORITHM searchAlgorithm;
 
-    void findBestVisitOrder(Vertex<T> *startVertex, Vertex<T> *endVertex);
-    Vertex<T>* getClosestVertex(Vertex<T> *v, const vector<Vertex<T>*> &otherVertices) const;
+    void findBestVisitOrder(Vertex<T> *startVertex);
+    Vertex<T>* getClosestVertex(Vertex<T> *v, const vector<Vertex<T>*> &POIs) const;
     void buildSolutionDijkstra();
     void buildSolutionAStar();
     void buildSolution();
@@ -71,15 +71,14 @@ vector<T> TSP<T>::calculatePath(const vector<T> &pois, T startVertexId, T endVer
 
     visitOrderFinalSize = 2 + pois.size(); // startVertex + pois + endVertex
 
-    findBestVisitOrder(startNode, finishNode);
+    findBestVisitOrder(startNode);
 
-    visitOrder.push_back(endVertexId);
+    visitOrder.push_back(endVertexId); // finish the path in the endVertex
 
-    if (visitOrder.size() != visitOrderFinalSize) {
-        lastSolution.clear();
-        return lastSolution;
+    if (visitOrder.size() != visitOrderFinalSize) { // se a ordem de visita não contem todos os pontos de interesse
+        return {};
     }
-    else {
+    else { // se a ordem de visita contem todos os pontos de interesse, construir caminho
         buildSolution();
         return lastSolution;
     }
@@ -88,20 +87,22 @@ vector<T> TSP<T>::calculatePath(const vector<T> &pois, T startVertexId, T endVer
 }
 
 template<class T>
-void TSP<T>::findBestVisitOrder(Vertex<T> *start, Vertex<T> *end) {
+void TSP<T>::findBestVisitOrder(Vertex<T> *start) {
     SearchAlgorithm<T> searchAlgorithm(graph);
-    vector<T> reachableVertices = searchAlgorithm.bfs(start->getInfo());
+    vector<T> reachableVertices = searchAlgorithm.bfs(start->getInfo()); // vértices alcançáveis a partir do vértice de início
 
+    // Mover o vértice de início do vetor visitOrder para poisVertices
     visitOrder.push_back(start->getInfo());
     poisVertices.erase(std::remove(poisVertices.begin(), poisVertices.end(), start), poisVertices.end());
 
     Vertex<T> *closestVertex;
+    
     vector<Vertex<T>*> poisToVisit = poisVertices;
 
-    while(!poisToVisit.empty()) {
-        closestVertex = getClosestVertex(startNode, poisToVisit);
+    while(!poisToVisit.empty()) { // enquanto ainda há pontos de interesse para visitar
+        closestVertex = getClosestVertex(startNode, poisToVisit); // vértice mais próximo do vértice de início
 
-        findBestVisitOrder(closestVertex, finishNode);
+        findBestVisitOrder(closestVertex);
 
         if (visitOrder.size() != visitOrderFinalSize - 1) {
             poisVertices.erase(std::remove(poisVertices.begin(), poisVertices.end(), closestVertex), poisVertices.end());
@@ -120,12 +121,12 @@ void TSP<T>::findBestVisitOrder(Vertex<T> *start, Vertex<T> *end) {
 }
 
 template<class T>
-Vertex<T>* TSP<T>::getClosestVertex(Vertex<T> *v, const vector<Vertex<T>*> &otherVertices) const {
-    Vertex<T>* closestVertex = otherVertices.at(0);
+Vertex<T>* TSP<T>::getClosestVertex(Vertex<T> *v, const vector<Vertex<T>*> &POIs) const { // retorna o ponto de interesse mais próximo do vértice v
+    Vertex<T>* closestVertex = POIs.at(0);
     double closestVertexDistance = generalFunctions::heuristicDistance(v, closestVertex);
     double distance;
 
-    for (Vertex<T>* vertex: otherVertices) {
+    for (Vertex<T>* vertex: POIs) {
         distance = generalFunctions::heuristicDistance(v, vertex);
         if (distance < closestVertexDistance) {
             closestVertex = vertex;
@@ -136,6 +137,7 @@ Vertex<T>* TSP<T>::getClosestVertex(Vertex<T> *v, const vector<Vertex<T>*> &othe
     return closestVertex;
 }
 
+
 template<class T>
 void TSP<T>::buildSolutionDijkstra() {
 
@@ -143,13 +145,13 @@ void TSP<T>::buildSolutionDijkstra() {
 
     for (int i = 0;  i < visitOrder.size() - 1; i++) {
 
-        dijkstra.dijkstraShortestPath(visitOrder.at(i), visitOrder.at(i+1));
+        dijkstra.dijkstraShortestPath(visitOrder.at(i), visitOrder.at(i+1)); // encontrar o melhor caminho entre os dois vértices
 
         for (int j : graph->getPath(visitOrder.at(i), visitOrder.at(i+1))) {
-            lastSolution.push_back(j);
+            lastSolution.push_back(j); // adicionar o caminho entre os dois vértices à solução
         }
 
-        if (i != visitOrder.size() - 2) {
+        if (i != visitOrder.size() - 2) { // para não repetir o segundo vértice adicionado
             lastSolution.pop_back();
         }
     }
@@ -162,13 +164,13 @@ void TSP<T>::buildSolutionAStar() {
 
     for (int i = 0;  i < visitOrder.size() - 1; i++) {
 
-        astar.AStarShortestPath(visitOrder.at(i), visitOrder.at(i+1));
+        astar.AStarShortestPath(visitOrder.at(i), visitOrder.at(i+1)); // encontrar o melhor caminho entre os dois vértices
 
-        for (int j : graph->getPath(visitOrder.at(i), visitOrder.at(i+1))) {
+        for (int j : graph->getPath(visitOrder.at(i), visitOrder.at(i+1))) { // adicionar o caminho entre os dois vértices à solução
             lastSolution.push_back(j);
         }
 
-        if (i != visitOrder.size() - 2) {
+        if (i != visitOrder.size() - 2) { // para não repetir o segundo vértice adicionado
             lastSolution.pop_back();
         }
     }

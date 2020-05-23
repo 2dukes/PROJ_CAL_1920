@@ -140,19 +140,20 @@ void Clustering<T>::calculateClustering(vector<T> auxPOIs) { // Based on k-spann
 }
 
 template<class T>
-Vertex<T>* Clustering<T>::getClosestVertex(Vertex<T> *source, vector<Vertex<T> *>& POIs) {
-    typedef typename vector<Vertex<T>*>::iterator iterator;
-    double minDist = INF, auxDist;
-    Vertex<T>* toRetrieve;
+Vertex<T>* Clustering<T>::getClosestVertex(Vertex<T> *v, vector<Vertex<T>*> &POIs) {
+    Vertex<T>* closestVertex = POIs.at(0);
+    double closestVertexDistance = generalFunctions::heuristicDistance(v, closestVertex);
+    double distance;
 
-    for(iterator iTr = POIs.begin(); iTr != POIs.end(); iTr++) {
-        auxDist = generalFunctions::heuristicDistance(source, *iTr);
-        if(auxDist < minDist) {
-            minDist = auxDist;
-            toRetrieve = *iTr;
+    for (Vertex<T>* vertex: POIs) {
+        distance = generalFunctions::heuristicDistance(v, vertex);
+        if (distance < closestVertexDistance) {
+            closestVertex = vertex;
+            closestVertexDistance = distance;
         }
     }
-    return toRetrieve;
+
+    return closestVertex;
 }
 
 template<class T>
