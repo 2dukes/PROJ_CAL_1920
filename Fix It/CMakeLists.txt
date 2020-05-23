@@ -35,4 +35,4 @@ add_executable( Fix_It
                 src/Algorithms/Clustering.h
                 src/Algorithms/Square.h
                 src/Algorithms/SCC.cpp
-                )
+        )

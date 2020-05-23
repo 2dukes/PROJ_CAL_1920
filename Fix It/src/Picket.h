@@ -1,7 +1,3 @@
-//
-// Created by Tiago on 06/05/2020.
-//
-
 #ifndef FIX_IT_PICKET_H
 #define FIX_IT_PICKET_H
 
@@ -15,15 +11,24 @@ using namespace std;
 class Task;
 
 class Picket {
-    static int current_id;
-    int id;
-    string name;
-    vector<string> roles;
-    vector<Task*> tasks;
-    int zone;
-    int numTasksDone;
-    vector<long> path;
-    Time currentTime;
+
+    static int current_id; // Last inserted ID
+
+    int id;                // Picket ID
+
+    string name;           // Picket Name
+
+    vector<string> roles;  // Skills
+
+    vector<Task*> tasks;   // Assigned Tasks
+
+    int zone;              // Zone where it belongs
+
+    int numTasksDone;      // Number of previous tasks done (experience)
+
+    vector<long> path;     // Path to wander
+
+    Time currentTime;      // Last task Time
 
 
 public:
