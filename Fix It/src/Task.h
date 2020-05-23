@@ -20,14 +20,21 @@ class Picket;
 
 
 class Task {
-    static int current_id;
-    int id;
-    string function;
-    Picket* responsiblePicket;
-    long int nodeId;
-    int durationMinutes;
-    Time beginTime;
-    MAP_ZONE zone;
+    static int current_id;      // ID da última task inserida
+
+    int id;                     // Task ID
+
+    string function;            // Função requerida para realizar a task
+
+    Picket* responsiblePicket;  // Picket responsável por fazer a task
+
+    long int nodeId;            // ID do nó correspondente
+
+    int durationMinutes;        // Duração em minutos
+
+    Time beginTime;             // Tempo de início
+
+    MAP_ZONE zone;              // Zona do mapa a que a task pertence
 
 public:
     Task(string function, long int nodeId, int durationMinutes);

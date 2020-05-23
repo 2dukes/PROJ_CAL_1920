@@ -17,16 +17,25 @@ enum CITY {Porto = 1, Penafiel = 2, Espinho = 3, PortoFull = 4, PenafielFull = 5
 using namespace std;
 
 class Company {
-    string name;
-    vector<Picket*> pickets;
-    vector<Task*> tasks;
-    Graph<long int> cityGraph;
-    Time beginTime;
-    Time endTime;
-    long startVertexId;
-    SEARCH_ALGORITHM searchAlgorithm;
-    int maxNumTasks = INT32_MAX;
-    int maxNumPickets = INT32_MAX;
+    string name;                            // Nome da empresa
+
+    vector<Picket*> pickets;                // Lista Pickets
+
+    vector<Task*> tasks;                    // Lista de tasks
+
+    Graph<long int> cityGraph;              // Grafo utilizado
+
+    Time beginTime;                         // Horário de trabalho - Início
+
+    Time endTime;                           // Horário de trabalho - Fim
+
+    long startVertexId;                     // Nó que representa a empresa
+
+    SEARCH_ALGORITHM searchAlgorithm;       // Algoritmo de procura a ser utilizado
+
+    int maxNumTasks = INT32_MAX;            // Máximo número de tasks
+
+    int maxNumPickets = INT32_MAX;          // Máximo número de Pickets
 
 public:
     Company(string name, CITY cityNum);

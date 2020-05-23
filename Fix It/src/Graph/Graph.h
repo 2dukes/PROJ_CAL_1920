@@ -33,10 +33,32 @@ enum MAP_ZONE {ZONE0 = 0, ZONE1 = 1, ZONE2 = 2, ZONE3 = 3, ZONE4 = 4};
 template <class T>
 class Vertex {
 
-
-    Edge<T> * addEdge(Vertex<T> *dest, double w);
-    bool removeEdgeTo(Vertex<T> *d);
 public:
+
+    T info;                     // Vertex Content
+
+    vector<Edge<T> *> outgoing; // Outgoing Edges
+
+    vector<Edge<T> *> incoming; // Incoming Edges
+
+    double weight;              // Weight used in Path Finding Algorithms
+
+    bool visited;               // Checked if Vertex was visited (Path Finding Algorithms)
+
+    bool invVisited;            // Checked if Vertex was visited (Path Finding Bidirectional) in reverse order.
+
+    Vertex<T> *path;            // Previous Vertex for Path Finding.
+
+    int queueIndex = 0; 		// Required by MutablePriorityQueue
+
+    long double x;              // X Coordinate
+
+    long double y;              // Y Coordinate
+
+    MAP_ZONE vZone;             // Zone where the Vertex belongs
+
+    double dist = 0;            // For Path Finding Algorithms
+
     Vertex(T in);
     T getInfo() const;
     vector<Edge<T> *> getOutgoingEdges() const;
@@ -45,26 +67,12 @@ public:
     bool operator==(Vertex<T> v) const; // required by MutablePriorityQueue
     void setX(double x);
     void setY(double y);
+    void setVZone(MAP_ZONE vZone);
     double getX();
     double getY();
-
     MAP_ZONE getVZone() const;
-
-    void setVZone(MAP_ZONE vZone);
-    T info;                     // Content
-    vector<Edge<T> *> outgoing; // Outgoing Edges
-    vector<Edge<T> *> incoming; // Incoming
-    double weight;
-    bool visited;               // for path finding
-    bool invVisited;            // for intersections in BiDirs
-    Vertex<T> *path;              // for path finding
-    int queueIndex = 0; 		// required by MutablePriorityQueue
-    long double x;
-    long double y;
-
-    MAP_ZONE vZone;
-    double dist = 0;
-
+    Edge<T> * addEdge(Vertex<T> *dest, double w);
+    bool removeEdgeTo(Vertex<T> *d);
 
     friend class Graph<T>;
     friend class MutablePriorityQueue<Vertex<T>>;
