@@ -96,23 +96,22 @@ void TSP<T>::findBestVisitOrder(Vertex<T> *start) {
     poisVertices.erase(std::remove(poisVertices.begin(), poisVertices.end(), start), poisVertices.end());
 
     Vertex<T> *closestVertex;
-    
     vector<Vertex<T>*> poisToVisit = poisVertices;
 
     while(!poisToVisit.empty()) { // enquanto ainda há pontos de interesse para visitar
-        closestVertex = getClosestVertex(startNode, poisToVisit); // vértice mais próximo do vértice de início
+        closestVertex = getClosestVertex(startNode, poisToVisit); // vértice mais próximo do vértice anterior
 
         findBestVisitOrder(closestVertex);
 
-        if (visitOrder.size() != visitOrderFinalSize - 1) {
+        if (visitOrder.size() != visitOrderFinalSize - 1) { // se o vetor ainda não estiver completo, a sequência atual não corresponde a um caminho possível
             poisVertices.erase(std::remove(poisVertices.begin(), poisVertices.end(), closestVertex), poisVertices.end());
         }
-        else {
+        else { // a sequência atual corresponde a um caminho possível
             return;
         }
     }
 
-    // Back-tracking
+    // Back-tracking, caso a solução ainda não tenha sido alcançada
     if (visitOrder.size() != visitOrderFinalSize - 1) {
         visitOrder.pop_back();
         poisVertices.push_back(start);
