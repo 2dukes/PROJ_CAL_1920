@@ -272,9 +272,14 @@ void mainMenu(Company &company) {
 
                         company.setZonesToTasks();
 
+//                        auto start = chrono::steady_clock::now();
                         Pairing pairing(company.getTasks(), company.getPickets(), company.getBeginTime(), company.getEndTime());
                         pairing.setTasksToPickets();
                         company.setBestPathToPickets();
+//                        auto end = chrono::steady_clock::now();
+//
+//                        std::chrono::duration<double> time = end - start;
+//                        cout << "\n\nThe algorithm took " << time.count() << endl << endl;
 
                         vector<Task*> tasksPaired = company.getTasks();
 
