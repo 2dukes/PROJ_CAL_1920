@@ -11,7 +11,7 @@ Tasks Done: 351
 ::::::::::
 
 Name: Eden Sales Pontes
-Roles: Trolha, Tecnico Informatico
+Roles: Picheleiro, Tecnico Informatico
 Tasks Done: 347
 
 ::::::::::
@@ -41,7 +41,7 @@ Tasks Done: 326
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Trolha, Picheleiro
 Tasks Done: 322
 
 ::::::::::
@@ -53,7 +53,7 @@ Tasks Done: 319
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Trolha, Picheleiro
 Tasks Done: 317
 
 ::::::::::
@@ -65,7 +65,7 @@ Tasks Done: 314
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Trolha, Picheleiro
 Tasks Done: 268
 
 ::::::::::
@@ -89,7 +89,7 @@ Tasks Done: 263
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Eletricista
+Roles: Trolha, Eletricista
 Tasks Done: 261
 
 ::::::::::
@@ -323,7 +323,7 @@ Tasks Done: 195
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Canalizador, Trolha
 Tasks Done: 194
 
 ::::::::::
@@ -347,7 +347,7 @@ Tasks Done: 193
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Trolha, Picheleiro
 Tasks Done: 191
 
 ::::::::::
@@ -365,7 +365,7 @@ Tasks Done: 190
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Canalizador, Eletricista
 Tasks Done: 189
 
 ::::::::::
@@ -413,7 +413,7 @@ Tasks Done: 180
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Canalizador, Trolha
 Tasks Done: 180
 
 ::::::::::
@@ -455,13 +455,13 @@ Tasks Done: 175
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Canalizador, Trolha
 Tasks Done: 174
 
 ::::::::::
 
 Name: Tone
-Roles: Eletricista, Canalizador
+Roles: Eletricista, Trolha
 Tasks Done: 172
 
 ::::::::::
@@ -491,7 +491,7 @@ Tasks Done: 172
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Trolha, Picheleiro
 Tasks Done: 172
 
 ::::::::::
@@ -617,7 +617,7 @@ Tasks Done: 163
 ::::::::::
 
 Name: Tone
-Roles: Eletricista, Canalizador
+Roles: Eletricista, Trolha
 Tasks Done: 163
 
 ::::::::::
@@ -629,7 +629,7 @@ Tasks Done: 163
 ::::::::::
 
 Name: Tone
-Roles: Eletricista, Canalizador
+Roles: Eletricista, Trolha
 Tasks Done: 163
 
 ::::::::::
@@ -641,7 +641,7 @@ Tasks Done: 162
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Trolha, Picheleiro
 Tasks Done: 162
 
 ::::::::::
@@ -659,7 +659,7 @@ Tasks Done: 159
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Eletricista, Trolha
 Tasks Done: 159
 
 ::::::::::
@@ -677,7 +677,7 @@ Tasks Done: 158
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Eletricista, Trolha
 Tasks Done: 158
 
 ::::::::::
@@ -701,7 +701,7 @@ Tasks Done: 157
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Eletricista, Trolha
 Tasks Done: 156
 
 ::::::::::
@@ -725,7 +725,7 @@ Tasks Done: 155
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Eletricista, Trolha
 Tasks Done: 155
 
 ::::::::::
@@ -743,7 +743,7 @@ Tasks Done: 154
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Canalizador, Trolha
 Tasks Done: 154
 
 ::::::::::
@@ -761,7 +761,7 @@ Tasks Done: 154
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Canalizador, Trolha
 Tasks Done: 153
 
 ::::::::::
@@ -779,7 +779,7 @@ Tasks Done: 153
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Canalizador, Trolha
 Tasks Done: 153
 
 ::::::::::
@@ -797,7 +797,7 @@ Tasks Done: 152
 ::::::::::
 
 Name: Mickael Ribas Carregueiro
-Roles: Canalizador, Picheleiro
+Roles: Canalizador, Trolha
 Tasks Done: 152
 
 ::::::::::
@@ -9941,71 +9941,2087 @@ Tasks Done: 2
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Picheleiro
 Tasks Done: 2
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Picheleiro
 Tasks Done: 2
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Trolha
 Tasks Done: 2
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Tecnico Informatico
 Tasks Done: 2
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Tecnico Informatico
 Tasks Done: 2
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Canalizador
 Tasks Done: 2
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Canalizador
 Tasks Done: 2
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Eletricista
 Tasks Done: 2
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Canalizador
 Tasks Done: 2
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Eletricista
 Tasks Done: 2
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Eletricista
 Tasks Done: 2
 
 ::::::::::
 
 Name: Zezinho
-Roles: Eletricista, Canalizador
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
 Tasks Done: 2
