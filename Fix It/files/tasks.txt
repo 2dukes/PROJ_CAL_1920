@@ -1,4581 +1,12027 @@
-Function: Canalizador
-NodeId: 9081
-Duration: 60
+Name: Eden Sales Pontes
+Roles: Eletricista, Canalizador
+Tasks Done: 409
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4916
-Duration: 180
+Name: Eden Sales Pontes
+Roles: Trolha, Tecnico Informatico
+Tasks Done: 351
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6217
-Duration: 30
+Name: Eden Sales Pontes
+Roles: Picheleiro, Tecnico Informatico
+Tasks Done: 347
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8170
-Duration: 60
+Name: Eden Sales Pontes
+Roles: Trolha, Tecnico Informatico
+Tasks Done: 340
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1745
-Duration: 30
+Name: Eden Sales Pontes
+Roles: Trolha, Eletricista
+Tasks Done: 340
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3841
-Duration: 180
+Name: Eden Sales Pontes
+Roles: Trolha, Tecnico Informatico
+Tasks Done: 340
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3797
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 326
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4128
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Trolha, Picheleiro
+Tasks Done: 322
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 503
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 319
 
 ::::::::::
 
-Function: Trolha
-NodeId: 9852
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Trolha, Picheleiro
+Tasks Done: 317
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5466
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 314
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3939
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Trolha, Picheleiro
+Tasks Done: 268
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7043
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Eletricista, Picheleiro
+Tasks Done: 268
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6651
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 268
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1551
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 263
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9807
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Trolha, Eletricista
+Tasks Done: 261
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 469
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 249
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9744
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Eletricista, Picheleiro
+Tasks Done: 247
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8516
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 246
 
 ::::::::::
 
-Function: Trolha
-NodeId: 7338
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 243
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 2712
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 241
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5628
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 241
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5136
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 241
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4538
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Tecnico Informatico
+Tasks Done: 240
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9118
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Tecnico Informatico
+Tasks Done: 239
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5247
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 238
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 892
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Tecnico Informatico
+Tasks Done: 234
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8883
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 234
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1846
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Tecnico Informatico
+Tasks Done: 233
 
 ::::::::::
 
-Function: Trolha
-NodeId: 9759
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Tecnico Informatico
+Tasks Done: 232
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 4107
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 232
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6831
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 230
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9558
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 228
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 10309
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 226
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4167
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 226
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2622
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 225
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4201
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 216
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4930
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 214
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6716
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 214
 
 ::::::::::
 
-Function: Trolha
-NodeId: 10048
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 212
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 4701
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Eletricista, Picheleiro
+Tasks Done: 211
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9116
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 210
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 600
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 209
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1081
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 209
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8689
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Eletricista, Picheleiro
+Tasks Done: 208
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3978
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Eletricista, Picheleiro
+Tasks Done: 206
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3120
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 204
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7744
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Eletricista, Picheleiro
+Tasks Done: 202
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4644
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 201
 
 ::::::::::
 
-Function: Trolha
-NodeId: 1687
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Eletricista, Picheleiro
+Tasks Done: 199
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 8706
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 196
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9765
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 195
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3444
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 195
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5422
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 195
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9812
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Trolha
+Tasks Done: 194
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6669
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 194
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7906
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 193
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6137
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 193
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6522
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Trolha, Picheleiro
+Tasks Done: 191
 
 ::::::::::
 
-Function: Trolha
-NodeId: 7231
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 191
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5912
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 190
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7609
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Eletricista
+Tasks Done: 189
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5618
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 188
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6126
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 185
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3262
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Tecnico Informatico, Picheleiro
+Tasks Done: 181
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10175
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Tecnico Informatico, Picheleiro
+Tasks Done: 181
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9275
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 180
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6009
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Tecnico Informatico, Picheleiro
+Tasks Done: 180
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1191
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Tecnico Informatico, Picheleiro
+Tasks Done: 180
 
 ::::::::::
 
-Function: Trolha
-NodeId: 2423
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Trolha
+Tasks Done: 180
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 3248
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 178
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3937
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 178
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3913
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 176
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 10180
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 176
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7924
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 175
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2529
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Tecnico Informatico, Picheleiro
+Tasks Done: 175
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 1757
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Trolha
+Tasks Done: 174
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1
-Duration: 180
+Name: Tone
+Roles: Eletricista, Trolha
+Tasks Done: 172
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3402
-Duration: 60
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 172
 
 ::::::::::
 
-Function: Trolha
-NodeId: 4460
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 172
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 33
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Tecnico Informatico
+Tasks Done: 172
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 781
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 172
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3349
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Trolha, Picheleiro
+Tasks Done: 172
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8462
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 171
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3104
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Tecnico Informatico
+Tasks Done: 171
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5844
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 170
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5355
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Tecnico Informatico
+Tasks Done: 170
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6422
-Duration: 180
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 170
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9458
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Tecnico Informatico
+Tasks Done: 170
 
 ::::::::::
 
-Function: Trolha
-NodeId: 8909
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 169
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 2117
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 169
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4755
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 169
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3451
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 168
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8323
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Tecnico Informatico
+Tasks Done: 168
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8029
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 167
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9436
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Tecnico Informatico, Picheleiro
+Tasks Done: 167
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3326
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Tecnico Informatico, Picheleiro
+Tasks Done: 167
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4205
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 165
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9680
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Tecnico Informatico, Picheleiro
+Tasks Done: 165
 
 ::::::::::
 
-Function: Trolha
-NodeId: 2761
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Tecnico Informatico, Picheleiro
+Tasks Done: 165
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5980
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 164
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5846
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 164
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7233
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 163
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8831
-Duration: 60
+Name: Tone
+Roles: Eletricista, Trolha
+Tasks Done: 163
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 533
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 163
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2946
-Duration: 180
+Name: Tone
+Roles: Eletricista, Trolha
+Tasks Done: 163
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4257
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Tecnico Informatico, Picheleiro
+Tasks Done: 162
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10101
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Trolha, Picheleiro
+Tasks Done: 162
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5300
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 160
 
 ::::::::::
 
-Function: Trolha
-NodeId: 6350
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 159
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 2784
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Trolha
+Tasks Done: 159
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8048
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 159
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 8359
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 158
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5777
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Trolha
+Tasks Done: 158
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10120
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 157
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7445
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 157
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 588
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 157
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9102
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Trolha
+Tasks Done: 156
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3427
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 155
 
 ::::::::::
 
-Function: Trolha
-NodeId: 7939
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 155
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 147
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 155
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1512
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Trolha
+Tasks Done: 155
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3469
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 155
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5710
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 154
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8936
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Trolha
+Tasks Done: 154
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4150
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 154
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 1322
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 154
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8405
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Trolha
+Tasks Done: 153
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 7138
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 153
 
 ::::::::::
 
-Function: Trolha
-NodeId: 715
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 153
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 6577
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Trolha
+Tasks Done: 153
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5371
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 152
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9334
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 152
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3647
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Trolha
+Tasks Done: 152
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5597
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 152
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4453
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 151
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 1935
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 151
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10273
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 151
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6289
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 150
 
 ::::::::::
 
-Function: Trolha
-NodeId: 3186
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 149
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 2599
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 149
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2714
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 149
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 788
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 148
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8854
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 147
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2506
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 146
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6712
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 145
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3500
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 145
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6183
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 145
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8609
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 143
 
 ::::::::::
 
-Function: Trolha
-NodeId: 3781
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 142
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 1649
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 142
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4208
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 141
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 8511
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 141
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6775
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 140
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7947
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 140
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8817
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 139
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 2734
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 139
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6854
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 138
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6435
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 138
 
 ::::::::::
 
-Function: Trolha
-NodeId: 1497
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 138
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 3593
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 138
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8825
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 138
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9903
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 138
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6765
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 137
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2332
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 136
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4939
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 136
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 8548
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 135
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5193
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 135
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9695
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 135
 
 ::::::::::
 
-Function: Trolha
-NodeId: 3490
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 135
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 442
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 134
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4606
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 134
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 8661
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 134
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9662
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 133
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7245
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 133
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5403
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 133
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4647
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 132
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6573
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 131
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1345
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 130
 
 ::::::::::
 
-Function: Trolha
-NodeId: 4163
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 130
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5933
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 130
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8540
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 130
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 12
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 128
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1557
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 128
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7095
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 128
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5438
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 128
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4409
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 127
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1842
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 127
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2411
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 126
 
 ::::::::::
 
-Function: Trolha
-NodeId: 6569
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 126
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 7094
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 125
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1807
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 124
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 337
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 124
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 7737
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 123
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10178
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 123
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6247
-Duration: 180
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 122
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7626
-Duration: 120
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 122
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7594
-Duration: 180
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 121
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4552
-Duration: 60
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 121
 
 ::::::::::
 
-Function: Trolha
-NodeId: 5516
-Duration: 30
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 121
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 8921
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 120
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1239
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 120
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 8391
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 120
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1620
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 120
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4816
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 119
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9325
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 119
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 2843
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 118
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6075
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 118
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9772
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 117
 
 ::::::::::
 
-Function: Trolha
-NodeId: 1897
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 117
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 6262
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 117
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2519
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 117
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 2937
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 117
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3031
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 117
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4512
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 117
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10177
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 117
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4427
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 117
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9363
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 117
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4408
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 116
 
 ::::::::::
 
-Function: Trolha
-NodeId: 5018
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 115
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 2675
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 114
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 257
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 114
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7645
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 114
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8717
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 114
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7760
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 114
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8206
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 114
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4879
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 113
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6970
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 113
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 317
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 113
 
 ::::::::::
 
-Function: Trolha
-NodeId: 183
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 113
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5119
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 112
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7821
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 111
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5331
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 110
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6855
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 110
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6149
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 110
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6001
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 110
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 8674
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 105
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4072
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 103
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1822
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 103
 
 ::::::::::
 
-Function: Trolha
-NodeId: 3415
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 102
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 6230
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 102
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8678
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 102
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6405
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 102
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 592
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 101
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 81
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 99
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9509
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 99
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9941
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 99
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7864
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 98
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 92
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 97
 
 ::::::::::
 
-Function: Trolha
-NodeId: 58
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 96
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 6740
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 96
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8851
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 95
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5526
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 95
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6766
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 95
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7416
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 94
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 690
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 93
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7176
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 93
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8588
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 93
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9132
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 93
 
 ::::::::::
 
-Function: Trolha
-NodeId: 7554
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 93
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 7150
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 92
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5467
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 92
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4799
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 91
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 870
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 91
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1173
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 90
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7532
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 89
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3723
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 89
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3890
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 89
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4940
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 89
 
 ::::::::::
 
-Function: Trolha
-NodeId: 4209
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 88
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 3184
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 88
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8192
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 88
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3574
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 87
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1012
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 87
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2118
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 87
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2503
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 87
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3036
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 87
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1648
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 86
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1063
-Duration: 60
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 86
 
 ::::::::::
 
-Function: Trolha
-NodeId: 9255
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 86
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 6385
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 86
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4508
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 86
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 8149
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 86
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3004
-Duration: 60
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 86
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 717
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 86
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3517
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 85
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9303
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 85
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6402
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 85
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8754
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 84
 
 ::::::::::
 
-Function: Trolha
-NodeId: 6994
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 84
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 9960
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 84
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1571
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 83
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4387
-Duration: 30
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 83
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 7412
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 83
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3653
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 83
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2158
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 83
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 711
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 83
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6209
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 82
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1232
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 82
 
 ::::::::::
 
-Function: Trolha
-NodeId: 3027
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 82
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5477
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 82
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2935
-Duration: 180
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 82
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 1626
-Duration: 30
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 82
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2442
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 81
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8274
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 81
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 535
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 80
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9027
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 80
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8073
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 80
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3886
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 80
 
 ::::::::::
 
-Function: Trolha
-NodeId: 6221
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 80
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 2021
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 80
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9031
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 80
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3822
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 80
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 7126
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 80
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4785
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 79
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6763
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 79
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9360
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 79
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4604
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 78
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4869
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 78
 
 ::::::::::
 
-Function: Trolha
-NodeId: 269
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 78
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 1985
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 77
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3083
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 77
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 10006
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 77
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3575
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 77
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9104
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 77
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8622
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 77
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 2504
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 77
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2288
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 77
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 10199
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 77
 
 ::::::::::
 
-Function: Trolha
-NodeId: 5459
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 76
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 9545
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 76
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8055
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 76
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3496
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 76
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 7163
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 76
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 603
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 74
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1363
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 74
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 8144
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 74
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8842
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 74
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6860
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 74
 
 ::::::::::
 
-Function: Trolha
-NodeId: 1461
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 74
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 6614
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 74
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6302
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 74
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5569
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 73
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2931
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 73
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4663
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 73
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2555
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 73
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4188
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 73
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3088
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 72
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 750
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 71
 
 ::::::::::
 
-Function: Trolha
-NodeId: 4298
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 71
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 7647
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 71
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1483
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 71
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 8090
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 71
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2380
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 71
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6576
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 71
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1949
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 70
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6780
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 70
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3613
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 70
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5126
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 70
 
 ::::::::::
 
-Function: Trolha
-NodeId: 3609
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 70
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 6166
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 70
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 423
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 69
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9139
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 69
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5753
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 69
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1435
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 69
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3874
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 69
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7302
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 68
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2091
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 68
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2410
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 68
 
 ::::::::::
 
-Function: Trolha
-NodeId: 982
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 68
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 4028
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 68
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 129
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 68
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5385
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 68
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3699
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 67
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3649
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 67
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7949
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 67
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3375
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 67
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3733
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 66
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4244
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 66
 
 ::::::::::
 
-Function: Trolha
-NodeId: 8312
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 66
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 9889
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 65
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10195
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 65
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 1231
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 65
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3255
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 65
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3113
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 65
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8379
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 65
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6759
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 65
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4650
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 64
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5566
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 64
 
 ::::::::::
 
-Function: Trolha
-NodeId: 9217
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 64
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 7238
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 64
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4655
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 64
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9596
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 64
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4275
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 64
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9933
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 64
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1761
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 64
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 1283
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 64
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10306
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 63
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1290
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 63
 
 ::::::::::
 
-Function: Trolha
-NodeId: 4687
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 63
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 10352
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 63
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4550
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 63
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 2202
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 63
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4354
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 63
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1124
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 63
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7062
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 63
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3780
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 63
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6063
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 62
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5953
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 62
 
 ::::::::::
 
-Function: Trolha
-NodeId: 3309
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 62
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 9292
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 62
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3959
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 62
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6214
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 62
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1679
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 62
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3499
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 62
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8719
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 61
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4587
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 61
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10003
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 61
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6914
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 61
 
 ::::::::::
 
-Function: Trolha
-NodeId: 3216
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 61
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 1685
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 61
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7591
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 61
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5103
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 61
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8917
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 61
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6773
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 60
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6912
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 60
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6760
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 60
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2592
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 60
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1146
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 60
 
 ::::::::::
 
-Function: Trolha
-NodeId: 6387
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 60
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 433
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 59
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6641
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 59
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6090
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 59
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8617
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 59
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2089
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 59
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8899
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 59
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6517
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 59
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4023
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 59
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9114
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 58
 
 ::::::::::
 
-Function: Trolha
-NodeId: 4963
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 58
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 8771
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 58
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2065
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 58
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7986
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 58
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3425
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 58
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1896
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2940
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 24
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 57
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2493
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2392
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Trolha
-NodeId: 2673
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 4503
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3612
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 10080
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1332
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 281
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8058
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3826
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2143
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 57
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2798
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 57
 
 ::::::::::
 
-Function: Trolha
-NodeId: 8648
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 8928
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4027
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 56
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 803
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3300
-Duration: 60
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7783
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 390
-Duration: 180
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9579
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2685
-Duration: 180
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 7682
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Trolha
-NodeId: 6179
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 3594
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5415
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6625
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 10231
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3695
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8162
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4151
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 56
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4199
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 55
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8403
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 55
 
 ::::::::::
 
-Function: Trolha
-NodeId: 6120
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 55
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 2034
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 55
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9661
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 55
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4827
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 54
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2561
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 54
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10033
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 54
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5919
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 54
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4971
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 54
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7988
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 54
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8791
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 54
 
 ::::::::::
 
-Function: Trolha
-NodeId: 745
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 54
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 829
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 53
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6624
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 53
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9724
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 53
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9267
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 53
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1248
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 53
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3920
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 53
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3910
-Duration: 120
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 53
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7009
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 53
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9689
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 53
 
 ::::::::::
 
-Function: Trolha
-NodeId: 7349
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 53
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5417
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 53
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2832
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5679
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8604
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6797
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 532
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5433
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 554
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5039
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Trolha
-NodeId: 4768
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 9809
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2729
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9496
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 201
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7593
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 52
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 821
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 52
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4141
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 51
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 646
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 51
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4781
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 51
 
 ::::::::::
 
-Function: Trolha
-NodeId: 5818
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 51
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 3842
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 51
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3308
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 51
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 2910
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 51
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6558
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 51
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6091
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 50
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8232
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 50
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6713
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 50
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7979
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 50
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2957
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 50
 
 ::::::::::
 
-Function: Trolha
-NodeId: 1149
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 50
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5610
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 50
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1076
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 50
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 10133
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 50
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2341
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 50
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 539
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 50
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7428
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 50
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 728
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 49
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 208
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 49
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5673
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 49
 
 ::::::::::
 
-Function: Trolha
-NodeId: 421
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 49
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5303
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 49
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10071
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 49
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 493
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 49
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5150
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 49
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4297
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 49
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10295
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 49
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 1288
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 49
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6073
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3704
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Trolha
-NodeId: 2192
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 3714
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6865
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 8700
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5977
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8386
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8253
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 2886
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8879
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4187
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 48
 
 ::::::::::
 
-Function: Trolha
-NodeId: 5090
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 2982
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7011
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 48
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3226
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 48
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8800
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4996
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 48
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6375
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 48
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 1075
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 47
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1825
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 47
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3071
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 47
 
 ::::::::::
 
-Function: Trolha
-NodeId: 7442
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 47
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 9983
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 47
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2634
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 47
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3985
-Duration: 30
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 47
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4594
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 47
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7208
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 47
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4729
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 47
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5097
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 47
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1036
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 47
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5553
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Trolha
-NodeId: 10233
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 4861
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3225
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5849
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6992
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1205
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7122
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7321
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8542
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 46
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6909
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 46
 
 ::::::::::
 
-Function: Trolha
-NodeId: 10261
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 8895
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 46
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6308
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3396
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2872
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3207
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 46
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6982
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4110
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7656
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6264
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 45
 
 ::::::::::
 
-Function: Trolha
-NodeId: 5548
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 4555
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7066
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 471
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1224
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 45
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8627
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8567
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3834
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 830
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4821
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 45
 
 ::::::::::
 
-Function: Trolha
-NodeId: 2917
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 8712
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6128
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3292
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9193
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6895
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 45
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6335
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 45
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6889
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 44
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1722
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 44
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6820
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 44
 
 ::::::::::
 
-Function: Trolha
-NodeId: 4473
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 44
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 1048
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 44
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1000
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 44
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9101
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 44
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 1653
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 44
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9126
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 44
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1960
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 43
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4361
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 43
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3922
-Duration: 180
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 43
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6696
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 43
 
 ::::::::::
 
-Function: Trolha
-NodeId: 10356
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 43
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 10329
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 43
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4155
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 43
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 5106
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 43
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4795
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 43
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8554
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 43
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2755
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 43
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7202
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5014
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 950
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Trolha
-NodeId: 1566
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 4841
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2426
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 1853
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8927
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5340
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3893
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3773
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1336
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4697
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Trolha
-NodeId: 6148
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5492
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2749
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3198
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 753
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9760
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 42
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8374
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 41
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 2333
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 41
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3711
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 41
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8999
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 41
 
 ::::::::::
 
-Function: Trolha
-NodeId: 9572
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 41
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 7674
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 41
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2268
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 41
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9632
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 41
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2453
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 41
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5601
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 41
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3284
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 41
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3656
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 41
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2850
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 41
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 2645
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 40
 
 ::::::::::
 
-Function: Trolha
-NodeId: 1632
-Duration: 30
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 40
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 2841
-Duration: 70
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 40
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8571
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 40
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6908
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 40
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6926
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 40
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8161
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 40
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1967
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 40
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7904
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 40
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7925
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 40
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 560
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 40
 
 ::::::::::
 
-Function: Trolha
-NodeId: 6365
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 40
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 207
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2563
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3719
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6883
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8347
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6492
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 10343
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6840
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4824
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
 
 ::::::::::
 
-Function: Trolha
-NodeId: 9010
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 39
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5361
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5715
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 7220
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8808
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6150
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1430
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9003
-Duration: 120
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 38
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8194
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 99
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Trolha
-NodeId: 3746
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 3099
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7825
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 38
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9452
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3378
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 38
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1279
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 37
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6321
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 37
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 9557
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 37
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 416
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 37
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8328
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 37
 
 ::::::::::
 
-Function: Trolha
-NodeId: 9938
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 37
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 623
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 37
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1958
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 37
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3555
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 37
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9712
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 37
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 8216
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 36
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9541
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 36
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6975
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 36
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7643
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 36
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3519
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 36
 
 ::::::::::
 
-Function: Trolha
-NodeId: 10114
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 36
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 5658
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 36
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 1772
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 36
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6042
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 36
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 8039
-Duration: 60
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 36
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3439
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 36
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7808
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 36
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 2436
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 36
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 4429
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 36
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 5314
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 35
 
 ::::::::::
 
-Function: Trolha
-NodeId: 3087
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 35
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 2929
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 35
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9370
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 35
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 1281
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 35
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 7459
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 35
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 954
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 35
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 2194
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 35
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6623
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 35
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 138
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 35
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3808
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 35
 
 ::::::::::
 
-Function: Trolha
-NodeId: 5525
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 35
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 8447
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 7384
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 3657
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 6426
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6104
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 10219
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6846
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3067
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 4906
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Trolha
-NodeId: 849
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 34
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 10218
-Duration: 70
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 34
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 3183
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 4451
-Duration: 30
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 34
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 3710
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9888
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 5110
-Duration: 180
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Picheleiro
-NodeId: 6367
-Duration: 120
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6917
-Duration: 180
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 34
 
 ::::::::::
 
-Function: Canalizador
-NodeId: 9729
-Duration: 60
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Trolha
-NodeId: 7649
-Duration: 30
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Tecnico Informatico
-NodeId: 10093
-Duration: 70
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Trolha
-NodeId: 6882
-Duration: 40
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 34
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 6806
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 33
 
 ::::::::::
 
-Function: Eletricista
-NodeId: 9615
-Duration: 30
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 33
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 33
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 33
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 33
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 33
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 33
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 33
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 33
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 33
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 33
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 32
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 32
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 31
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 30
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 30
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 30
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 29
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 29
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 29
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 29
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 29
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 29
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 29
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 29
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 29
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 29
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 29
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 29
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 28
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 27
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 26
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 25
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 25
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 25
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 24
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 23
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 22
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 21
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 21
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 20
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 19
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 19
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 18
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 17
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 17
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 16
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 16
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 16
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 15
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 15
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 14
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 14
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 13
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 12
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 12
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 11
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 10
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 9
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 4
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Tone
+Roles: Eletricista, Canalizador
+Tasks Done: 3
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Mickael Ribas Carregueiro
+Roles: Canalizador, Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista, Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Picheleiro
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Tecnico Informatico
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Canalizador
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Eletricista
+Tasks Done: 2
+
+::::::::::
+
+Name: Zezinho
+Roles: Trolha
+Tasks Done: 2

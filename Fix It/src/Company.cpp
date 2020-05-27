@@ -256,6 +256,7 @@ void Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
     readEdges(edgesFile);
 
     cout << "\n\nPerforming the Strongly Connected Component algorithm...\n\n";
+//    auto start = chrono::steady_clock::now();
     SCC strongComponents(&cityGraph);
     vector<vector<long>> SCCVector = strongComponents.calculateSCCs();
     long maxTreeSize = -INF;
@@ -270,6 +271,10 @@ void Company::readCityGraph(const string &nodesFile, const string &edgesFile) {
             selectedTree = SCCTree;
         }
     }
+//    auto end = chrono::steady_clock::now();
+//    std::chrono::duration<double> time = end - start;
+//    cout << "\n\nThe algorithm took " << time.count() << endl << endl;
+
     cout << "\n\nNumber of Trees: " << SCCVector.size() << endl;
     cout << "Number of Vertices of the Bigger Tree: " << maxTreeSize << endl;
 //    cout << SCCVector.size() << " | " << maxTreeSize << endl; // Number of Trees | Respective Content Length
@@ -412,8 +417,16 @@ void Company::setBestPathToPickets() {
         vector<Task*> picketTasks = picket->getTasks();
         vector<long> picketTasksIds = picket->getTasksIds();
 
+//        cerr << "=======================\n";
+//        cerr << "\nNUM POIs: " << picketTasks.size() << endl;
+//        auto start = chrono::steady_clock::now();
         TSP<long> tsp(&cityGraph, searchAlgorithm);
         vector<long> path = tsp.calculatePath(picketTasksIds, startVertexId, startVertexId);
+//        auto end = chrono::steady_clock::now();
+//        std::chrono::duration<double> time = end - start;
+//        cerr << "The algorithm took " << time.count() << endl << endl;
+
+
         picket->setPath(path);
 
         picket->setCurrentTime(beginTime);
