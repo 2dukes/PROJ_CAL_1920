@@ -77,7 +77,7 @@ ostream &operator<<(ostream &os, const Task &task) {
         os << "NodeId: " << task.getNodeId() << endl;
         os << "Duration: " << task.getDurationMinutes() << endl;
 
-        if(!(task.getBeginTime() == Time(0, 0))) {
+        if(!(task.getBeginTime() == Time(0, 0)) && task.hasPicket()) {
             os << "Begin Time: " << task.getBeginTime() << endl;
             os << "End Time: " << task.getBeginTime().addMinutes(task.getDurationMinutes()) << endl;
             os << "Responsible Picket: " << task.getResponsiblePicket()->getId() << endl;

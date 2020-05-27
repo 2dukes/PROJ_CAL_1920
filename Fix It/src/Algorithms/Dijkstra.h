@@ -32,6 +32,7 @@ Dijkstra<T>::Dijkstra(Graph<T> *graph) {
 template <class T>
 void Dijkstra<T>::dijkstraShortestPath(const T &origin, const T &dest) {
 
+//    auto start = chrono::steady_clock::now();
     // Vertex<T>* orig = graph->findVertex(origin);
     Vertex<T>* orig = graph->initPathAlg(origin);
 
@@ -46,6 +47,9 @@ void Dijkstra<T>::dijkstraShortestPath(const T &origin, const T &dest) {
         DijkstraStepSingle(vertexQueue, vertex);
     }
 
+//    auto end = chrono::steady_clock::now();
+//    std::chrono::duration<double> time = end - start;
+//    cout << "Time Elapsed: " << time.count() * 1000 << endl;
 }
 
 template <class T>

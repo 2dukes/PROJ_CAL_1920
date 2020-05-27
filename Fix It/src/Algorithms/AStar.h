@@ -3,6 +3,7 @@
 
 
 #include <math.h>
+#include <chrono>
 #include "../Utils/NecessaryFunctions_NameSpaces.h"
 
 template <class T>
@@ -57,6 +58,7 @@ inline bool AStar<T>::relaxSingle(Vertex<T> *v, Vertex<T> *w, double weight, Ver
 
 template<class T>
 void AStar<T>::AStarShortestPath(const T &origin, const T &dest) {
+//    auto start = chrono::steady_clock::now();
     auto t = graph->findVertex(dest); // Destination Vertex
     auto s = graph->initPathAlg(origin);
 
@@ -66,11 +68,15 @@ void AStar<T>::AStarShortestPath(const T &origin, const T &dest) {
         Vertex<T>* v = q.extractMin();
         v->visited = true;
 
-        if(v->getInfo() == dest)
-            break;
+//        if(v->getInfo() == dest)
+//            break;
 
         AStarStepSingle(q, v, t);
     }
+
+//    auto end = chrono::steady_clock::now();
+//    std::chrono::duration<double> time = end - start;
+//    cout << "Time Elapsed: " << time.count() * 1000 << endl;
 }
 
 

@@ -24,9 +24,9 @@ SearchAlgorithm<T>::SearchAlgorithm(Graph<T> *graph) {
 template <class T>
 vector<T> SearchAlgorithm<T>::dfs() const {
     vector<T> res;
-    for(auto vertex: graph->vertexSet)
+    for(auto vertex: graph->getVertexSet())
         vertex->visited = false;
-    for(auto vertex: graph->vertexSet) {
+    for(auto vertex: graph->getVertexSet()) {
         if(!vertex->visited) // If not visited yet... Then visit.
             dfsVisit(vertex, res);
     }
